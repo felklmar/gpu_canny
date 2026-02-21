@@ -41,6 +41,12 @@ class Image {
     public:
         Image() = default;
         Image(const std::string & inputFileName);
-        void toGray();
+
         void saveToFile(const std::string & outputFileName);
+
+        uint16_t getWidth() const;
+        uint16_t getHeight() const;
+
+        Pixel& operator [](int idx);
+        Pixel  operator [](int idx) const;
 };

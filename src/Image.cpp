@@ -10,8 +10,6 @@ Image::Image(const std::string & inputFileName) {
     m_Header = readHeader(inputFile);
     m_Pixels = readPixels(inputFile, m_Header.Width, m_Header.Height);
     inputFile.close();  
-
-    printHeader();
 }
 
 Header Image::readHeader(std::ifstream & file) {
@@ -81,16 +79,15 @@ void Image::writePixels(std::ofstream & file, std::vector<Pixel> pixels, uint16_
     }
 }
 
-void Image::toGray() {
-    for(size_t i = 0; i < m_Header.Width * m_Header.Height; ++i) {
-        uint8_t grayVal = 0.299f * m_Pixels[i].r + 0.587f * m_Pixels[i].g + 0.114f * m_Pixels[i].b;
-        m_Pixels[i] = Pixel(grayVal);      
-    }
-}
-
 void Image::saveToFile(const std::string & outputFileName) {
     std::ofstream outputFile(outputFileName, std::ios::binary);
     writeHeader(outputFile, m_Header);
     writePixels(outputFile, m_Pixels, m_Header.Width, m_Header.Height);
     outputFile.close();
 }
+
+uint16_t Image::getWidth() const { return m_Header.Width; }
+uint16_t Image::getHeight() const { return m_Header.Height; }
+
+Pixel& Image::operator [](int idx) { return m_Pixels[idx]; }
+Pixel  Image::operator [](int idx) const { return m_Pixels[idx]; }
