@@ -41,7 +41,7 @@ class Image {
     public:
         Image() = default;
         Image(const std::string & inputFileName);
-
+        
         void saveToFile(const std::string & outputFileName);
 
         uint16_t getWidth() const;
