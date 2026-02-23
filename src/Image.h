@@ -41,9 +41,11 @@ class Image {
     public:
         Image() = default;
         Image(const std::string & inputFileName);
+        Image(const Header & header);
         
         void saveToFile(const std::string & outputFileName);
 
+        const Header & getHeader() const;
         uint16_t getWidth() const;
         uint16_t getHeight() const;
 

@@ -12,6 +12,10 @@ Image::Image(const std::string & inputFileName) {
     inputFile.close();  
 }
 
+Image::Image(const Header & header)
+    : m_Header(header),
+      m_Pixels(std::vector<Pixel>(header.Width * header.Height)) {}
+
 Header Image::readHeader(std::ifstream & file) {
     Header header;
 
@@ -86,6 +90,7 @@ void Image::saveToFile(const std::string & outputFileName) {
     outputFile.close();
 }
 
+const Header & Image::getHeader() const { return m_Header; }
 uint16_t Image::getWidth() const { return m_Header.Width; }
 uint16_t Image::getHeight() const { return m_Header.Height; }
 

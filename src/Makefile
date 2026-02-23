@@ -2,7 +2,7 @@
 TARGET = ../canny
 
 # Compiler and flags
-CXX = g++                    
+CXX = g++                     
 CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic -O2
 
 # List of source files (.cpp)
@@ -16,7 +16,7 @@ all: $(TARGET)
 
 # Rule to create the executable from object files
 $(TARGET): $(OBJS)
-	$(CXX) $(CXXFLAGS) -o $@ $^
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDLIBS)
 
 # Rule to compile .cpp files into .o object files
 %.o: %.cpp
@@ -28,4 +28,3 @@ clean:
 
 # Phony rules (these are not actual files, just make targets)
 .PHONY: all clean
-
