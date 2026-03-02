@@ -34,7 +34,6 @@ class Image {
 
         Header readHeader(std::ifstream & file);
         void writeHeader(std::ofstream & file, Header header);
-        void printHeader();
 
         std::vector<Pixel> readPixels(std::ifstream & file, uint16_t width, uint16_t height);
         void writePixels(std::ofstream & file, std::vector<Pixel> pixels, uint16_t width, uint16_t height);
@@ -44,6 +43,8 @@ class Image {
         Image(const Header & header);
         
         void saveToFile(const std::string & outputFileName);
+
+        void printHeader();
 
         const Header & getHeader() const;
         uint16_t getWidth() const;

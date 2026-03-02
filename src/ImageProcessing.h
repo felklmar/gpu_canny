@@ -79,7 +79,7 @@ namespace ImageProcessing {
         return kernel;
     }
 
-    inline Image applyGauss(const Image & img, int k, float sigma) {
+    inline Image applyGauss(const Image & img, float sigma, int k = 2) {
         Image imgBlur = img;
         std::vector<float> kernel = ImageProcessing::createGaussianKernel(k, sigma);
         ImageProcessing::convolution(img, kernel, 2 * k + 1, imgBlur);
@@ -147,9 +147,9 @@ namespace ImageProcessing {
 
                 uint8_t val = 0;
                 if (currentMag > mag1 && currentMag > mag2) {
-                    if (currentMag >= highThreshold) {
+                    if (currentMag > highThreshold) {
                         val = 255; // Strong Edge
-                    } else if (currentMag >= lowThreshold) {
+                    } else if (currentMag > lowThreshold) {
                         val = 128; // Weak Edge (Potential Edge)
                     } else {
                         val = 0;
@@ -162,36 +162,45 @@ namespace ImageProcessing {
     }
 
     inline Image applyHysteresis(const Image & img) {
-        Image finalEdges(img.getHeader());
+        Image finalEdges = img;
         int h = img.getHeight(), w = img.getWidth();
-
+        
+        std::vector<std::pair<int, int>> edgesToProcess;
         for (int i = 1; i < h - 1; ++i) {
             for (int j = 1; j < w - 1; ++j) {
-                int idx = i * w + j;
-                uint8_t pixelVal = img[idx].r; 
+                if (finalEdges[i * w + j].r == 255) {
+                    edgesToProcess.push_back({i, j});
+                }
+            }
+        }
 
-                if (pixelVal == 255) {
-                    finalEdges[idx] = Pixel(255, 255, 255);
-                } else if (pixelVal == 128) {
-                    bool connected = false;
-                    for (int ni = -1; ni <= 1; ++ni) {
-                        for (int nj = -1; nj <= 1; ++nj) {
-                            if (img[(i + ni) * w + (j + nj)].r == 255) {
-                                connected = true;
-                                break;
-                            }
+        while (!edgesToProcess.empty()) {
+            auto [r, c] = edgesToProcess.back();
+            edgesToProcess.pop_back();
+
+            for (int ni = -1; ni <= 1; ++ni) {
+                for (int nj = -1; nj <= 1; ++nj) {
+                    int nr = r + ni;
+                    int nc = c + nj;
+
+                    if (nr >= 0 && nr < h && nc >= 0 && nc < w) {
+                        int nIdx = nr * w + nc;
+
+                        if (finalEdges[nIdx].r == 128) { 
+                            finalEdges[nIdx] = Pixel(255); 
+                            edgesToProcess.push_back({nr, nc}); 
                         }
-                        if (connected) break;
-                    }
-
-                    if (connected) {
-                        finalEdges[idx] = Pixel(255);
-                    } else {
-                        finalEdges[idx] = Pixel(0);
                     }
                 }
             }
         }
+
+        for (int i = 0; i < h * w; ++i) {
+            if (finalEdges[i].r == 128) {
+                finalEdges[i] = Pixel(0);
+            }
+        }
+
         return finalEdges;
     }
 }
