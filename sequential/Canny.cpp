@@ -5,10 +5,10 @@
 
 std::vector<float> createGaussianKernel(int k, float sigma) {
     int size = 2 * k + 1;
-    std::vector<float> kernel(size * size);
     float sum = 0.0f;
     float twoSigmaSq = 2.0f * sigma * sigma;
     
+    std::vector<float> kernel(size * size);
     for (int i = 0; i < size; ++i) {
         for (int j = 0; j < size; ++j) {
             float x = i - k;
@@ -28,23 +28,23 @@ std::vector<float> createGaussianKernel(int k, float sigma) {
     return kernel;
 }
 
-std::vector<uint8_t> applyGauss(const std::vector<uint8_t> & pixels, int w, int h, float sigma, int k) {
-    std::vector<uint8_t> bluredPixels(w * h);
+std::vector<uint8_t> gaussianBlur(const std::vector<uint8_t> & pixels, int w, int h, float sigma, int k) {
     std::vector<float> kernel = createGaussianKernel(k, sigma);
     int kernelSize = 2 * k + 1;
-
+    
+    std::vector<uint8_t> bluredPixels(w * h);
     for (int i = 0; i < h; ++i) {
         for (int j = 0; j < w; ++j) {
-            float pxl = 0;
+            float pixelValue = 0;
             for (int ki = 0; ki < kernelSize; ++ki) {
                 for (int kj = 0; kj < kernelSize; ++kj) {
                     int ni = std::clamp(i + (ki - k), 0, h - 1);
                     int nj = std::clamp(j + (kj - k), 0, w - 1);
-                    pxl += pixels[ni * w + nj] * kernel[ki * kernelSize + kj];
+                    pixelValue += pixels[ni * w + nj] * kernel[ki * kernelSize + kj];
                 }
             }
 
-            bluredPixels[i * w + j] = pxl;
+            bluredPixels[i * w + j] = pixelValue;
         }
     }
 
@@ -95,7 +95,6 @@ std::pair<std::vector<float>, std::vector<uint8_t>> computeGradients(const std::
 
 std::vector<float> nonMaximumSuppression(const std::vector<float> & gradients, const std::vector<uint8_t> & sectors, int w, int h) {
     std::vector<float> suppressedEdges(w * h, 0.0f);
-    
     for (int i = 1; i < h - 1; ++i) {
         for (int j = 1; j < w - 1; ++j) {
             int idx = i * w + j;
@@ -130,9 +129,19 @@ std::vector<float> nonMaximumSuppression(const std::vector<float> & gradients, c
     return suppressedEdges;
 }
 
-std::vector<uint8_t> doubleThresholding(const std::vector<float> & suppressed, int w, int h, int lowerThreshold, int upperThreshold) {
-    std::vector<uint8_t> result(w * h, 0);
-    for (int i = 0; i < w * h; ++i) {
+std::vector<uint8_t> doubleThresholding(const std::vector<float> & suppressed, float lowerPercent, float upperPercent) {
+    size_t totalPixels = suppressed.size();
+    std::vector<uint8_t> result(totalPixels, 0);
+
+    auto maxIt = std::max_element(suppressed.begin(), suppressed.end());
+    float maxGrad = (maxIt != suppressed.end()) ? *maxIt : 0.0f;
+
+    if (maxGrad < 1e-5f) return result; 
+
+    float lowerThreshold = maxGrad * lowerPercent;
+    float upperThreshold = maxGrad * upperPercent;
+
+    for (size_t i = 0; i < totalPixels; ++i) {
         float grad = suppressed[i];
         
         if (grad >= upperThreshold)
@@ -144,43 +153,49 @@ std::vector<uint8_t> doubleThresholding(const std::vector<float> & suppressed, i
     return result;
 }
 
-std::vector<uint8_t> applyHysteresis(const std::vector<uint8_t> & pixels, int w, int h) {
+std::vector<uint8_t> edgeHysteresis(const std::vector<uint8_t> & pixels, int w, int h) {
     std::vector<uint8_t> finalEdges = pixels;
     
-    std::vector<std::pair<int, int>> edgesToProcess;
+    std::vector<int> edgesToProcess;
     for (int i = 1; i < h - 1; ++i) {
         for (int j = 1; j < w - 1; ++j) {
-            if (finalEdges[i * w + j] == 255) {
-                edgesToProcess.push_back({i, j});
-            }
+            int idx = i * w + j;
+            if (finalEdges[idx] == 255)
+                edgesToProcess.push_back(idx);
         }
     }
 
     while (!edgesToProcess.empty()) {
-        auto [r, c] = edgesToProcess.back();
+        int idx = edgesToProcess.back();
         edgesToProcess.pop_back();
 
-        for (int ni = -1; ni <= 1; ++ni) {
-            for (int nj = -1; nj <= 1; ++nj) {
-                int nr = r + ni;
-                int nc = c + nj;
+        int r = idx / w;
+        int c = idx % w;
 
-                if (nr >= 0 && nr < h && nc >= 0 && nc < w) {
-                    int nIdx = nr * w + nc;
+        int neighbors[8][2] = {
+            {-1, -1}, {-1, 0}, {-1, 1},
+            { 0, -1},          { 0, 1},
+            { 1, -1}, { 1, 0}, { 1, 1}
+        };
 
-                    if (finalEdges[nIdx] == 128) { 
-                        finalEdges[nIdx] = 255; 
-                        edgesToProcess.push_back({nr, nc}); 
-                    }
+        for (int i = 0; i < 8; ++i) {
+            int nr = r + neighbors[i][0];
+            int nc = c + neighbors[i][1];
+
+            if (nr >= 0 && nr < h && nc >= 0 && nc < w) {
+                int nIdx = nr * w + nc;
+                if (finalEdges[nIdx] == 128) {
+                    finalEdges[nIdx] = 255;
+                    edgesToProcess.push_back(nIdx);
                 }
             }
         }
     }
 
-    for (int i = 0; i < h * w; ++i) {
-        if (finalEdges[i] == 128) {
+    int totalPixels = w * h;
+    for (int i = 0; i < totalPixels; ++i) {
+        if (finalEdges[i] == 128)
             finalEdges[i] = 0;
-        }
     }
 
     return finalEdges;
