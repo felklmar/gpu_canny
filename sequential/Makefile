@@ -6,7 +6,7 @@ CXX = g++
 CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic -O2
 
 # List of source files (.cpp)
-SRCS = main.cpp Image.cpp
+SRCS = main.cpp ImageLoader.cpp Canny.cpp
 
 # List of object files (.o) (convert .cpp to .o)
 OBJS = $(SRCS:.cpp=.o)

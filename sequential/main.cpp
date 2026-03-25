@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Image.h"
-#include "ImageProcessing.h"
+#include "ImageLoader.h"
+#include "Canny.h"
 
 int main(int argc, char const *argv[]) {
     if (argc < 5) {
@@ -16,19 +16,16 @@ int main(int argc, char const *argv[]) {
     int lowerThreshold = std::stoi(argv[4]);
     int upperThreshold = std::stoi(argv[5]);
 
-    Image img(inputName);
-    Image imgGray = ImageProcessing::convertToGrayscale(img);
-    //imgGray.saveToFile("gray.tga");
-   
-    Image imgBlur = ImageProcessing::applyGauss(imgGray, sigma);
-    //imgBlur.saveToFile("blur.tga");
-    
-    std::vector<std::pair<float,uint8_t>> gradients = ImageProcessing::computeGradients(imgBlur);
-    Image imgSuppressed = ImageProcessing::nonMaximumSuppression(imgBlur, gradients, lowerThreshold, upperThreshold);
-    //imgSuppressed.saveToFile("suppressed.tga");
+    auto [header, pixels] = loadImageFromFile(inputName);
+    int w = header.Width, h = header.Height;
 
-    Image imgFinal = ImageProcessing::applyHysteresis(imgSuppressed);
-    imgFinal.saveToFile(outputName);
+    std::vector<uint8_t> bluredPixels = applyGauss(pixels, w, h, sigma);
+    auto [gradients, sectors] = computeGradients(bluredPixels, w, h);
+    std::vector<float> suppressedPixels = nonMaximumSuppression(gradients, sectors, w, h);
+    std::vector<uint8_t> thresholdedPixels = doubleThresholding(suppressedPixels, w, h, lowerThreshold, upperThreshold);
+    std::vector<uint8_t> finalEdges = applyHysteresis(thresholdedPixels, w, h);
+
+    saveImageToFile(outputName, header, finalEdges);
 
     return EXIT_SUCCESS;
 }
