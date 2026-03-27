@@ -39,7 +39,7 @@ int main(int argc, char const *argv[]) {
     float*   magnitudes = new float[img_size];
     uint8_t* sectors = new uint8_t[img_size];
     float*   suppressed_magnitudes = new float[img_size];
-    uint8_t* thresholded_pixels = new uint8_t[img_size];
+    uint8_t* edges = new uint8_t[img_size];
 
     for (size_t i = 0; i < img_size; i++) {
         src_pixels[i] = pixels[i];
@@ -55,26 +55,24 @@ int main(int argc, char const *argv[]) {
     non_maximum_suppression(suppressed_magnitudes, magnitudes, sectors, w, h);
 
     // 4. Double Thresholding
-    double_thresholding(thresholded_pixels, suppressed_magnitudes, img_size, lower_threshold, upper_threshold);
+    double_thresholding(edges, suppressed_magnitudes, img_size, lower_threshold, upper_threshold);
+
+    // 5. Edge Hysteresis
+    edge_hysteresis(edges, w, h);
 
     std::vector<uint8_t> thresholdedPixels;
     for (size_t i = 0; i < img_size; i++) {
-        thresholdedPixels.push_back(thresholded_pixels[i]);
+        thresholdedPixels.push_back(edges[i]);
     }
 
-    // 5. Edge Hysteresis
-    std::vector<uint8_t> finalEdges = measureTime("Edge Hysteresis", [&]() {
-        return edgeHysteresis(thresholdedPixels, w, h);
-    });
-
-    saveImageToFile(output_name, header, finalEdges);
+    saveImageToFile(output_name, header, thresholdedPixels);
 
     delete[] src_pixels;
     delete[] blurred_pixels;
     delete[] magnitudes;
     delete[] sectors;
     delete[] suppressed_magnitudes;
-    delete[] thresholded_pixels;
+    delete[] edges;
 
     return EXIT_SUCCESS;
 }

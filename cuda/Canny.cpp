@@ -154,24 +154,22 @@ void double_thresholding(uint8_t* thresholded_edges, float* suppressed_magnitude
     }
 }
 
-std::vector<uint8_t> edgeHysteresis(const std::vector<uint8_t> & pixels, int w, int h) {
-    std::vector<uint8_t> finalEdges = pixels;
-    
+void edge_hysteresis(uint8_t* pixels, int img_width, int img_height) {
     std::vector<int> edgesToProcess;
-    for (int i = 1; i < h - 1; ++i) {
-        for (int j = 1; j < w - 1; ++j) {
-            int idx = i * w + j;
-            if (finalEdges[idx] == 255)
+    for (int r = 1; r < img_height - 1; ++r) {
+        for (int c = 1; c < img_width - 1; ++c) {
+            int idx = r * img_width + c;
+            if (pixels[idx] == 255)
                 edgesToProcess.push_back(idx);
         }
     }
 
     while (!edgesToProcess.empty()) {
-        int idx = edgesToProcess.back();
+        size_t idx = edgesToProcess.back();
         edgesToProcess.pop_back();
 
-        int r = idx / w;
-        int c = idx % w;
+        int r = idx / img_width;
+        int c = idx % img_width;
 
         int neighbors[8][2] = {
             {-1, -1}, {-1, 0}, {-1, 1},
@@ -183,21 +181,19 @@ std::vector<uint8_t> edgeHysteresis(const std::vector<uint8_t> & pixels, int w, 
             int nr = r + neighbors[i][0];
             int nc = c + neighbors[i][1];
 
-            if (nr >= 0 && nr < h && nc >= 0 && nc < w) {
-                int nIdx = nr * w + nc;
-                if (finalEdges[nIdx] == 128) {
-                    finalEdges[nIdx] = 255;
-                    edgesToProcess.push_back(nIdx);
+            if (nr >= 0 && nr < img_height && nc >= 0 && nc < img_width) {
+                size_t nidx = nr * img_width + nc;
+                if (pixels[nidx] == 128) {
+                    pixels[nidx] = 255;
+                    edgesToProcess.push_back(nidx);
                 }
             }
         }
     }
 
-    int totalPixels = w * h;
-    for (int i = 0; i < totalPixels; ++i) {
-        if (finalEdges[i] == 128)
-            finalEdges[i] = 0;
+    size_t img_size = img_width * img_height;
+    for (size_t i = 0; i < img_size; ++i) {
+        if (pixels[i] == 128)
+            pixels[i] = 0;
     }
-
-    return finalEdges;
 }
