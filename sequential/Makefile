@@ -1,5 +1,5 @@
 # Name of the final executable
-TARGET = ../canny
+TARGET = ../canny_sequential
 
 # Compiler and flags
 CXX = g++                     
