@@ -26,7 +26,7 @@ void create_gaussian_kernel(float* kernel, int k, float sigma) {
         kernel[i] /= sum;
 }
 
-void gaussian_blur(uint8_t* dst_pixels, uint8_t* src_pixels, int img_width, int img_height, float sigma, int k) {
+void gaussian_blur(uint8_t* blurred_pixels, uint8_t* src_pixels, int img_width, int img_height, float sigma, int k) {
     int kernel_size = 2 * k + 1;
     float* kernel = new float[kernel_size * kernel_size];
     create_gaussian_kernel(kernel, k, sigma);
@@ -42,14 +42,14 @@ void gaussian_blur(uint8_t* dst_pixels, uint8_t* src_pixels, int img_width, int 
                 }
             }
 
-            dst_pixels[y * img_width + x] = pixel_value;
+            blurred_pixels[y * img_width + x] = pixel_value;
         }
     }
     
     delete[] kernel;
 }
 
-void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* src_pixels, int img_width, int img_height) {
+void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* blurred_pixels, int img_width, int img_height) {
     float kernel_X[] = {
         -1.0f, 0.0f, 1.0f, 
         -2.0f, 0.0f, 2.0f, 
@@ -73,7 +73,7 @@ void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* src_pixels,
                     size_t ny = std::clamp(static_cast<int>(y)+ (ky - k), 0, img_height - 1);
                     size_t nx = std::clamp(static_cast<int>(x) + (kx - k), 0, img_width - 1);
                     
-                    float pixel = src_pixels[ny * img_width + nx];
+                    float pixel = blurred_pixels[ny * img_width + nx];
                     conv_X += pixel * kernel_X[ky * kernel_size + kx];
                     conv_Y += pixel * kernel_Y[ky * kernel_size + kx];
                 }
@@ -98,7 +98,7 @@ void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* src_pixels,
     }
 }
 
-void non_maximum_suppression(float* suppressed_edges, float* magnitudes, uint8_t* sectors, int img_width, int img_height) {
+void non_maximum_suppression(float* suppressed_magnitudes, float* magnitudes, uint8_t* sectors, int img_width, int img_height) {
     for (int y = 1; y < img_height - 1; ++y) {
         for (int x = 1; x < img_width - 1; ++x) {
             size_t idx = y * img_width + x;
@@ -126,33 +126,32 @@ void non_maximum_suppression(float* suppressed_edges, float* magnitudes, uint8_t
             }
             
             if (is_local_max)
-                suppressed_edges[idx] =  mag;
+                suppressed_magnitudes[idx] =  mag;
         }
     }
 }
 
-std::vector<uint8_t> doubleThresholding(const std::vector<float> & suppressed, float lowerPercent, float upperPercent) {
-    size_t totalPixels = suppressed.size();
-    std::vector<uint8_t> result(totalPixels, 0);
+void double_thresholding(uint8_t* thresholded_edges, float* suppressed_magnitudes, size_t img_size,  float lower_percent, float upper_percent) {
+    if (img_size == 0) return;
 
-    auto maxIt = std::max_element(suppressed.begin(), suppressed.end());
-    float maxGrad = (maxIt != suppressed.end()) ? *maxIt : 0.0f;
+    float* max_ptr = std::max_element(suppressed_magnitudes, suppressed_magnitudes + img_size);
+    float max_mag = (max_ptr != nullptr) ? *max_ptr : 0.0f;
 
-    if (maxGrad < 1e-5f) return result; 
-
-    float lowerThreshold = maxGrad * lowerPercent;
-    float upperThreshold = maxGrad * upperPercent;
-
-    for (size_t i = 0; i < totalPixels; ++i) {
-        float grad = suppressed[i];
-        
-        if (grad >= upperThreshold)
-            result[i] = 255;
-        else if (grad >= lowerThreshold)
-            result[i] = 128;
+    if (max_mag < 1e-5f) {
+        std::fill(thresholded_edges, thresholded_edges + img_size, 0);
+        return;
     }
 
-    return result;
+    float lowerThreshold = max_mag * lower_percent;
+    float upperThreshold = max_mag * upper_percent;
+
+    for (size_t i = 0; i < img_size; ++i) {
+        float mag = suppressed_magnitudes[i];
+        if (mag >= upperThreshold)
+            thresholded_edges[i] = 255;
+        else if (mag >= lowerThreshold)
+            thresholded_edges[i] = 128;
+    }
 }
 
 std::vector<uint8_t> edgeHysteresis(const std::vector<uint8_t> & pixels, int w, int h) {
