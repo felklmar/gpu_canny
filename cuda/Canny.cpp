@@ -9,15 +9,15 @@ void create_gaussian_kernel(float* kernel, int k, float sigma) {
     float two_sigma_sq = 2.0f * sigma * sigma;
     
     float sum = 0.0f;
-    for (int y = 0; y < size; ++y) {
-        for (int x = 0; x < size; ++x) {
-            float ny = y - k;
-            float nx = x - k;
+    for (int r = 0; r < size; ++r) {
+        for (int c = 0; c < size; ++c) {
+            float nr = r - k;
+            float nc = c - k;
             
-            float exponent = -(nx * nx + ny * ny) / two_sigma_sq;
+            float exponent = -(nc * nc + nr * nr) / two_sigma_sq;
             float value = std::exp(exponent);
 
-            kernel[y * size + x] = value;
+            kernel[r * size + c] = value;
             sum += value;
         }
     }
@@ -31,18 +31,18 @@ void gaussian_blur(uint8_t* blurred_pixels, uint8_t* src_pixels, int img_width, 
     float* kernel = new float[kernel_size * kernel_size];
     create_gaussian_kernel(kernel, k, sigma);
 
-    for (size_t y = 0; y < static_cast<size_t>(img_height); ++y) {
-        for (size_t x = 0; x < static_cast<size_t>(img_width); ++x) {
+    for (size_t r = 0; r < static_cast<size_t>(img_height); ++r) {
+        for (size_t c = 0; c < static_cast<size_t>(img_width); ++c) {
             float pixel_value = 0;
-            for (int ky = 0; ky < kernel_size; ++ky) {
-                for (int kx = 0; kx < kernel_size; ++kx) {
-                    size_t ny = std::clamp(static_cast<int>(y) + (ky - k), 0, img_height - 1);
-                    size_t nx = std::clamp(static_cast<int>(x) + (kx - k), 0, img_width - 1);
-                    pixel_value += src_pixels[ny * img_width + nx] * kernel[ky * kernel_size + kx];
+            for (int kr = 0; kr < kernel_size; ++kr) {
+                for (int kc = 0; kc < kernel_size; ++kc) {
+                    size_t nr = std::clamp(static_cast<int>(r) + (kr - k), 0, img_height - 1);
+                    size_t nc = std::clamp(static_cast<int>(c) + (kc - k), 0, img_width - 1);
+                    pixel_value += src_pixels[nr * img_width + nc] * kernel[kr * kernel_size + kc];
                 }
             }
 
-            blurred_pixels[y * img_width + x] = pixel_value;
+            blurred_pixels[r * img_width + c] = pixel_value;
         }
     }
     
@@ -65,21 +65,21 @@ void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* blurred_pix
     const int k = 1;
     const int kernel_size = 2 * k + 1;
 
-    for (size_t y = 0; y < static_cast<size_t>(img_height); ++y) {
-        for (size_t x = 0; x < static_cast<size_t>(img_width); ++x) {
+    for (size_t r = 0; r < static_cast<size_t>(img_height); ++r) {
+        for (size_t c = 0; c < static_cast<size_t>(img_width); ++c) {
             float conv_X = 0, conv_Y = 0;
-            for (int ky = 0; ky < kernel_size; ++ky) {
-                for (int kx = 0; kx < kernel_size; ++kx) {
-                    size_t ny = std::clamp(static_cast<int>(y)+ (ky - k), 0, img_height - 1);
-                    size_t nx = std::clamp(static_cast<int>(x) + (kx - k), 0, img_width - 1);
+            for (int kr = 0; kr < kernel_size; ++kr) {
+                for (int kc = 0; kc < kernel_size; ++kc) {
+                    size_t nr = std::clamp(static_cast<int>(r)+ (kr - k), 0, img_height - 1);
+                    size_t nc = std::clamp(static_cast<int>(c) + (kc - k), 0, img_width - 1);
                     
-                    float pixel = blurred_pixels[ny * img_width + nx];
-                    conv_X += pixel * kernel_X[ky * kernel_size + kx];
-                    conv_Y += pixel * kernel_Y[ky * kernel_size + kx];
+                    float pixel = blurred_pixels[nr * img_width + nc];
+                    conv_X += pixel * kernel_X[kr * kernel_size + kc];
+                    conv_Y += pixel * kernel_Y[kr * kernel_size + kc];
                 }
             }
 
-            magnitudes[y * img_width + x] = std::sqrt(conv_X * conv_X + conv_Y * conv_Y);
+            magnitudes[r * img_width + c] = std::sqrt(conv_X * conv_X + conv_Y * conv_Y);
             
             float angle = std::atan2(conv_Y, conv_X) * 180.0f / M_PI;
             if (angle < 0) angle += 180.0f;
@@ -93,15 +93,15 @@ void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* blurred_pix
                 sector = 135; 
             }
 
-            sectors[y * img_width + x] = sector;
+            sectors[r * img_width + c] = sector;
         }
     }
 }
 
 void non_maximum_suppression(float* suppressed_magnitudes, float* magnitudes, uint8_t* sectors, int img_width, int img_height) {
-    for (int y = 1; y < img_height - 1; ++y) {
-        for (int x = 1; x < img_width - 1; ++x) {
-            size_t idx = y * img_width + x;
+    for (int r = 1; r < img_height - 1; ++r) {
+        for (int c = 1; c < img_width - 1; ++c) {
+            size_t idx = r * img_width + c;
             float mag = magnitudes[idx];
             
             if (mag < 1e-5f) continue;
