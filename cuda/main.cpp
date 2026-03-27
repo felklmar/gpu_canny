@@ -38,6 +38,7 @@ int main(int argc, char const *argv[]) {
     uint8_t* blurred_pixels = new uint8_t[img_size];
     float*   magnitudes = new float[img_size];
     uint8_t* sectors = new uint8_t[img_size];
+    float*   suppressed_edges = new float[img_size];
 
     for (size_t i = 0; i < img_size; i++) {
         src_pixels[i] = pixels[i];
@@ -49,21 +50,17 @@ int main(int argc, char const *argv[]) {
     // 2. Gradients & Sectors
     compute_gradients(magnitudes, sectors, blurred_pixels, w, h);
 
-    std::vector<float> grad;
-    std::vector<uint8_t> sect;
-    for (size_t i = 0; i < img_size; i++) {
-        grad.push_back(magnitudes[i]);
-        sect.push_back(sectors[i]);
-    }
-
     // 3. Non-Maximum Suppression
-    std::vector<float> suppressedPixels = measureTime("Non-Max Suppression", [&]() {
-        return nonMaximumSuppression(grad, sect, w, h);
-    });
+    non_maximum_suppression(suppressed_edges, magnitudes, sectors, w, h);
+
+    std::vector<float> suppressed;
+    for (size_t i = 0; i < img_size; i++) {
+        suppressed.push_back(suppressed_edges[i]);
+    }
 
     // 4. Double Thresholding
     std::vector<uint8_t> thresholdedPixels = measureTime("Double Thresholding", [&]() {
-        return doubleThresholding(suppressedPixels, lowerThreshold, upperThreshold);
+        return doubleThresholding(suppressed, lowerThreshold, upperThreshold);
     });
 
     // 5. Edge Hysteresis
@@ -77,6 +74,7 @@ int main(int argc, char const *argv[]) {
     delete[] blurred_pixels;
     delete[] magnitudes;
     delete[] sectors;
+    delete[] suppressed_edges;
 
     return EXIT_SUCCESS;
 }

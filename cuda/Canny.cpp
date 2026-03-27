@@ -98,40 +98,37 @@ void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* src_pixels,
     }
 }
 
-std::vector<float> nonMaximumSuppression(const std::vector<float> & gradients, const std::vector<uint8_t> & sectors, int w, int h) {
-    std::vector<float> suppressedEdges(w * h, 0.0f);
-    for (int i = 1; i < h - 1; ++i) {
-        for (int j = 1; j < w - 1; ++j) {
-            int idx = i * w + j;
-            float grad = gradients[idx];
+void non_maximum_suppression(float* suppressed_edges, float* magnitudes, uint8_t* sectors, int img_width, int img_height) {
+    for (int y = 1; y < img_height - 1; ++y) {
+        for (int x = 1; x < img_width - 1; ++x) {
+            size_t idx = y * img_width + x;
+            float mag = magnitudes[idx];
             
-            if (grad < 1e-5f) continue;
+            if (mag < 1e-5f) continue;
 
-            bool isLocalMax = true;
+            bool is_local_max = true;
             switch (sectors[idx]) {
             case 0:
-                isLocalMax = !(gradients[idx - 1] >= grad || gradients[idx + 1] > grad);          
+                is_local_max = !(magnitudes[idx - 1] >= mag || magnitudes[idx + 1] > mag);          
                 break;
             case 45:
-                isLocalMax = !(gradients[idx - (w + 1)] >= grad || gradients[idx + (w + 1)] > grad);
+                is_local_max = !(magnitudes[idx - (img_width + 1)] >= mag || magnitudes[idx + (img_width + 1)] > mag);
                 break;
             case 90:
-                isLocalMax = !(gradients[idx - w] >= grad || gradients[idx + w] > grad);
+                is_local_max = !(magnitudes[idx - img_width] >= mag || magnitudes[idx + img_width] > mag);
                 break;
             case 135:
-                isLocalMax = !(gradients[idx - (w - 1)] >= grad || gradients[idx + (w - 1)] > grad);
+                is_local_max = !(magnitudes[idx - (img_width - 1)] >= mag || magnitudes[idx + (img_width - 1)] > mag);
                 break;
             default:
-                isLocalMax = false;
+                is_local_max = false;
                 break;
             }
             
-            if (isLocalMax)
-                suppressedEdges[idx] = grad;
+            if (is_local_max)
+                suppressed_edges[idx] =  mag;
         }
     }
-
-    return suppressedEdges;
 }
 
 std::vector<uint8_t> doubleThresholding(const std::vector<float> & suppressed, float lowerPercent, float upperPercent) {
