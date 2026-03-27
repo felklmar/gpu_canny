@@ -1,4 +1,5 @@
 #include "ImageLoader.h"
+
 #include <iostream>
 
 std::pair<Header, std::vector<uint8_t>> loadImageFromFile(const std::string & inFileName) {

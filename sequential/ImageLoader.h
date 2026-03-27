@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <fstream>
+#include <cstdint>
 
 struct Header {
     uint8_t  IDLength;          //  0 (1 byte)

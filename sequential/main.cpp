@@ -1,7 +1,21 @@
 #include <iostream>
+#include <chrono>
 
 #include "ImageLoader.h"
 #include "Canny.h"
+
+template <typename Func>
+decltype(auto) measureTime(const std::string & stepName, Func && func) {
+    auto start = std::chrono::high_resolution_clock::now();
+
+    decltype(auto) result = func(); 
+    
+    auto end = std::chrono::high_resolution_clock::now();
+    std::chrono::duration<double, std::milli> duration = end - start;
+    
+    std::cout << "[Timer] " << stepName << " took: " << duration.count() << " ms\n";
+    return result;
+}
 
 int main(int argc, char const *argv[]) {
     if (argc < 5) {
@@ -19,11 +33,30 @@ int main(int argc, char const *argv[]) {
     auto [header, pixels] = loadImageFromFile(inputName);
     int w = header.Width, h = header.Height;
 
-    std::vector<uint8_t> bluredPixels = gaussianBlur(pixels, w, h, sigma);
-    auto [gradients, sectors] = computeGradients(bluredPixels, w, h);
-    std::vector<float> suppressedPixels = nonMaximumSuppression(gradients, sectors, w, h);
-    std::vector<uint8_t> thresholdedPixels = doubleThresholding(suppressedPixels, lowerThreshold, upperThreshold);
-    std::vector<uint8_t> finalEdges = edgeHysteresis(thresholdedPixels, w, h);
+    // 1. Gaussian Blur
+    std::vector<uint8_t> bluredPixels = measureTime("Gaussian Blur", [&]() {
+        return gaussianBlur(pixels, w, h, sigma);
+    });
+
+    // 2. Gradients & Sectors
+    auto [gradients, sectors] = measureTime("Compute Gradients", [&]() {
+        return computeGradients(bluredPixels, w, h);
+    });
+
+    // 3. Non-Maximum Suppression
+    std::vector<float> suppressedPixels = measureTime("Non-Max Suppression", [&]() {
+        return nonMaximumSuppression(gradients, sectors, w, h);
+    });
+
+    // 4. Double Thresholding
+    std::vector<uint8_t> thresholdedPixels = measureTime("Double Thresholding", [&]() {
+        return doubleThresholding(suppressedPixels, lowerThreshold, upperThreshold);
+    });
+
+    // 5. Edge Hysteresis
+    std::vector<uint8_t> finalEdges = measureTime("Edge Hysteresis", [&]() {
+        return edgeHysteresis(thresholdedPixels, w, h);
+    });
 
     saveImageToFile(outputName, header, finalEdges);
 
