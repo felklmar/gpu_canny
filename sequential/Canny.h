@@ -3,9 +3,9 @@
 #include <vector>
 #include <cstdint>
 
-std::vector<float> createGaussianKernel(int k, float sigma);
-std::vector<uint8_t> gaussianBlur(const std::vector<uint8_t> & pixels, int w, int h, float sigma, int k = 2);
-std::pair<std::vector<float>, std::vector<uint8_t>> computeGradients(const std::vector<uint8_t> & pixels, int w, int h);
-std::vector<float> nonMaximumSuppression(const std::vector<float> & gradients, const std::vector<uint8_t> & sectors, int w, int h);
-std::vector<uint8_t> doubleThresholding(const std::vector<float> & suppressed, float lowerPercent, float upperPercent);
-std::vector<uint8_t> edgeHysteresis(const std::vector<uint8_t> & pixels, int w, int h);
+std::vector<float> create_gaussian_kernel(int k, float sigma);
+std::vector<uint8_t> gaussian_blur(const std::vector<uint8_t> & src_pixels, int img_width, int img_height, float sigma = 1.0f, int k = 2);
+std::pair<std::vector<float>, std::vector<uint8_t>> compute_gradients(const std::vector<uint8_t> & blurred_pixels, int img_width, int img_height);
+std::vector<float> non_maximum_suppression(const std::vector<float> & magnitudes, const std::vector<uint8_t> & sectors, int img_width, int img_height);
+std::vector<uint8_t> double_thresholding(const std::vector<float> & suppressed_magnitudes, float lower_percent, float upper_percent);
+std::vector<uint8_t> edge_hysteresis(const std::vector<uint8_t> & pixels, int img_width, int img_height);

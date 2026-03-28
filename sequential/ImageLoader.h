@@ -20,5 +20,5 @@ struct Header {
     uint8_t  ImageDescriptor;   // 17 (1 byte)
 };
 
-std::pair<Header, std::vector<uint8_t>> loadImageFromFile(const std::string & inFileName);
-void saveImageToFile(const std::string & outFileName, Header & header, std::vector<uint8_t> & pixels);
+std::pair<Header, std::vector<uint8_t>> load_image_from_file(const std::string & in_file_name);
+void save_image_to_file(const std::string & out_file_name, Header & header, std::vector<uint8_t> & pixels);
