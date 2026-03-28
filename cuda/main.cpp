@@ -30,23 +30,18 @@ int main(int argc, char const *argv[]) {
     float lower_threshold = std::stof(argv[4]);
     float upper_threshold = std::stof(argv[5]);
 
-    auto [header, pixels] = loadImageFromFile(input_name);
+    auto [header, pixels] = load_image_from_file(input_name);
     int w = header.Width, h = header.Height;
     size_t img_size = w * h;
 
-    uint8_t* src_pixels = new uint8_t[img_size];
     uint8_t* blurred_pixels = new uint8_t[img_size];
     float*   magnitudes = new float[img_size];
     uint8_t* sectors = new uint8_t[img_size];
     float*   suppressed_magnitudes = new float[img_size];
     uint8_t* edges = new uint8_t[img_size];
 
-    for (size_t i = 0; i < img_size; i++) {
-        src_pixels[i] = pixels[i];
-    }
-
     // 1. Gaussian Blur
-    gaussian_blur(blurred_pixels, src_pixels, w, h, sigma);
+    gaussian_blur(blurred_pixels, pixels.data(), w, h, sigma);
 
     // 2. Gradients & Sectors
     compute_gradients(magnitudes, sectors, blurred_pixels, w, h);
@@ -60,14 +55,8 @@ int main(int argc, char const *argv[]) {
     // 5. Edge Hysteresis
     edge_hysteresis(edges, w, h);
 
-    std::vector<uint8_t> thresholdedPixels;
-    for (size_t i = 0; i < img_size; i++) {
-        thresholdedPixels.push_back(edges[i]);
-    }
+    save_image_to_file(output_name, header, edges);
 
-    saveImageToFile(output_name, header, thresholdedPixels);
-
-    delete[] src_pixels;
     delete[] blurred_pixels;
     delete[] magnitudes;
     delete[] sectors;
