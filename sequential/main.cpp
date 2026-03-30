@@ -13,7 +13,7 @@ decltype(auto) measure_time(const std::string & step_name, Func && func) {
     auto end = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double, std::milli> duration = end - start;
     
-    std::cout << "[Timer] " << step_name << " took: " << duration.count() << " ms\n";
+    std::cout << "[CPU] " << step_name << " took: " << duration.count() << " ms\n";
     return result;
 }
 
