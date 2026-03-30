@@ -31,7 +31,7 @@ std::pair<Header, std::vector<uint8_t>> load_image_from_file(const std::string &
     return {header, pixels};
 }
 
-void save_image_to_file(const std::string & out_file_name, Header & header, uint8_t* pixels) {
+void save_image_to_file(const std::string & out_file_name, Header & header, std::vector<uint8_t> & pixels) {
     std::ofstream out_file(out_file_name, std::ios::binary);
     out_file.write(reinterpret_cast<char*>(&header.IDLength), sizeof(header.IDLength));
     out_file.write(reinterpret_cast<char*>(&header.ColorMapType), sizeof(header.ColorMapType));
@@ -54,7 +54,7 @@ void save_image_to_file(const std::string & out_file_name, Header & header, uint
     }
 }
 
-void save_image_to_file(const std::string & out_file_name, Header & header, uint8_t* pixels, std::vector<uint8_t> & original_pixels) {
+void save_image_to_file(const std::string & out_file_name, Header & header, std::vector<uint8_t> & pixels, std::vector<uint8_t> & original_pixels) {
     std::ofstream out_file(out_file_name, std::ios::binary);
     out_file.write(reinterpret_cast<char*>(&header.IDLength), sizeof(header.IDLength));
     out_file.write(reinterpret_cast<char*>(&header.ColorMapType), sizeof(header.ColorMapType));

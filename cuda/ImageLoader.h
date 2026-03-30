@@ -21,5 +21,5 @@ struct Header {
 };
 
 std::pair<Header, std::vector<uint8_t>> load_image_from_file(const std::string & in_file_name);
-void save_image_to_file(const std::string & outFileName, Header & header, uint8_t* pixels);
-void save_image_to_file(const std::string & out_file_name, Header & header, uint8_t* pixels, std::vector<uint8_t> & original_pixels);
+void save_image_to_file(const std::string & outFileName, Header & header, std::vector<uint8_t> & pixels);
+void save_image_to_file(const std::string & out_file_name, Header & header, std::vector<uint8_t> & pixels, std::vector<uint8_t> & original_pixels);

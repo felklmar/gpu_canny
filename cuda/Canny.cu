@@ -4,8 +4,102 @@
 #include <iostream>
 #include <algorithm>
 
-void create_gaussian_kernel(float* kernel, int k, float sigma) {
+// zpracování chyb
+// error handling
+static void handle_error(cudaError_t err, const char* file, int line) {
+    if (err != cudaSuccess) {
+        printf("%s in %s at line %d\n", cudaGetErrorString(err), file, line);
+        exit(EXIT_FAILURE);
+    }
+}
+
+#define HANDLE_ERROR(err) (handle_error(err, __FILE__, __LINE__))
+
+std::vector<uint8_t> detect_edges(std::vector<uint8_t> src_pixels, int img_width, int img_height, float sigma, float lower_threshold, float upper_threshold) {
+    size_t img_size = img_width * img_height;
+
+    uint8_t* original_pixels;
+    uint8_t* blurred_pixels;
+    float*   magnitudes = new float[img_size];
+    uint8_t* sectors = new uint8_t[img_size];
+    float*   suppressed_magnitudes = new float[img_size];
+    uint8_t* edges = new uint8_t[img_size];
+
+    int kernel_size = 5;
+    std::vector<float> gauss_kernel = create_gaussian_kernel(2, sigma);
+    float* gauss_kernel_gpu;
+
+    cudaDeviceProp prop;
+    int which_device;
+
+    HANDLE_ERROR(cudaGetDevice(&which_device));
+    HANDLE_ERROR(cudaGetDeviceProperties(&prop, which_device));
+
+    HANDLE_ERROR(cudaMallocManaged((void**)&original_pixels, img_size * sizeof(uint8_t)));
+    std::copy(src_pixels.begin(), src_pixels.end(), original_pixels);
+
+    HANDLE_ERROR(cudaMallocManaged((void**)&blurred_pixels, img_size * sizeof(uint8_t)));
+
+    HANDLE_ERROR(cudaMalloc((void**)&gauss_kernel_gpu, kernel_size * kernel_size * sizeof(float)));
+    HANDLE_ERROR(cudaMemcpy(gauss_kernel_gpu, gauss_kernel.data(), kernel_size * kernel_size * sizeof(float), cudaMemcpyHostToDevice));
+
+    dim3 threadsPerBlock(16, 16);
+    dim3 numBlocks((img_width + threadsPerBlock.x - 1) / threadsPerBlock.x, 
+                   (img_height + threadsPerBlock.y - 1) / threadsPerBlock.y);
+
+    cudaEvent_t start, stop;
+    float elapsed_time;
+
+    HANDLE_ERROR(cudaEventCreate(&start));
+    HANDLE_ERROR(cudaEventCreate(&stop));
+    HANDLE_ERROR(cudaEventRecord(start, 0));
+
+    // 1. Gaussian Blur
+    gaussian_blur<<<numBlocks, threadsPerBlock>>>(blurred_pixels, original_pixels, img_width, img_height, gauss_kernel_gpu, 2);
+
+    HANDLE_ERROR(cudaDeviceSynchronize());
+    HANDLE_ERROR(cudaEventRecord(stop, 0));
+    HANDLE_ERROR(cudaEventSynchronize(stop));
+	HANDLE_ERROR(cudaEventElapsedTime(&elapsed_time, start, stop));
+
+    std::cout << "[GPU] Gaussian Blur took: " << elapsed_time << " ms\n";
+
+    // 2. Gradients & Sectors
+    compute_gradients(magnitudes, sectors, blurred_pixels, img_width, img_height);
+    std::cout << "Gradients done" << std::endl;
+
+    // 3. Non-Maximum Suppression
+    non_maximum_suppression(suppressed_magnitudes, magnitudes, sectors, img_width, img_height);
+    std::cout << "Non-Maximum Suppression done" << std::endl;
+
+    // 4. Double Thresholding
+    double_thresholding(edges, suppressed_magnitudes, img_size, lower_threshold, upper_threshold);
+    std::cout << "Double Thresholding done" << std::endl;
+
+    // 5. Edge Hysteresis
+    edge_hysteresis(edges, img_width, img_height);
+    std::cout << "Hysteresis done" << std::endl;
+
+    std::vector<uint8_t> detected_edges(edges, edges + img_size * sizeof(uint8_t));
+
+    HANDLE_ERROR(cudaFree(original_pixels));
+    HANDLE_ERROR(cudaFree(blurred_pixels));
+    HANDLE_ERROR(cudaFree(gauss_kernel_gpu));
+    
+    HANDLE_ERROR(cudaEventDestroy(start));
+	HANDLE_ERROR(cudaEventDestroy(stop));
+
+    delete[] magnitudes;
+    delete[] sectors;
+    delete[] suppressed_magnitudes;
+    delete[] edges;
+
+    return detected_edges;
+}
+
+std::vector<float> create_gaussian_kernel(int k, float sigma) {
     int size = 2 * k + 1;
+    std::vector<float> kernel(size * size);
     float two_sigma_sq = 2.0f * sigma * sigma;
     
     float sum = 0.0f;
@@ -22,8 +116,10 @@ void create_gaussian_kernel(float* kernel, int k, float sigma) {
         }
     }
 
-    for (int i = 0; i < size * size; ++i)
-        kernel[i] /= sum;
+    for (float & weight : kernel)
+        weight /= sum;
+
+    return kernel;
 }
 
 __global__ void gaussian_blur(uint8_t* blurred_pixels, uint8_t* src_pixels, int img_width, int img_height, const float* kernel, int k) {

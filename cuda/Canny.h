@@ -3,7 +3,8 @@
 #include <vector>
 #include <cstdint>
 
-void create_gaussian_kernel(float* kernel, int k, float sigma);
+std::vector<uint8_t> detect_edges(std::vector<uint8_t> src_pixels, int img_width, int img_height, float sigma, float lower_threshold, float upper_threshold);
+std::vector<float> create_gaussian_kernel(int k, float sigma);
 __global__ void gaussian_blur(uint8_t* blurred_pixels, uint8_t* src_pixels, int img_width, int img_height, const float* kernel, int k);
 void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* blurred_pixels, int img_width, int img_height);
 void non_maximum_suppression(float* suppressed_magnitudes, float* magnitudes, uint8_t* sectors, int img_width, int img_height);
