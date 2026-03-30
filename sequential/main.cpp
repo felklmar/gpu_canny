@@ -19,16 +19,20 @@ decltype(auto) measure_time(const std::string & step_name, Func && func) {
 
 int main(int argc, char const *argv[]) {
     if (argc < 5) {
-        std::cout << "Usage: ./canny <input_picture> <output_name> <gamma> <lower_threshold> <upper_threshold>" << std::endl;
+        std::cout << "Usage: ./canny <image_path> <gamma> <lower_threshold> <upper_threshold>" << std::endl;
         return EXIT_FAILURE;
     }
 
     std::string input_name = argv[1];
-    std::string output_name = argv[2];
+    std::string output_name1 = input_name;
+    std::string output_name2 = input_name;
 
-    float sigma = std::stof(argv[3]);
-    float lower_threshold = std::stof(argv[4]);
-    float upper_threshold = std::stof(argv[5]);
+    output_name1.insert(input_name.size() - 4, "_edges" );
+    output_name2.insert(input_name.size() - 4, "_only_edges" );
+    
+    float sigma = std::stof(argv[2]);
+    float lower_threshold = std::stof(argv[3]);
+    float upper_threshold = std::stof(argv[4]);
 
     auto [header, pixels] = load_image_from_file(input_name);
     int w = header.Width, h = header.Height;
@@ -58,7 +62,8 @@ int main(int argc, char const *argv[]) {
         return edge_hysteresis(thresholded_pixels, w, h);
     });
 
-    save_image_to_file(output_name, header, final_edges);
+    save_image_to_file(output_name1, header, final_edges, pixels);
+    save_image_to_file(output_name2, header, final_edges);
 
     return EXIT_SUCCESS;
 }

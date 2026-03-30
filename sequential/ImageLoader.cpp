@@ -46,9 +46,35 @@ void save_image_to_file(const std::string & out_file_name, Header & header, std:
     out_file.write(reinterpret_cast<char*>(&header.PixelDepth), sizeof(header.PixelDepth));
     out_file.write(reinterpret_cast<char*>(&header.ImageDescriptor), sizeof(header.ImageDescriptor));
 
-    for(size_t i = 0; i < pixels.size(); ++i) {
+    size_t img_size = pixels.size();
+    for(size_t i = 0; i < img_size; ++i) {
         out_file.write(reinterpret_cast<char*>(&pixels[i]), sizeof(uint8_t));
         out_file.write(reinterpret_cast<char*>(&pixels[i]), sizeof(uint8_t));
         out_file.write(reinterpret_cast<char*>(&pixels[i]), sizeof(uint8_t));
+    }
+}
+
+void save_image_to_file(const std::string & out_file_name, Header & header, std::vector<uint8_t> & pixels, std::vector<uint8_t> & original_pixels) {
+    std::ofstream out_file(out_file_name, std::ios::binary);
+    out_file.write(reinterpret_cast<char*>(&header.IDLength), sizeof(header.IDLength));
+    out_file.write(reinterpret_cast<char*>(&header.ColorMapType), sizeof(header.ColorMapType));
+    out_file.write(reinterpret_cast<char*>(&header.ImageType), sizeof(header.ImageType));
+    out_file.write(reinterpret_cast<char*>(&header.CMapStart), sizeof(header.CMapStart));
+    out_file.write(reinterpret_cast<char*>(&header.CMapLength), sizeof(header.CMapLength));
+    out_file.write(reinterpret_cast<char*>(&header.CMapDepth), sizeof(header.CMapDepth));
+    out_file.write(reinterpret_cast<char*>(&header.XOffset), sizeof(header.XOffset));
+    out_file.write(reinterpret_cast<char*>(&header.YOffset), sizeof(header.YOffset));
+    out_file.write(reinterpret_cast<char*>(&header.Width), sizeof(header.Width));
+    out_file.write(reinterpret_cast<char*>(&header.Height), sizeof(header.Height));
+    out_file.write(reinterpret_cast<char*>(&header.PixelDepth), sizeof(header.PixelDepth));
+    out_file.write(reinterpret_cast<char*>(&header.ImageDescriptor), sizeof(header.ImageDescriptor));
+    
+    size_t img_size = pixels.size();
+    for(size_t i = 0; i < img_size; ++i) {
+        out_file.write(reinterpret_cast<char*>(&original_pixels[i]), sizeof(uint8_t));
+        out_file.write(reinterpret_cast<char*>(&original_pixels[i]), sizeof(uint8_t));
+
+        uint8_t pixel_value = (pixels[i] == 255) ? 255 : original_pixels[i];
+        out_file.write(reinterpret_cast<char*>(&pixel_value), sizeof(uint8_t));
     }
 }
