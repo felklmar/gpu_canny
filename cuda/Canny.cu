@@ -1,8 +1,8 @@
 #include "Canny.h"
 
 #include <math.h>
-#include <algorithm>
 #include <iostream>
+#include <algorithm>
 
 void create_gaussian_kernel(float* kernel, int k, float sigma) {
     int size = 2 * k + 1;
@@ -26,27 +26,24 @@ void create_gaussian_kernel(float* kernel, int k, float sigma) {
         kernel[i] /= sum;
 }
 
-void gaussian_blur(uint8_t* blurred_pixels, uint8_t* src_pixels, int img_width, int img_height, float sigma, int k) {
+__global__ void gaussian_blur(uint8_t* blurred_pixels, uint8_t* src_pixels, int img_width, int img_height, const float* kernel, int k) {
     int kernel_size = 2 * k + 1;
-    float* kernel = new float[kernel_size * kernel_size];
-    create_gaussian_kernel(kernel, k, sigma);
+    int r = blockIdx.y * blockDim.y + threadIdx.y;
+    int c = blockIdx.x * blockDim.x + threadIdx.x;
 
-    for (size_t r = 0; r < static_cast<size_t>(img_height); ++r) {
-        for (size_t c = 0; c < static_cast<size_t>(img_width); ++c) {
-            float pixel_value = 0;
-            for (int kr = 0; kr < kernel_size; ++kr) {
-                for (int kc = 0; kc < kernel_size; ++kc) {
-                    size_t nr = std::clamp(static_cast<int>(r) + (kr - k), 0, img_height - 1);
-                    size_t nc = std::clamp(static_cast<int>(c) + (kc - k), 0, img_width - 1);
-                    pixel_value += src_pixels[nr * img_width + nc] * kernel[kr * kernel_size + kc];
-                }
+    if (r < img_height && c < img_width) {
+        float pixel_value = 0.0f;
+        for (int kr = 0; kr < kernel_size; ++kr) {
+            for (int kc = 0; kc < kernel_size; ++kc) {
+                int nr = max(0, min(r + (kr - k), img_height - 1)); 
+                int nc = max(0, min(c + (kc - k), img_width - 1)); 
+                
+                pixel_value += src_pixels[nr * img_width + nc] * kernel[kr * kernel_size + kc];
             }
-
-            blurred_pixels[r * img_width + c] = pixel_value;
         }
+
+        blurred_pixels[r * img_width + c] = static_cast<uint8_t>(min(max(pixel_value, 0.0f), 255.0f));
     }
-    
-    delete[] kernel;
 }
 
 void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* blurred_pixels, int img_width, int img_height) {
@@ -70,9 +67,9 @@ void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* blurred_pix
             float conv_X = 0, conv_Y = 0;
             for (int kr = 0; kr < kernel_size; ++kr) {
                 for (int kc = 0; kc < kernel_size; ++kc) {
-                    size_t nr = std::clamp(static_cast<int>(r)+ (kr - k), 0, img_height - 1);
-                    size_t nc = std::clamp(static_cast<int>(c) + (kc - k), 0, img_width - 1);
-                    
+                    size_t nr = max(0, min(static_cast<int>(r) + (kr - k), img_height - 1)); 
+                    size_t nc = max(0, min(static_cast<int>(c) + (kc - k), img_width - 1)); 
+
                     float pixel = blurred_pixels[nr * img_width + nc];
                     conv_X += pixel * kernel_X[kr * kernel_size + kc];
                     conv_Y += pixel * kernel_Y[kr * kernel_size + kc];
@@ -142,31 +139,31 @@ void double_thresholding(uint8_t* thresholded_edges, float* suppressed_magnitude
         return;
     }
 
-    float lowerThreshold = max_mag * lower_percent;
-    float upperThreshold = max_mag * upper_percent;
+    float lower_threshold = max_mag * lower_percent;
+    float upper_threshold = max_mag * upper_percent;
 
     for (size_t i = 0; i < img_size; ++i) {
         float mag = suppressed_magnitudes[i];
-        if (mag >= upperThreshold)
+        if (mag >= upper_threshold)
             thresholded_edges[i] = 255;
-        else if (mag >= lowerThreshold)
+        else if (mag >= lower_threshold)
             thresholded_edges[i] = 128;
     }
 }
 
 void edge_hysteresis(uint8_t* pixels, int img_width, int img_height) {
-    std::vector<int> edgesToProcess;
+    std::vector<int> edges_to_process;
     for (int r = 1; r < img_height - 1; ++r) {
         for (int c = 1; c < img_width - 1; ++c) {
             int idx = r * img_width + c;
             if (pixels[idx] == 255)
-                edgesToProcess.push_back(idx);
+                edges_to_process.push_back(idx);
         }
     }
 
-    while (!edgesToProcess.empty()) {
-        size_t idx = edgesToProcess.back();
-        edgesToProcess.pop_back();
+    while (!edges_to_process.empty()) {
+        size_t idx = edges_to_process.back();
+        edges_to_process.pop_back();
 
         int r = idx / img_width;
         int c = idx % img_width;
@@ -185,7 +182,7 @@ void edge_hysteresis(uint8_t* pixels, int img_width, int img_height) {
                 size_t nidx = nr * img_width + nc;
                 if (pixels[nidx] == 128) {
                     pixels[nidx] = 255;
-                    edgesToProcess.push_back(nidx);
+                    edges_to_process.push_back(nidx);
                 }
             }
         }

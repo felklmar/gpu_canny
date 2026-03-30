@@ -1,30 +1,46 @@
 # Name of the final executable
 TARGET = ../canny_cuda
 
-# Compiler and flags
-CXX = g++                     
-CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic -O2
+# Compilers
+CXX = g++
+NVCC = nvcc
 
-# List of source files (.cpp)
-SRCS = main.cpp ImageLoader.cpp Canny.cpp
+# Flags
+# Standard C++ flags
+CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic -O3
 
-# List of object files (.o) (convert .cpp to .o)
-OBJS = $(SRCS:.cpp=.o)
+# CUDA flags
+# -Xcompiler passes the standard C++ warnings to g++ under the hood
+NVCCFLAGS = -std=c++17 -O3 -Xcompiler "-Wall -Wextra"
+
+# List your source files separately based on their extension
+CPP_SRCS = ImageLoader.cpp
+CU_SRCS = main.cu Canny.cu
+
+# Generate object file names
+CPP_OBJS = $(CPP_SRCS:.cpp=.o)
+CU_OBJS = $(CU_SRCS:.cu=.o)
+OBJS = $(CPP_OBJS) $(CU_OBJS)
 
 # Default rule
 all: $(TARGET)
 
-# Rule to create the executable from object files
+# Rule to create the executable from ALL object files
+# CRITICAL: We use $(NVCC) to link, not $(CXX)! 
+# This automatically links the required CUDA runtime libraries.
 $(TARGET): $(OBJS)
-	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDLIBS)
+	$(NVCC) $(NVCCFLAGS) -o $@ $^
 
-# Rule to compile .cpp files into .o object files
+# Rule to compile standard .cpp files into .o object files
 %.o: %.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-# Clean up generated files (object files and executable)
+# Rule to compile CUDA .cu files into .o object files
+%.o: %.cu
+	$(NVCC) $(NVCCFLAGS) -c $< -o $@
+
+# Clean up generated files
 clean:
 	rm -f $(OBJS) $(TARGET)
 
-# Phony rules (these are not actual files, just make targets)
 .PHONY: all clean
