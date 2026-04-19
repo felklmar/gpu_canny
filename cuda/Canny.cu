@@ -9,8 +9,15 @@
 #include <thrust/extrema.h>
 #include <thrust/device_ptr.h>
 
-std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & h_src_pixels, int img_width, int img_height, float sigma, float lower_percent, float upper_percent) {
+std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & h_src_pixels, 
+                                  const std::pair<int, int> & img_dimensions, float sigma, 
+                                  const std::pair<float, float> & thresholds,
+                                  const std::pair<int, int> & block_dimensions_2D, int block_size_1D) {
+
+    int img_width = img_dimensions.first;
+    int img_height = img_dimensions.second;
     size_t img_size = img_width * img_height;
+    
     cudaDeviceProp prop;
     int which_device;
     
@@ -61,11 +68,11 @@ std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & h_src_pixels, int
     HANDLE_ERROR(cudaMemcpy(d_sobel_x, sobel_x, sobel_size * sizeof(float), cudaMemcpyHostToDevice));
     HANDLE_ERROR(cudaMemcpy(d_sobel_y, sobel_y, sobel_size * sizeof(float), cudaMemcpyHostToDevice));
 
-    dim3 threadsPerBlock2D(16, 16);
-    dim3 blocksPerGrid2D((img_width + threadsPerBlock2D.x - 1) / threadsPerBlock2D.x, (img_height + threadsPerBlock2D.y - 1) / threadsPerBlock2D.y);
+    dim3 threads_per_block_2D(block_dimensions_2D.first, block_dimensions_2D.second);
+    dim3 blocks_per_grid_2D((img_width + threads_per_block_2D.x - 1) / threads_per_block_2D.x, (img_height + threads_per_block_2D.y - 1) / threads_per_block_2D.y);
 
-    int threadsPerBlock1D = 256;
-    int blocksPerGrid1D = (img_size + threadsPerBlock1D - 1) / threadsPerBlock1D;
+    int threads_per_block_1D = block_size_1D;
+    int blocks_per_grid_1D = (img_size + threads_per_block_1D - 1) / threads_per_block_1D;
 
     bool* d_changed;
     HANDLE_ERROR(cudaMallocManaged(&d_changed, sizeof(bool)));
@@ -74,16 +81,16 @@ std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & h_src_pixels, int
 
     // 1. Gaussian Blur =============================================================================================================================================
     timer.start();
-    gaussian_blur<<<blocksPerGrid2D, threadsPerBlock2D>>>(d_blurred_pixels, d_src_pixels, img_width, img_height, d_gauss, 2);
+    gaussian_blur<<<blocks_per_grid_2D, threads_per_block_2D>>>(d_blurred_pixels, d_src_pixels, img_width, img_height, d_gauss, 2);
     std::cout << "[GPU] Gaussian Blur took: " << timer.stop() << " ms\n";
     
     // 2. Gradients & Sectors =======================================================================================================================================
     timer.start();
-    compute_gradients<<<blocksPerGrid2D, threadsPerBlock2D>>>(d_magnitudes, d_sectors, d_blurred_pixels, img_width, img_height, d_sobel_x, d_sobel_y, 1);
+    compute_gradients<<<blocks_per_grid_2D, threads_per_block_2D>>>(d_magnitudes, d_sectors, d_blurred_pixels, img_width, img_height, d_sobel_x, d_sobel_y, 1);
     std::cout << "[GPU] Gradients took: " << timer.stop() << " ms\n";
     
     // 3. Non-Maximum Suppression ===================================================================================================================================
-    non_maximum_suppression<<<blocksPerGrid2D, threadsPerBlock2D>>>(d_suppressed_magnitudes, d_magnitudes, d_sectors, img_width, img_height);
+    non_maximum_suppression<<<blocks_per_grid_2D, threads_per_block_2D>>>(d_suppressed_magnitudes, d_magnitudes, d_sectors, img_width, img_height);
     std::cout << "[GPU] Non-Maximum Suppression took: " << timer.stop() << " ms\n";
 
     // 4. Double Thresholding =======================================================================================================================================
@@ -92,10 +99,10 @@ std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & h_src_pixels, int
     thrust::device_ptr<float> dev_ptr = thrust::device_pointer_cast(d_suppressed_magnitudes);
     float max_mag = *(thrust::max_element(dev_ptr, dev_ptr + img_size));
 
-    float lower_threshold = max_mag * lower_percent;
-    float upper_threshold = max_mag * upper_percent;
+    float lower_threshold = max_mag * thresholds.first;
+    float upper_threshold = max_mag * thresholds.second;
 
-    double_thresholding<<<blocksPerGrid1D, threadsPerBlock1D>>>(d_edges, d_suppressed_magnitudes, img_size, lower_threshold, upper_threshold);
+    double_thresholding<<<blocks_per_grid_1D, threads_per_block_1D>>>(d_edges, d_suppressed_magnitudes, img_size, lower_threshold, upper_threshold);
     std::cout << "[GPU] Double Thresholding took: " << timer.stop() << " ms\n";
 
     // 5. Edge Hysteresis ===========================================================================================================================================
@@ -106,12 +113,12 @@ std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & h_src_pixels, int
 
     while (*d_changed) {
         *d_changed = false;
-        edge_hysteresis<<<blocksPerGrid2D, threadsPerBlock2D>>>(d_edges, img_width, img_height, d_changed);
+        edge_hysteresis<<<blocks_per_grid_2D, threads_per_block_2D>>>(d_edges, img_width, img_height, d_changed);
         HANDLE_ERROR(cudaDeviceSynchronize()); 
         iterations++;
     }
 
-    edge_hysteresis_cleanup<<<blocksPerGrid1D, threadsPerBlock1D>>>(d_edges, img_size);
+    edge_hysteresis_cleanup<<<blocks_per_grid_1D, threads_per_block_1D>>>(d_edges, img_size);
     HANDLE_ERROR(cudaDeviceSynchronize());
     std::cout << "[GPU] Hysteresis took: " << timer.stop() << " ms (" << iterations << " iterations)\n";
 

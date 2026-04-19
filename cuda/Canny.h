@@ -3,7 +3,11 @@
 #include <vector>
 #include <cstdint>
 
-std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & src_pixels, int img_width, int img_height, float sigma, float lower_threshold, float upper_threshold);
+std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & src_pixels,
+                                  const std::pair<int, int> & img_dimensions, float sigma,
+                                  const std::pair<float, float> & thresholds,
+                                  const std::pair<int, int> & block_dimensions_2D, int block_size_1D);
+
 std::vector<float> create_gaussian_kernel(int k, float sigma);
 
 __global__ void gaussian_blur(uint8_t* blurred_pixels, const uint8_t* src_pixels, int img_width, int img_height, const float* kernel, int k);
