@@ -1,97 +1,103 @@
 #include "Canny.h"
+#include "CudaUtils.h"
+#include "CudaTimer.h"
 
 #include <math.h>
 #include <iostream>
 #include <algorithm>
 
-// zpracování chyb
-// error handling
-static void handle_error(cudaError_t err, const char* file, int line) {
-    if (err != cudaSuccess) {
-        printf("%s in %s at line %d\n", cudaGetErrorString(err), file, line);
-        exit(EXIT_FAILURE);
-    }
-}
-
-#define HANDLE_ERROR(err) (handle_error(err, __FILE__, __LINE__))
-
-std::vector<uint8_t> detect_edges(std::vector<uint8_t> src_pixels, int img_width, int img_height, float sigma, float lower_threshold, float upper_threshold) {
+std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & src_pixels, int img_width, int img_height, float sigma, float lower_threshold, float upper_threshold) {
     size_t img_size = img_width * img_height;
-
-    uint8_t* original_pixels;
-    uint8_t* blurred_pixels;
-    float*   magnitudes = new float[img_size];
-    uint8_t* sectors = new uint8_t[img_size];
-    float*   suppressed_magnitudes = new float[img_size];
-    uint8_t* edges = new uint8_t[img_size];
-
-    int kernel_size = 5;
-    std::vector<float> gauss_kernel = create_gaussian_kernel(2, sigma);
-    float* gauss_kernel_gpu;
-
     cudaDeviceProp prop;
     int which_device;
-
+    
     HANDLE_ERROR(cudaGetDevice(&which_device));
     HANDLE_ERROR(cudaGetDeviceProperties(&prop, which_device));
 
-    HANDLE_ERROR(cudaMallocManaged((void**)&original_pixels, img_size * sizeof(uint8_t)));
-    std::copy(src_pixels.begin(), src_pixels.end(), original_pixels);
+    uint8_t* GPU_src_pixels;
+    uint8_t* GPU_blurred_pixels;
+    float*   GPU_magnitudes;
+    uint8_t* GPU_sectors;
+    float*   GPU_suppressed_magnitudes;
+    uint8_t* edges = new uint8_t[img_size];
 
-    HANDLE_ERROR(cudaMallocManaged((void**)&blurred_pixels, img_size * sizeof(uint8_t)));
+    HANDLE_ERROR(cudaMalloc((void**)&GPU_src_pixels, img_size * sizeof(uint8_t)));
+    HANDLE_ERROR(cudaMalloc((void**)&GPU_blurred_pixels, img_size * sizeof(uint8_t)));
+    HANDLE_ERROR(cudaMalloc((void**)&GPU_magnitudes, img_size * sizeof(float)));
+    HANDLE_ERROR(cudaMalloc((void**)&GPU_sectors, img_size * sizeof(uint8_t)));
+    HANDLE_ERROR(cudaMallocManaged((void**)&GPU_suppressed_magnitudes, img_size * sizeof(float)));
 
-    HANDLE_ERROR(cudaMalloc((void**)&gauss_kernel_gpu, kernel_size * kernel_size * sizeof(float)));
-    HANDLE_ERROR(cudaMemcpy(gauss_kernel_gpu, gauss_kernel.data(), kernel_size * kernel_size * sizeof(float), cudaMemcpyHostToDevice));
+    HANDLE_ERROR(cudaMemcpy(GPU_src_pixels, src_pixels.data(), img_size * sizeof(uint8_t), cudaMemcpyHostToDevice));
+
+    const int gauss_size = 5 * 5;
+    std::vector<float> gauss = create_gaussian_kernel(2, sigma);
+    float* GPU_gauss;
+
+    const float sobel_x[] = {
+        -1.0f, 0.0f, 1.0f, 
+        -2.0f, 0.0f, 2.0f, 
+        -1.0f, 0.0f, 1.0f
+    };
+
+    const float sobel_y[] = {
+        -1.0f, -2.0f, -1.0f,
+         0.0f,  0.0f,  0.0f,
+         1.0f,  2.0f,  1.0f
+    };
+
+    float* GPU_sobel_x;
+    float* GPU_sobel_y;
+    const int sobel_size = 3 * 3;
+
+    HANDLE_ERROR(cudaMalloc((void**)&GPU_gauss, gauss_size * sizeof(float)));
+    HANDLE_ERROR(cudaMalloc((void**)&GPU_sobel_x, sobel_size * sizeof(float)));
+    HANDLE_ERROR(cudaMalloc((void**)&GPU_sobel_y, sobel_size * sizeof(float)));
+
+    HANDLE_ERROR(cudaMemcpy(GPU_gauss, gauss.data(), gauss_size * sizeof(float), cudaMemcpyHostToDevice));
+    HANDLE_ERROR(cudaMemcpy(GPU_sobel_x, sobel_x, sobel_size * sizeof(float), cudaMemcpyHostToDevice));
+    HANDLE_ERROR(cudaMemcpy(GPU_sobel_y, sobel_y, sobel_size * sizeof(float), cudaMemcpyHostToDevice));
 
     dim3 threadsPerBlock(16, 16);
-    dim3 numBlocks((img_width + threadsPerBlock.x - 1) / threadsPerBlock.x, 
-                   (img_height + threadsPerBlock.y - 1) / threadsPerBlock.y);
+    dim3 numBlocks((img_width + threadsPerBlock.x - 1) / threadsPerBlock.x, (img_height + threadsPerBlock.y - 1) / threadsPerBlock.y);
 
-    cudaEvent_t start, stop;
-    float elapsed_time;
-
-    HANDLE_ERROR(cudaEventCreate(&start));
-    HANDLE_ERROR(cudaEventCreate(&stop));
-    HANDLE_ERROR(cudaEventRecord(start, 0));
+    CudaTimer timer;
 
     // 1. Gaussian Blur
-    gaussian_blur<<<numBlocks, threadsPerBlock>>>(blurred_pixels, original_pixels, img_width, img_height, gauss_kernel_gpu, 2);
-
-    HANDLE_ERROR(cudaDeviceSynchronize());
-    HANDLE_ERROR(cudaEventRecord(stop, 0));
-    HANDLE_ERROR(cudaEventSynchronize(stop));
-	HANDLE_ERROR(cudaEventElapsedTime(&elapsed_time, start, stop));
-
-    std::cout << "[GPU] Gaussian Blur took: " << elapsed_time << " ms\n";
+    timer.start();
+    gaussian_blur<<<numBlocks, threadsPerBlock>>>(GPU_blurred_pixels, GPU_src_pixels, img_width, img_height, GPU_gauss, 2);
+    std::cout << "[GPU] Gaussian Blur took: " << timer.stop() << " ms\n";
 
     // 2. Gradients & Sectors
-    compute_gradients(magnitudes, sectors, blurred_pixels, img_width, img_height);
-    std::cout << "Gradients done" << std::endl;
-
+    timer.start();
+    compute_gradients<<<numBlocks, threadsPerBlock>>>(GPU_magnitudes, GPU_sectors, GPU_blurred_pixels, img_width, img_height, GPU_sobel_x, GPU_sobel_y, 1);
+    std::cout << "[GPU] Gradients took: " << timer.stop() << " ms\n";
+    
     // 3. Non-Maximum Suppression
-    non_maximum_suppression(suppressed_magnitudes, magnitudes, sectors, img_width, img_height);
-    std::cout << "Non-Maximum Suppression done" << std::endl;
+    non_maximum_suppression<<<numBlocks, threadsPerBlock>>>(GPU_suppressed_magnitudes, GPU_magnitudes, GPU_sectors, img_width, img_height);
+    std::cout << "[GPU] Non-Maximum Suppression took: " << timer.stop() << " ms\n";
 
     // 4. Double Thresholding
-    double_thresholding(edges, suppressed_magnitudes, img_size, lower_threshold, upper_threshold);
-    std::cout << "Double Thresholding done" << std::endl;
+    timer.start();
+    double_thresholding(edges, GPU_suppressed_magnitudes, img_size, lower_threshold, upper_threshold);
+    std::cout << "[CPU] Double Thresholding took: " << timer.stop() << " ms\n";
 
     // 5. Edge Hysteresis
+    timer.start();
     edge_hysteresis(edges, img_width, img_height);
-    std::cout << "Hysteresis done" << std::endl;
+    std::cout << "[CPU] Hysteresis took: " << timer.stop() << " ms\n";
 
     std::vector<uint8_t> detected_edges(edges, edges + img_size * sizeof(uint8_t));
 
-    HANDLE_ERROR(cudaFree(original_pixels));
-    HANDLE_ERROR(cudaFree(blurred_pixels));
-    HANDLE_ERROR(cudaFree(gauss_kernel_gpu));
+    HANDLE_ERROR(cudaFree(GPU_src_pixels));
+    HANDLE_ERROR(cudaFree(GPU_blurred_pixels));
+    HANDLE_ERROR(cudaFree(GPU_magnitudes));
+    HANDLE_ERROR(cudaFree(GPU_sectors));
+    HANDLE_ERROR(cudaFree(GPU_suppressed_magnitudes));
     
-    HANDLE_ERROR(cudaEventDestroy(start));
-	HANDLE_ERROR(cudaEventDestroy(stop));
-
-    delete[] magnitudes;
-    delete[] sectors;
-    delete[] suppressed_magnitudes;
+    HANDLE_ERROR(cudaFree(GPU_gauss));
+    HANDLE_ERROR(cudaFree(GPU_sobel_x));
+    HANDLE_ERROR(cudaFree(GPU_sobel_y));
+    
     delete[] edges;
 
     return detected_edges;
@@ -122,7 +128,7 @@ std::vector<float> create_gaussian_kernel(int k, float sigma) {
     return kernel;
 }
 
-__global__ void gaussian_blur(uint8_t* blurred_pixels, uint8_t* src_pixels, int img_width, int img_height, const float* kernel, int k) {
+__global__ void gaussian_blur(uint8_t* blurred_pixels, const uint8_t* src_pixels, int img_width, int img_height, const float* kernel, int k) {
     int kernel_size = 2 * k + 1;
     int r = blockIdx.y * blockDim.y + threadIdx.y;
     int c = blockIdx.x * blockDim.x + threadIdx.x;
@@ -142,85 +148,60 @@ __global__ void gaussian_blur(uint8_t* blurred_pixels, uint8_t* src_pixels, int 
     }
 }
 
-void compute_gradients(float* magnitudes, uint8_t* sectors, uint8_t* blurred_pixels, int img_width, int img_height) {
-    float kernel_X[] = {
-        -1.0f, 0.0f, 1.0f, 
-        -2.0f, 0.0f, 2.0f, 
-        -1.0f, 0.0f, 1.0f
-    };
+__global__ void compute_gradients(float* magnitudes, uint8_t* sectors, const uint8_t* blurred_pixels, int img_width, int img_height, const float* kernel_x, const float* kernel_y, int k) {   
+    int kernel_size = 2 * k + 1;
+    int r = blockIdx.y * blockDim.y + threadIdx.y;
+    int c = blockIdx.x * blockDim.x + threadIdx.x;
 
-    float kernel_Y[] = {
-        -1.0f, -2.0f, -1.0f,
-         0.0f,  0.0f,  0.0f,
-         1.0f,  2.0f,  1.0f
-    };
-    
-    const int k = 1;
-    const int kernel_size = 2 * k + 1;
+    if (r < img_height && c < img_width) {
+        float conv_x = 0, conv_y = 0;
+        for (int kr = 0; kr < kernel_size; ++kr) {
+            for (int kc = 0; kc < kernel_size; ++kc) {
+                size_t nr = max(0, min(static_cast<int>(r) + (kr - k), img_height - 1)); 
+                size_t nc = max(0, min(static_cast<int>(c) + (kc - k), img_width - 1)); 
 
-    for (size_t r = 0; r < static_cast<size_t>(img_height); ++r) {
-        for (size_t c = 0; c < static_cast<size_t>(img_width); ++c) {
-            float conv_X = 0, conv_Y = 0;
-            for (int kr = 0; kr < kernel_size; ++kr) {
-                for (int kc = 0; kc < kernel_size; ++kc) {
-                    size_t nr = max(0, min(static_cast<int>(r) + (kr - k), img_height - 1)); 
-                    size_t nc = max(0, min(static_cast<int>(c) + (kc - k), img_width - 1)); 
-
-                    float pixel = blurred_pixels[nr * img_width + nc];
-                    conv_X += pixel * kernel_X[kr * kernel_size + kc];
-                    conv_Y += pixel * kernel_Y[kr * kernel_size + kc];
-                }
+                float pixel = blurred_pixels[nr * img_width + nc];
+                conv_x += pixel * kernel_x[kr * kernel_size + kc];
+                conv_y += pixel * kernel_y[kr * kernel_size + kc];
             }
-
-            magnitudes[r * img_width + c] = std::sqrt(conv_X * conv_X + conv_Y * conv_Y);
-            
-            float angle = std::atan2(conv_Y, conv_X) * 180.0f / M_PI;
-            if (angle < 0) angle += 180.0f;
-
-            uint8_t sector = 0;
-            if (angle > 22.5 && angle <= 67.5) {
-                sector = 45;
-            } else if (angle > 67.5 && angle <= 112.5) {
-                sector = 90;
-            } else if (angle > 112.5 && angle <= 157.5) {
-                sector = 135; 
-            }
-
-            sectors[r * img_width + c] = sector;
         }
+
+        magnitudes[r * img_width + c] = std::sqrt(conv_x * conv_x + conv_y * conv_y);
+        
+        float angle = std::atan2(conv_y, conv_x) * 180.0f / M_PI;
+        if (angle < 0) angle += 180.0f;
+
+        uint8_t sector = 0;
+        if (angle > 22.5 && angle <= 67.5) {
+            sector = 1; // 45
+        } else if (angle > 67.5 && angle <= 112.5) {
+            sector = 2; // 90
+        } else if (angle > 112.5 && angle <= 157.5) {
+            sector = 3; // 135
+        }
+
+        sectors[r * img_width + c] = sector;
     }
 }
 
-void non_maximum_suppression(float* suppressed_magnitudes, float* magnitudes, uint8_t* sectors, int img_width, int img_height) {
-    for (int r = 1; r < img_height - 1; ++r) {
-        for (int c = 1; c < img_width - 1; ++c) {
-            size_t idx = r * img_width + c;
-            float mag = magnitudes[idx];
-            
-            if (mag < 1e-5f) continue;
+__global__ void non_maximum_suppression(float* suppressed_magnitudes, const float* magnitudes, const uint8_t* sectors, int img_width, int img_height) {
+    int r = blockIdx.y * blockDim.y + threadIdx.y;
+    int c = blockIdx.x * blockDim.x + threadIdx.x;
 
-            bool is_local_max = true;
-            switch (sectors[idx]) {
-            case 0:
-                is_local_max = !(magnitudes[idx - 1] >= mag || magnitudes[idx + 1] > mag);          
-                break;
-            case 45:
-                is_local_max = !(magnitudes[idx - (img_width + 1)] >= mag || magnitudes[idx + (img_width + 1)] > mag);
-                break;
-            case 90:
-                is_local_max = !(magnitudes[idx - img_width] >= mag || magnitudes[idx + img_width] > mag);
-                break;
-            case 135:
-                is_local_max = !(magnitudes[idx - (img_width - 1)] >= mag || magnitudes[idx + (img_width - 1)] > mag);
-                break;
-            default:
-                is_local_max = false;
-                break;
-            }
-            
-            if (is_local_max)
-                suppressed_magnitudes[idx] =  mag;
+    if (r < img_height && c < img_width) {
+        size_t idx = r * img_width + c;
+        
+        if (r == 0 || c == 0 || r == img_height - 1 || c == img_width - 1) {
+            suppressed_magnitudes[idx] = 0.0f;
+            return;
         }
+        
+        float mag = magnitudes[idx];
+        
+        const int offsets[4] = {1, (img_width + 1), img_width, (img_width - 1)};
+        int step = offsets[sectors[idx]];
+        bool is_local_max = !(magnitudes[idx - step] >= mag || magnitudes[idx + step] > mag);
+        suppressed_magnitudes[idx] = (is_local_max) ? mag : 0.0f;
     }
 }
 

@@ -11,11 +11,11 @@ CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic -O3
 
 # CUDA flags
 # -Xcompiler passes the standard C++ warnings to g++ under the hood
-NVCCFLAGS = -std=c++17 -O3 -Xcompiler "-Wall -Wextra"
+NVCCFLAGS = -std=c++17 -ccbin g++-10 -Xcompiler "-Wall -Wextra"
 
 # List your source files separately based on their extension
 CPP_SRCS = ImageLoader.cpp
-CU_SRCS = main.cu Canny.cu
+CU_SRCS = main.cu Canny.cu CudaTimer.cu
 
 # Generate object file names
 CPP_OBJS = $(CPP_SRCS:.cpp=.o)
