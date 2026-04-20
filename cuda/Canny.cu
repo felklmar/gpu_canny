@@ -78,20 +78,27 @@ std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & h_src_pixels,
     HANDLE_ERROR(cudaMallocManaged(&d_changed, sizeof(bool)));
 
     CudaTimer timer;
+    float total_time = 0, t = 0;
 
     // 1. Gaussian Blur =============================================================================================================================================
     timer.start();
     gaussian_blur<<<blocks_per_grid_2D, threads_per_block_2D>>>(d_blurred_pixels, d_src_pixels, img_width, img_height, d_gauss, 2);
-    std::cout << "[GPU] Gaussian Blur took: " << timer.stop() << " ms\n";
+    t = timer.stop();
+    total_time += t;
+    std::cout << "[GPU] Gaussian Blur took: " << t << " ms\n";
     
     // 2. Gradients & Sectors =======================================================================================================================================
     timer.start();
     compute_gradients<<<blocks_per_grid_2D, threads_per_block_2D>>>(d_magnitudes, d_sectors, d_blurred_pixels, img_width, img_height, d_sobel_x, d_sobel_y, 1);
-    std::cout << "[GPU] Gradients took: " << timer.stop() << " ms\n";
+    t = timer.stop();
+    total_time += t;
+    std::cout << "[GPU] Gradients took: " << t << " ms\n";
     
     // 3. Non-Maximum Suppression ===================================================================================================================================
     non_maximum_suppression<<<blocks_per_grid_2D, threads_per_block_2D>>>(d_suppressed_magnitudes, d_magnitudes, d_sectors, img_width, img_height);
-    std::cout << "[GPU] Non-Maximum Suppression took: " << timer.stop() << " ms\n";
+    t = timer.stop();
+    total_time += t;
+    std::cout << "[GPU] Non-Maximum Suppression took: " << t << " ms\n";
 
     // 4. Double Thresholding =======================================================================================================================================
     timer.start();
@@ -103,7 +110,9 @@ std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & h_src_pixels,
     float upper_threshold = max_mag * thresholds.second;
 
     double_thresholding<<<blocks_per_grid_1D, threads_per_block_1D>>>(d_edges, d_suppressed_magnitudes, img_size, lower_threshold, upper_threshold);
-    std::cout << "[GPU] Double Thresholding took: " << timer.stop() << " ms\n";
+    t = timer.stop();
+    total_time += t;
+    std::cout << "[GPU] Double Thresholding took: " << t << " ms\n";
 
     // 5. Edge Hysteresis ===========================================================================================================================================
     timer.start();
@@ -120,7 +129,11 @@ std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & h_src_pixels,
 
     edge_hysteresis_cleanup<<<blocks_per_grid_1D, threads_per_block_1D>>>(d_edges, img_size);
     HANDLE_ERROR(cudaDeviceSynchronize());
-    std::cout << "[GPU] Hysteresis took: " << timer.stop() << " ms (" << iterations << " iterations)\n";
+    t = timer.stop();
+    total_time += t;
+    std::cout << "[GPU] Edge Hysteresis took: " << t << " ms (" << iterations << " iterations)\n";
+    
+    std::cout << "Total time taken: " << total_time << " ms" << std::endl;
 
     std::vector<uint8_t> h_edges(img_size);
     HANDLE_ERROR(cudaMemcpy(h_edges.data(), d_edges, img_size * sizeof(uint8_t), cudaMemcpyDeviceToHost));
