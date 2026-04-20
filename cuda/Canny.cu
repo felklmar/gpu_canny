@@ -24,6 +24,8 @@ std::vector<uint8_t> detect_edges(const std::vector<uint8_t> & h_src_pixels,
     HANDLE_ERROR(cudaGetDevice(&which_device));
     HANDLE_ERROR(cudaGetDeviceProperties(&prop, which_device));
 
+    std::cout << prop.name << "\n";
+
     uint8_t* d_src_pixels;
     uint8_t* d_blurred_pixels;
     float*   d_magnitudes;
