@@ -15,7 +15,7 @@ do
     do
         for run in `seq 0 $runs`
         do
-            ./../canny_cuda images/wiedzmin.tga 1.5 0.1 0.2 ${block2D_x[i]} ${block2D_y[i]} ${block1D[j]} >>output_cuda.txt
+            ./../canny_cuda ../images/wiedzmin.tga 1.5 0.1 0.2 ${block2D_x[i]} ${block2D_y[i]} ${block1D[j]} >>output_cuda.txt
         done
 
         echo >>output_cuda.txt
