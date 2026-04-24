@@ -1,0 +1,1704 @@
+(8, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.62656 ms
+[GPU] Gradients took: 0.077824 ms
+[GPU] Non-Maximum Suppression took: 0.129024 ms
+[GPU] Double Thresholding took: 0.5888 ms
+[GPU] Edge Hysteresis took: 0.3584 ms (7 iterations)
+Total time taken: 3.78061 ms
+(8, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.98349 ms
+[GPU] Gradients took: 0.067584 ms
+[GPU] Non-Maximum Suppression took: 0.131072 ms
+[GPU] Double Thresholding took: 0.664576 ms
+[GPU] Edge Hysteresis took: 0.31376 ms (7 iterations)
+Total time taken: 3.16048 ms
+(8, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.84934 ms
+[GPU] Gradients took: 0.064512 ms
+[GPU] Non-Maximum Suppression took: 0.10752 ms
+[GPU] Double Thresholding took: 0.588672 ms
+[GPU] Edge Hysteresis took: 0.330752 ms (7 iterations)
+Total time taken: 2.9408 ms
+(8, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83706 ms
+[GPU] Gradients took: 0.07472 ms
+[GPU] Non-Maximum Suppression took: 0.1208 ms
+[GPU] Double Thresholding took: 0.540672 ms
+[GPU] Edge Hysteresis took: 0.3144 ms (7 iterations)
+Total time taken: 2.88765 ms
+(8, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.79712 ms
+[GPU] Gradients took: 0.069344 ms
+[GPU] Non-Maximum Suppression took: 0.116448 ms
+[GPU] Double Thresholding took: 0.527936 ms
+[GPU] Edge Hysteresis took: 0.32768 ms (7 iterations)
+Total time taken: 2.83853 ms
+(8, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83501 ms
+[GPU] Gradients took: 0.059392 ms
+[GPU] Non-Maximum Suppression took: 0.10752 ms
+[GPU] Double Thresholding took: 0.526336 ms
+[GPU] Edge Hysteresis took: 0.38224 ms (7 iterations)
+Total time taken: 2.9105 ms
+(8, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.90042 ms
+[GPU] Gradients took: 0.072384 ms
+[GPU] Non-Maximum Suppression took: 0.12768 ms
+[GPU] Double Thresholding took: 0.574464 ms
+[GPU] Edge Hysteresis took: 0.300032 ms (7 iterations)
+Total time taken: 2.97498 ms
+(8, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.84525 ms
+[GPU] Gradients took: 0.060416 ms
+[GPU] Non-Maximum Suppression took: 0.104448 ms
+[GPU] Double Thresholding took: 0.565024 ms
+[GPU] Edge Hysteresis took: 0.326656 ms (7 iterations)
+Total time taken: 2.90179 ms
+(8, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.0673 ms
+[GPU] Gradients took: 0.061344 ms
+[GPU] Non-Maximum Suppression took: 0.104352 ms
+[GPU] Double Thresholding took: 0.580608 ms
+[GPU] Edge Hysteresis took: 0.336896 ms (7 iterations)
+Total time taken: 3.1505 ms
+(8, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.98656 ms
+[GPU] Gradients took: 0.079872 ms
+[GPU] Non-Maximum Suppression took: 0.141312 ms
+[GPU] Double Thresholding took: 0.54272 ms
+[GPU] Edge Hysteresis took: 0.31024 ms (7 iterations)
+Total time taken: 3.0607 ms
+
+(8, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77152 ms
+[GPU] Gradients took: 0.047104 ms
+[GPU] Non-Maximum Suppression took: 0.10256 ms
+[GPU] Double Thresholding took: 0.668288 ms
+[GPU] Edge Hysteresis took: 0.32032 ms (7 iterations)
+Total time taken: 2.90979 ms
+(8, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.88211 ms
+[GPU] Gradients took: 0.07264 ms
+[GPU] Non-Maximum Suppression took: 0.135136 ms
+[GPU] Double Thresholding took: 0.825344 ms
+[GPU] Edge Hysteresis took: 0.31232 ms (7 iterations)
+Total time taken: 3.22755 ms
+(8, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.92922 ms
+[GPU] Gradients took: 0.105472 ms
+[GPU] Non-Maximum Suppression took: 0.173056 ms
+[GPU] Double Thresholding took: 0.548608 ms
+[GPU] Edge Hysteresis took: 0.309408 ms (7 iterations)
+Total time taken: 3.06576 ms
+(8, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.65581 ms
+[GPU] Gradients took: 0.073728 ms
+[GPU] Non-Maximum Suppression took: 0.118784 ms
+[GPU] Double Thresholding took: 0.576064 ms
+[GPU] Edge Hysteresis took: 0.321472 ms (7 iterations)
+Total time taken: 2.74586 ms
+(8, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.70189 ms
+[GPU] Gradients took: 0.06144 ms
+[GPU] Non-Maximum Suppression took: 0.120832 ms
+[GPU] Double Thresholding took: 0.530368 ms
+[GPU] Edge Hysteresis took: 0.314368 ms (7 iterations)
+Total time taken: 2.7289 ms
+(8, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81965 ms
+[GPU] Gradients took: 0.075328 ms
+[GPU] Non-Maximum Suppression took: 0.121408 ms
+[GPU] Double Thresholding took: 0.53728 ms
+[GPU] Edge Hysteresis took: 0.344064 ms (7 iterations)
+Total time taken: 2.89773 ms
+(8, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.91155 ms
+[GPU] Gradients took: 0.073728 ms
+[GPU] Non-Maximum Suppression took: 0.129024 ms
+[GPU] Double Thresholding took: 0.65824 ms
+[GPU] Edge Hysteresis took: 0.379904 ms (7 iterations)
+Total time taken: 3.15245 ms
+(8, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83296 ms
+[GPU] Gradients took: 0.05632 ms
+[GPU] Non-Maximum Suppression took: 0.100352 ms
+[GPU] Double Thresholding took: 0.575488 ms
+[GPU] Edge Hysteresis took: 0.398336 ms (7 iterations)
+Total time taken: 2.96346 ms
+(8, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.88518 ms
+[GPU] Gradients took: 0.075776 ms
+[GPU] Non-Maximum Suppression took: 0.125792 ms
+[GPU] Double Thresholding took: 0.602112 ms
+[GPU] Edge Hysteresis took: 0.29696 ms (7 iterations)
+Total time taken: 2.98582 ms
+(8, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.7111 ms
+[GPU] Gradients took: 0.06144 ms
+[GPU] Non-Maximum Suppression took: 0.118784 ms
+[GPU] Double Thresholding took: 0.52736 ms
+[GPU] Edge Hysteresis took: 0.30528 ms (7 iterations)
+Total time taken: 2.72397 ms
+
+(8, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.7879 ms
+[GPU] Gradients took: 0.070656 ms
+[GPU] Non-Maximum Suppression took: 0.11776 ms
+[GPU] Double Thresholding took: 0.5552 ms
+[GPU] Edge Hysteresis took: 0.35728 ms (7 iterations)
+Total time taken: 2.8888 ms
+(8, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.82653 ms
+[GPU] Gradients took: 0.070656 ms
+[GPU] Non-Maximum Suppression took: 0.114688 ms
+[GPU] Double Thresholding took: 0.585376 ms
+[GPU] Edge Hysteresis took: 0.31232 ms (7 iterations)
+Total time taken: 2.90957 ms
+(8, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.02445 ms
+[GPU] Gradients took: 0.059392 ms
+[GPU] Non-Maximum Suppression took: 0.144384 ms
+[GPU] Double Thresholding took: 0.661504 ms
+[GPU] Edge Hysteresis took: 0.314368 ms (7 iterations)
+Total time taken: 3.2041 ms
+(8, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81622 ms
+[GPU] Gradients took: 0.058368 ms
+[GPU] Non-Maximum Suppression took: 0.100352 ms
+[GPU] Double Thresholding took: 0.576512 ms
+[GPU] Edge Hysteresis took: 0.356512 ms (7 iterations)
+Total time taken: 2.90797 ms
+(8, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.75718 ms
+[GPU] Gradients took: 0.048992 ms
+[GPU] Non-Maximum Suppression took: 0.100416 ms
+[GPU] Double Thresholding took: 0.573344 ms
+[GPU] Edge Hysteresis took: 0.305568 ms (7 iterations)
+Total time taken: 2.7855 ms
+(8, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.73875 ms
+[GPU] Gradients took: 0.081024 ms
+[GPU] Non-Maximum Suppression took: 0.135072 ms
+[GPU] Double Thresholding took: 0.527008 ms
+[GPU] Edge Hysteresis took: 0.299008 ms (7 iterations)
+Total time taken: 2.78086 ms
+(8, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.7961 ms
+[GPU] Gradients took: 0.073824 ms
+[GPU] Non-Maximum Suppression took: 0.125824 ms
+[GPU] Double Thresholding took: 0.546816 ms
+[GPU] Edge Hysteresis took: 0.29184 ms (7 iterations)
+Total time taken: 2.8344 ms
+(8, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.74797 ms
+[GPU] Gradients took: 0.080448 ms
+[GPU] Non-Maximum Suppression took: 0.179776 ms
+[GPU] Double Thresholding took: 0.554656 ms
+[GPU] Edge Hysteresis took: 0.319488 ms (7 iterations)
+Total time taken: 2.88234 ms
+(8, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77562 ms
+[GPU] Gradients took: 0.057344 ms
+[GPU] Non-Maximum Suppression took: 0.101536 ms
+[GPU] Double Thresholding took: 0.56288 ms
+[GPU] Edge Hysteresis took: 0.343936 ms (7 iterations)
+Total time taken: 2.84131 ms
+(8, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.03674 ms
+[GPU] Gradients took: 0.059168 ms
+[GPU] Non-Maximum Suppression took: 0.121632 ms
+[GPU] Double Thresholding took: 0.500672 ms
+[GPU] Edge Hysteresis took: 0.33008 ms (7 iterations)
+Total time taken: 3.04829 ms
+
+(8, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81526 ms
+[GPU] Gradients took: 0.082944 ms
+[GPU] Non-Maximum Suppression took: 0.128 ms
+[GPU] Double Thresholding took: 0.566272 ms
+[GPU] Edge Hysteresis took: 0.332992 ms (7 iterations)
+Total time taken: 2.92547 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.33123 ms
+[GPU] Gradients took: 0.062496 ms
+[GPU] Non-Maximum Suppression took: 0.124928 ms
+[GPU] Double Thresholding took: 0.607232 ms
+[GPU] Edge Hysteresis took: 0.323904 ms (7 iterations)
+Total time taken: 3.44979 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.1409 ms
+[GPU] Gradients took: 0.07152 ms
+[GPU] Non-Maximum Suppression took: 0.114528 ms
+[GPU] Double Thresholding took: 0.623776 ms
+[GPU] Edge Hysteresis took: 0.343648 ms (7 iterations)
+Total time taken: 3.29437 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.01718 ms
+[GPU] Gradients took: 0.10016 ms
+[GPU] Non-Maximum Suppression took: 0.147488 ms
+[GPU] Double Thresholding took: 0.551936 ms
+[GPU] Edge Hysteresis took: 0.33104 ms (7 iterations)
+Total time taken: 3.14781 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.01011 ms
+[GPU] Gradients took: 0.068608 ms
+[GPU] Non-Maximum Suppression took: 0.11264 ms
+[GPU] Double Thresholding took: 0.538496 ms
+[GPU] Edge Hysteresis took: 0.307264 ms (7 iterations)
+Total time taken: 3.03712 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.54157 ms
+[GPU] Gradients took: 0.075776 ms
+[GPU] Non-Maximum Suppression took: 0.134144 ms
+[GPU] Double Thresholding took: 0.667648 ms
+[GPU] Edge Hysteresis took: 0.311296 ms (7 iterations)
+Total time taken: 3.73043 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.89632 ms
+[GPU] Gradients took: 0.077504 ms
+[GPU] Non-Maximum Suppression took: 0.12256 ms
+[GPU] Double Thresholding took: 0.579552 ms
+[GPU] Edge Hysteresis took: 0.306432 ms (7 iterations)
+Total time taken: 2.98237 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.80634 ms
+[GPU] Gradients took: 0.068192 ms
+[GPU] Non-Maximum Suppression took: 0.1112 ms
+[GPU] Double Thresholding took: 0.507904 ms
+[GPU] Edge Hysteresis took: 0.29184 ms (7 iterations)
+Total time taken: 2.78547 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78483 ms
+[GPU] Gradients took: 0.074752 ms
+[GPU] Non-Maximum Suppression took: 0.135392 ms
+[GPU] Double Thresholding took: 0.539648 ms
+[GPU] Edge Hysteresis took: 0.368736 ms (7 iterations)
+Total time taken: 2.90336 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.73056 ms
+[GPU] Gradients took: 0.08176 ms
+[GPU] Non-Maximum Suppression took: 0.125824 ms
+[GPU] Double Thresholding took: 0.541696 ms
+[GPU] Edge Hysteresis took: 0.328704 ms (7 iterations)
+Total time taken: 2.80854 ms
+
+(15, 15) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.75821 ms
+[GPU] Gradients took: 0.078688 ms
+[GPU] Non-Maximum Suppression took: 0.120672 ms
+[GPU] Double Thresholding took: 0.620544 ms
+[GPU] Edge Hysteresis took: 0.31744 ms (5 iterations)
+Total time taken: 2.89555 ms
+(15, 15) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.27533 ms
+[GPU] Gradients took: 0.084992 ms
+[GPU] Non-Maximum Suppression took: 0.144384 ms
+[GPU] Double Thresholding took: 0.624384 ms
+[GPU] Edge Hysteresis took: 0.275264 ms (5 iterations)
+Total time taken: 3.40435 ms
+(15, 15) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.74387 ms
+[GPU] Gradients took: 0.070464 ms
+[GPU] Non-Maximum Suppression took: 0.114496 ms
+[GPU] Double Thresholding took: 0.574464 ms
+[GPU] Edge Hysteresis took: 0.265152 ms (5 iterations)
+Total time taken: 2.76845 ms
+(15, 15) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.23539 ms
+[GPU] Gradients took: 0.075776 ms
+[GPU] Non-Maximum Suppression took: 0.119808 ms
+[GPU] Double Thresholding took: 0.666624 ms
+[GPU] Edge Hysteresis took: 0.247968 ms (5 iterations)
+Total time taken: 3.34557 ms
+(15, 15) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77459 ms
+[GPU] Gradients took: 0.06656 ms
+[GPU] Non-Maximum Suppression took: 0.110592 ms
+[GPU] Double Thresholding took: 0.565248 ms
+[GPU] Edge Hysteresis took: 0.2336 ms (5 iterations)
+Total time taken: 2.75059 ms
+(15, 15) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.90464 ms
+[GPU] Gradients took: 0.106496 ms
+[GPU] Non-Maximum Suppression took: 0.1536 ms
+[GPU] Double Thresholding took: 0.598016 ms
+[GPU] Edge Hysteresis took: 0.24272 ms (5 iterations)
+Total time taken: 3.00547 ms
+(15, 15) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.98554 ms
+[GPU] Gradients took: 0.07168 ms
+[GPU] Non-Maximum Suppression took: 0.120832 ms
+[GPU] Double Thresholding took: 0.727968 ms
+[GPU] Edge Hysteresis took: 0.27648 ms (5 iterations)
+Total time taken: 3.1825 ms
+(15, 15) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.74467 ms
+[GPU] Gradients took: 0.074464 ms
+[GPU] Non-Maximum Suppression took: 0.117472 ms
+[GPU] Double Thresholding took: 0.673792 ms
+[GPU] Edge Hysteresis took: 0.253056 ms (5 iterations)
+Total time taken: 2.86346 ms
+(15, 15) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.76787 ms
+[GPU] Gradients took: 0.121856 ms
+[GPU] Non-Maximum Suppression took: 0.211072 ms
+[GPU] Double Thresholding took: 0.651264 ms
+[GPU] Edge Hysteresis took: 0.320512 ms (5 iterations)
+Total time taken: 4.07258 ms
+(15, 15) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.17088 ms
+[GPU] Gradients took: 0.0632 ms
+[GPU] Non-Maximum Suppression took: 0.106208 ms
+[GPU] Double Thresholding took: 0.632608 ms
+[GPU] Edge Hysteresis took: 0.223488 ms (5 iterations)
+Total time taken: 3.19638 ms
+
+(15, 15) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.8688 ms
+[GPU] Gradients took: 0.101376 ms
+[GPU] Non-Maximum Suppression took: 0.16384 ms
+[GPU] Double Thresholding took: 0.652096 ms
+[GPU] Edge Hysteresis took: 0.361248 ms (5 iterations)
+Total time taken: 3.14736 ms
+(15, 15) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.82272 ms
+[GPU] Gradients took: 0.091136 ms
+[GPU] Non-Maximum Suppression took: 0.169984 ms
+[GPU] Double Thresholding took: 1.37722 ms
+[GPU] Edge Hysteresis took: 0.7936 ms (5 iterations)
+Total time taken: 4.25466 ms
+(15, 15) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.5559 ms
+[GPU] Gradients took: 0.090112 ms
+[GPU] Non-Maximum Suppression took: 0.274432 ms
+[GPU] Double Thresholding took: 0.57344 ms
+[GPU] Edge Hysteresis took: 0.242688 ms (5 iterations)
+Total time taken: 3.73658 ms
+(15, 15) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.5559 ms
+[GPU] Gradients took: 0.067584 ms
+[GPU] Non-Maximum Suppression took: 0.11264 ms
+[GPU] Double Thresholding took: 0.504064 ms
+[GPU] Edge Hysteresis took: 0.229472 ms (5 iterations)
+Total time taken: 3.46966 ms
+(15, 15) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.01805 ms
+[GPU] Gradients took: 0.070656 ms
+[GPU] Non-Maximum Suppression took: 0.119808 ms
+[GPU] Double Thresholding took: 0.589696 ms
+[GPU] Edge Hysteresis took: 0.234304 ms (5 iterations)
+Total time taken: 3.03251 ms
+(15, 15) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83008 ms
+[GPU] Gradients took: 0.062464 ms
+[GPU] Non-Maximum Suppression took: 0.121856 ms
+[GPU] Double Thresholding took: 0.541568 ms
+[GPU] Edge Hysteresis took: 0.236544 ms (5 iterations)
+Total time taken: 2.79251 ms
+(15, 15) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.99462 ms
+[GPU] Gradients took: 0.093856 ms
+[GPU] Non-Maximum Suppression took: 0.136864 ms
+[GPU] Double Thresholding took: 0.64208 ms
+[GPU] Edge Hysteresis took: 0.252928 ms (5 iterations)
+Total time taken: 3.12035 ms
+(15, 15) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.89334 ms
+[GPU] Gradients took: 0.06448 ms
+[GPU] Non-Maximum Suppression took: 0.114656 ms
+[GPU] Double Thresholding took: 0.677536 ms
+[GPU] Edge Hysteresis took: 0.220128 ms (5 iterations)
+Total time taken: 2.97014 ms
+(15, 15) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.74797 ms
+[GPU] Gradients took: 0.058368 ms
+[GPU] Non-Maximum Suppression took: 0.111616 ms
+[GPU] Double Thresholding took: 0.523264 ms
+[GPU] Edge Hysteresis took: 0.283872 ms (5 iterations)
+Total time taken: 2.72509 ms
+(15, 15) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.52314 ms
+[GPU] Gradients took: 0.070336 ms
+[GPU] Non-Maximum Suppression took: 0.12768 ms
+[GPU] Double Thresholding took: 0.480256 ms
+[GPU] Edge Hysteresis took: 0.239616 ms (5 iterations)
+Total time taken: 3.44102 ms
+
+(15, 15) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.76307 ms
+[GPU] Gradients took: 0.058016 ms
+[GPU] Non-Maximum Suppression took: 0.109152 ms
+[GPU] Double Thresholding took: 0.57152 ms
+[GPU] Edge Hysteresis took: 0.234496 ms (5 iterations)
+Total time taken: 2.73626 ms
+(15, 15) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.04288 ms
+[GPU] Gradients took: 0.075776 ms
+[GPU] Non-Maximum Suppression took: 0.126976 ms
+[GPU] Double Thresholding took: 0.652288 ms
+[GPU] Edge Hysteresis took: 0.233344 ms (5 iterations)
+Total time taken: 3.13126 ms
+(15, 15) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.73354 ms
+[GPU] Gradients took: 0.084832 ms
+[GPU] Non-Maximum Suppression took: 0.182112 ms
+[GPU] Double Thresholding took: 0.58368 ms
+[GPU] Edge Hysteresis took: 0.238368 ms (5 iterations)
+Total time taken: 2.82253 ms
+(15, 15) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.8985 ms
+[GPU] Gradients took: 0.078848 ms
+[GPU] Non-Maximum Suppression took: 0.132128 ms
+[GPU] Double Thresholding took: 0.563776 ms
+[GPU] Edge Hysteresis took: 0.313344 ms (5 iterations)
+Total time taken: 2.98659 ms
+(15, 15) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.75923 ms
+[GPU] Gradients took: 0.080896 ms
+[GPU] Non-Maximum Suppression took: 0.196864 ms
+[GPU] Double Thresholding took: 0.594944 ms
+[GPU] Edge Hysteresis took: 0.302048 ms (5 iterations)
+Total time taken: 2.93398 ms
+(15, 15) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81754 ms
+[GPU] Gradients took: 0.060416 ms
+[GPU] Non-Maximum Suppression took: 0.105472 ms
+[GPU] Double Thresholding took: 0.616448 ms
+[GPU] Edge Hysteresis took: 0.24576 ms (5 iterations)
+Total time taken: 2.84563 ms
+(15, 15) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.91488 ms
+[GPU] Gradients took: 0.075776 ms
+[GPU] Non-Maximum Suppression took: 0.116736 ms
+[GPU] Double Thresholding took: 0.50656 ms
+[GPU] Edge Hysteresis took: 0.213824 ms (5 iterations)
+Total time taken: 2.82778 ms
+(15, 15) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78464 ms
+[GPU] Gradients took: 0.079584 ms
+[GPU] Non-Maximum Suppression took: 0.127712 ms
+[GPU] Double Thresholding took: 0.607968 ms
+[GPU] Edge Hysteresis took: 0.227744 ms (5 iterations)
+Total time taken: 2.82765 ms
+(15, 15) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.82477 ms
+[GPU] Gradients took: 0.064544 ms
+[GPU] Non-Maximum Suppression took: 0.10752 ms
+[GPU] Double Thresholding took: 0.51712 ms
+[GPU] Edge Hysteresis took: 0.252864 ms (5 iterations)
+Total time taken: 2.76682 ms
+(15, 15) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.8135 ms
+[GPU] Gradients took: 0.079872 ms
+[GPU] Non-Maximum Suppression took: 0.132096 ms
+[GPU] Double Thresholding took: 0.561152 ms
+[GPU] Edge Hysteresis took: 0.21072 ms (5 iterations)
+Total time taken: 2.79734 ms
+
+(15, 15) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.69546 ms
+[GPU] Gradients took: 0.068832 ms
+[GPU] Non-Maximum Suppression took: 0.111616 ms
+[GPU] Double Thresholding took: 0.590944 ms
+[GPU] Edge Hysteresis took: 0.247744 ms (5 iterations)
+Total time taken: 2.71459 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.88416 ms
+[GPU] Gradients took: 0.063424 ms
+[GPU] Non-Maximum Suppression took: 0.111552 ms
+[GPU] Double Thresholding took: 0.583552 ms
+[GPU] Edge Hysteresis took: 0.221184 ms (5 iterations)
+Total time taken: 2.86387 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.10534 ms
+[GPU] Gradients took: 0.08192 ms
+[GPU] Non-Maximum Suppression took: 0.13824 ms
+[GPU] Double Thresholding took: 0.738016 ms
+[GPU] Edge Hysteresis took: 0.34816 ms (5 iterations)
+Total time taken: 3.41168 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78682 ms
+[GPU] Gradients took: 0.069632 ms
+[GPU] Non-Maximum Suppression took: 0.111616 ms
+[GPU] Double Thresholding took: 0.508928 ms
+[GPU] Edge Hysteresis took: 0.23264 ms (5 iterations)
+Total time taken: 2.70963 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.8145 ms
+[GPU] Gradients took: 0.057344 ms
+[GPU] Non-Maximum Suppression took: 0.100352 ms
+[GPU] Double Thresholding took: 0.56912 ms
+[GPU] Edge Hysteresis took: 0.253664 ms (5 iterations)
+Total time taken: 2.79498 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.7152 ms
+[GPU] Gradients took: 0.074368 ms
+[GPU] Non-Maximum Suppression took: 0.115328 ms
+[GPU] Double Thresholding took: 0.633856 ms
+[GPU] Edge Hysteresis took: 0.255872 ms (5 iterations)
+Total time taken: 2.79462 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.01296 ms
+[GPU] Gradients took: 0.078528 ms
+[GPU] Non-Maximum Suppression took: 0.125632 ms
+[GPU] Double Thresholding took: 0.560128 ms
+[GPU] Edge Hysteresis took: 0.245504 ms (5 iterations)
+Total time taken: 3.02275 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.90896 ms
+[GPU] Gradients took: 0.06816 ms
+[GPU] Non-Maximum Suppression took: 0.111168 ms
+[GPU] Double Thresholding took: 0.516704 ms
+[GPU] Edge Hysteresis took: 0.261024 ms (5 iterations)
+Total time taken: 2.86602 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.86746 ms
+[GPU] Gradients took: 0.06144 ms
+[GPU] Non-Maximum Suppression took: 0.108544 ms
+[GPU] Double Thresholding took: 0.58368 ms
+[GPU] Edge Hysteresis took: 0.239616 ms (5 iterations)
+Total time taken: 2.86074 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.91078 ms
+[GPU] Gradients took: 0.066496 ms
+[GPU] Non-Maximum Suppression took: 0.112576 ms
+[GPU] Double Thresholding took: 0.612352 ms
+[GPU] Edge Hysteresis took: 0.262976 ms (5 iterations)
+Total time taken: 2.96518 ms
+
+(16, 16) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.20774 ms
+[GPU] Gradients took: 0.076416 ms
+[GPU] Non-Maximum Suppression took: 0.119424 ms
+[GPU] Double Thresholding took: 0.637888 ms
+[GPU] Edge Hysteresis took: 0.237568 ms (5 iterations)
+Total time taken: 3.27904 ms
+(16, 16) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.92614 ms
+[GPU] Gradients took: 0.099008 ms
+[GPU] Non-Maximum Suppression took: 0.16352 ms
+[GPU] Double Thresholding took: 0.973184 ms
+[GPU] Edge Hysteresis took: 0.482656 ms (5 iterations)
+Total time taken: 3.64451 ms
+(16, 16) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.05901 ms
+[GPU] Gradients took: 0.068608 ms
+[GPU] Non-Maximum Suppression took: 0.121856 ms
+[GPU] Double Thresholding took: 0.506912 ms
+[GPU] Edge Hysteresis took: 0.279616 ms (5 iterations)
+Total time taken: 3.036 ms
+(16, 16) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81555 ms
+[GPU] Gradients took: 0.076384 ms
+[GPU] Non-Maximum Suppression took: 0.122464 ms
+[GPU] Double Thresholding took: 0.579456 ms
+[GPU] Edge Hysteresis took: 0.318112 ms (5 iterations)
+Total time taken: 2.91197 ms
+(16, 16) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.91914 ms
+[GPU] Gradients took: 0.0768 ms
+[GPU] Non-Maximum Suppression took: 0.121856 ms
+[GPU] Double Thresholding took: 0.54272 ms
+[GPU] Edge Hysteresis took: 0.238016 ms (5 iterations)
+Total time taken: 2.89853 ms
+(16, 16) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.80224 ms
+[GPU] Gradients took: 0.061056 ms
+[GPU] Non-Maximum Suppression took: 0.121472 ms
+[GPU] Double Thresholding took: 0.529312 ms
+[GPU] Edge Hysteresis took: 0.228352 ms (5 iterations)
+Total time taken: 2.74243 ms
+(16, 16) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.69165 ms
+[GPU] Gradients took: 0.065536 ms
+[GPU] Non-Maximum Suppression took: 0.140288 ms
+[GPU] Double Thresholding took: 0.574464 ms
+[GPU] Edge Hysteresis took: 0.223232 ms (5 iterations)
+Total time taken: 2.69517 ms
+(16, 16) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.86778 ms
+[GPU] Gradients took: 0.084992 ms
+[GPU] Non-Maximum Suppression took: 0.130208 ms
+[GPU] Double Thresholding took: 0.525184 ms
+[GPU] Edge Hysteresis took: 0.25632 ms (5 iterations)
+Total time taken: 2.86448 ms
+(16, 16) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.71008 ms
+[GPU] Gradients took: 0.07392 ms
+[GPU] Non-Maximum Suppression took: 0.115712 ms
+[GPU] Double Thresholding took: 0.50704 ms
+[GPU] Edge Hysteresis took: 0.234656 ms (5 iterations)
+Total time taken: 2.64141 ms
+(16, 16) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.70765 ms
+[GPU] Gradients took: 0.074816 ms
+[GPU] Non-Maximum Suppression took: 0.120736 ms
+[GPU] Double Thresholding took: 0.601088 ms
+[GPU] Edge Hysteresis took: 0.222208 ms (5 iterations)
+Total time taken: 2.7265 ms
+
+(16, 16) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77152 ms
+[GPU] Gradients took: 0.083968 ms
+[GPU] Non-Maximum Suppression took: 0.136192 ms
+[GPU] Double Thresholding took: 0.54272 ms
+[GPU] Edge Hysteresis took: 0.241888 ms (5 iterations)
+Total time taken: 2.77629 ms
+(16, 16) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78781 ms
+[GPU] Gradients took: 0.060416 ms
+[GPU] Non-Maximum Suppression took: 0.1024 ms
+[GPU] Double Thresholding took: 0.531424 ms
+[GPU] Edge Hysteresis took: 0.225376 ms (5 iterations)
+Total time taken: 2.70742 ms
+(16, 16) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.86982 ms
+[GPU] Gradients took: 0.064512 ms
+[GPU] Non-Maximum Suppression took: 0.108544 ms
+[GPU] Double Thresholding took: 0.550048 ms
+[GPU] Edge Hysteresis took: 0.28064 ms (5 iterations)
+Total time taken: 2.87357 ms
+(16, 16) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78381 ms
+[GPU] Gradients took: 0.07264 ms
+[GPU] Non-Maximum Suppression took: 0.115648 ms
+[GPU] Double Thresholding took: 0.506528 ms
+[GPU] Edge Hysteresis took: 0.236416 ms (5 iterations)
+Total time taken: 2.71504 ms
+(16, 16) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.42957 ms
+[GPU] Gradients took: 0.050176 ms
+[GPU] Non-Maximum Suppression took: 0.094208 ms
+[GPU] Double Thresholding took: 0.536576 ms
+[GPU] Edge Hysteresis took: 0.29184 ms (5 iterations)
+Total time taken: 3.40237 ms
+(16, 16) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78374 ms
+[GPU] Gradients took: 0.057344 ms
+[GPU] Non-Maximum Suppression took: 0.100352 ms
+[GPU] Double Thresholding took: 0.511328 ms
+[GPU] Edge Hysteresis took: 0.228288 ms (5 iterations)
+Total time taken: 2.68106 ms
+(16, 16) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78893 ms
+[GPU] Gradients took: 0.079872 ms
+[GPU] Non-Maximum Suppression took: 0.123904 ms
+[GPU] Double Thresholding took: 0.524288 ms
+[GPU] Edge Hysteresis took: 0.243936 ms (5 iterations)
+Total time taken: 2.76093 ms
+(16, 16) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.00317 ms
+[GPU] Gradients took: 0.072704 ms
+[GPU] Non-Maximum Suppression took: 0.114688 ms
+[GPU] Double Thresholding took: 0.553792 ms
+[GPU] Edge Hysteresis took: 0.248672 ms (5 iterations)
+Total time taken: 2.99302 ms
+(16, 16) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.74157 ms
+[GPU] Gradients took: 0.064512 ms
+[GPU] Non-Maximum Suppression took: 0.108544 ms
+[GPU] Double Thresholding took: 0.586656 ms
+[GPU] Edge Hysteresis took: 0.240416 ms (5 iterations)
+Total time taken: 2.7417 ms
+(16, 16) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83091 ms
+[GPU] Gradients took: 0.086176 ms
+[GPU] Non-Maximum Suppression took: 0.139264 ms
+[GPU] Double Thresholding took: 0.545408 ms
+[GPU] Edge Hysteresis took: 0.23952 ms (5 iterations)
+Total time taken: 2.84128 ms
+
+(16, 16) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.75501 ms
+[GPU] Gradients took: 0.059168 ms
+[GPU] Non-Maximum Suppression took: 0.102176 ms
+[GPU] Double Thresholding took: 0.969536 ms
+[GPU] Edge Hysteresis took: 0.486048 ms (5 iterations)
+Total time taken: 3.37194 ms
+(16, 16) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.89338 ms
+[GPU] Gradients took: 0.077632 ms
+[GPU] Non-Maximum Suppression took: 0.122688 ms
+[GPU] Double Thresholding took: 0.53248 ms
+[GPU] Edge Hysteresis took: 0.22624 ms (5 iterations)
+Total time taken: 2.85242 ms
+(16, 16) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77971 ms
+[GPU] Gradients took: 0.077632 ms
+[GPU] Non-Maximum Suppression took: 0.121664 ms
+[GPU] Double Thresholding took: 0.561152 ms
+[GPU] Edge Hysteresis took: 0.238592 ms (5 iterations)
+Total time taken: 2.77875 ms
+(16, 16) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.82682 ms
+[GPU] Gradients took: 0.065312 ms
+[GPU] Non-Maximum Suppression took: 0.107296 ms
+[GPU] Double Thresholding took: 0.556032 ms
+[GPU] Edge Hysteresis took: 0.232224 ms (5 iterations)
+Total time taken: 2.78768 ms
+(16, 16) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.94538 ms
+[GPU] Gradients took: 0.065728 ms
+[GPU] Non-Maximum Suppression took: 0.121856 ms
+[GPU] Double Thresholding took: 0.5632 ms
+[GPU] Edge Hysteresis took: 0.24576 ms (5 iterations)
+Total time taken: 2.94192 ms
+(16, 16) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.87904 ms
+[GPU] Gradients took: 0.0768 ms
+[GPU] Non-Maximum Suppression took: 0.124928 ms
+[GPU] Double Thresholding took: 0.57248 ms
+[GPU] Edge Hysteresis took: 0.233792 ms (5 iterations)
+Total time taken: 2.88704 ms
+(16, 16) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.05094 ms
+[GPU] Gradients took: 0.06144 ms
+[GPU] Non-Maximum Suppression took: 0.103424 ms
+[GPU] Double Thresholding took: 0.568512 ms
+[GPU] Edge Hysteresis took: 0.217472 ms (5 iterations)
+Total time taken: 3.00179 ms
+(16, 16) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.88211 ms
+[GPU] Gradients took: 0.072352 ms
+[GPU] Non-Maximum Suppression took: 0.116384 ms
+[GPU] Double Thresholding took: 0.618496 ms
+[GPU] Edge Hysteresis took: 0.262144 ms (5 iterations)
+Total time taken: 2.95149 ms
+(16, 16) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78995 ms
+[GPU] Gradients took: 0.063488 ms
+[GPU] Non-Maximum Suppression took: 0.106496 ms
+[GPU] Double Thresholding took: 0.526272 ms
+[GPU] Edge Hysteresis took: 0.242688 ms (5 iterations)
+Total time taken: 2.7289 ms
+(16, 16) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.85226 ms
+[GPU] Gradients took: 0.079872 ms
+[GPU] Non-Maximum Suppression took: 0.124928 ms
+[GPU] Double Thresholding took: 0.570144 ms
+[GPU] Edge Hysteresis took: 0.268288 ms (5 iterations)
+Total time taken: 2.89549 ms
+
+(16, 16) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.79491 ms
+[GPU] Gradients took: 0.059392 ms
+[GPU] Non-Maximum Suppression took: 0.11776 ms
+[GPU] Double Thresholding took: 0.559104 ms
+[GPU] Edge Hysteresis took: 0.245792 ms (5 iterations)
+Total time taken: 2.77696 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.80122 ms
+[GPU] Gradients took: 0.064352 ms
+[GPU] Non-Maximum Suppression took: 0.121696 ms
+[GPU] Double Thresholding took: 0.541248 ms
+[GPU] Edge Hysteresis took: 0.262112 ms (5 iterations)
+Total time taken: 2.79062 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.79088 ms
+[GPU] Gradients took: 0.080768 ms
+[GPU] Non-Maximum Suppression took: 0.137088 ms
+[GPU] Double Thresholding took: 0.546496 ms
+[GPU] Edge Hysteresis took: 0.236384 ms (5 iterations)
+Total time taken: 2.79162 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81123 ms
+[GPU] Gradients took: 0.074752 ms
+[GPU] Non-Maximum Suppression took: 0.129024 ms
+[GPU] Double Thresholding took: 0.526336 ms
+[GPU] Edge Hysteresis took: 0.291808 ms (5 iterations)
+Total time taken: 2.83315 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78259 ms
+[GPU] Gradients took: 0.083968 ms
+[GPU] Non-Maximum Suppression took: 0.136192 ms
+[GPU] Double Thresholding took: 0.543808 ms
+[GPU] Edge Hysteresis took: 0.239936 ms (5 iterations)
+Total time taken: 2.7865 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.75024 ms
+[GPU] Gradients took: 0.071424 ms
+[GPU] Non-Maximum Suppression took: 0.114432 ms
+[GPU] Double Thresholding took: 0.495616 ms
+[GPU] Edge Hysteresis took: 0.226304 ms (5 iterations)
+Total time taken: 2.65802 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.88186 ms
+[GPU] Gradients took: 0.057344 ms
+[GPU] Non-Maximum Suppression took: 0.101376 ms
+[GPU] Double Thresholding took: 0.57856 ms
+[GPU] Edge Hysteresis took: 0.47104 ms (5 iterations)
+Total time taken: 3.09018 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.9087 ms
+[GPU] Gradients took: 0.077824 ms
+[GPU] Non-Maximum Suppression took: 0.121856 ms
+[GPU] Double Thresholding took: 0.596992 ms
+[GPU] Edge Hysteresis took: 0.224256 ms (5 iterations)
+Total time taken: 2.92963 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.95584 ms
+[GPU] Gradients took: 0.064512 ms
+[GPU] Non-Maximum Suppression took: 0.11264 ms
+[GPU] Double Thresholding took: 0.549888 ms
+[GPU] Edge Hysteresis took: 0.222112 ms (5 iterations)
+Total time taken: 2.90499 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.01789 ms
+[GPU] Gradients took: 0.058368 ms
+[GPU] Non-Maximum Suppression took: 0.119808 ms
+[GPU] Double Thresholding took: 0.550912 ms
+[GPU] Edge Hysteresis took: 0.225376 ms (5 iterations)
+Total time taken: 2.97235 ms
+
+(32, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.85856 ms
+[GPU] Gradients took: 0.089088 ms
+[GPU] Non-Maximum Suppression took: 0.13824 ms
+[GPU] Double Thresholding took: 0.619456 ms
+[GPU] Edge Hysteresis took: 0.47328 ms (13 iterations)
+Total time taken: 3.17862 ms
+(32, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.86765 ms
+[GPU] Gradients took: 0.066496 ms
+[GPU] Non-Maximum Suppression took: 0.109504 ms
+[GPU] Double Thresholding took: 0.605952 ms
+[GPU] Edge Hysteresis took: 0.463424 ms (11 iterations)
+Total time taken: 3.11302 ms
+(32, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.08896 ms
+[GPU] Gradients took: 0.065536 ms
+[GPU] Non-Maximum Suppression took: 0.11264 ms
+[GPU] Double Thresholding took: 0.610304 ms
+[GPU] Edge Hysteresis took: 0.645248 ms (14 iterations)
+Total time taken: 3.52269 ms
+(32, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.88416 ms
+[GPU] Gradients took: 0.057344 ms
+[GPU] Non-Maximum Suppression took: 0.103424 ms
+[GPU] Double Thresholding took: 0.539648 ms
+[GPU] Edge Hysteresis took: 0.455552 ms (11 iterations)
+Total time taken: 3.04013 ms
+(32, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83418 ms
+[GPU] Gradients took: 0.08704 ms
+[GPU] Non-Maximum Suppression took: 0.156672 ms
+[GPU] Double Thresholding took: 0.51792 ms
+[GPU] Edge Hysteresis took: 0.381952 ms (10 iterations)
+Total time taken: 2.97776 ms
+(32, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.80106 ms
+[GPU] Gradients took: 0.089088 ms
+[GPU] Non-Maximum Suppression took: 0.14848 ms
+[GPU] Double Thresholding took: 0.530432 ms
+[GPU] Edge Hysteresis took: 0.420096 ms (11 iterations)
+Total time taken: 2.98915 ms
+(32, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.73875 ms
+[GPU] Gradients took: 0.080896 ms
+[GPU] Non-Maximum Suppression took: 0.119808 ms
+[GPU] Double Thresholding took: 0.608256 ms
+[GPU] Edge Hysteresis took: 0.441344 ms (11 iterations)
+Total time taken: 2.98906 ms
+(32, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.36544 ms
+[GPU] Gradients took: 0.08784 ms
+[GPU] Non-Maximum Suppression took: 0.142112 ms
+[GPU] Double Thresholding took: 0.513024 ms
+[GPU] Edge Hysteresis took: 0.426688 ms (11 iterations)
+Total time taken: 3.5351 ms
+(32, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.8521 ms
+[GPU] Gradients took: 0.092096 ms
+[GPU] Non-Maximum Suppression took: 0.1392 ms
+[GPU] Double Thresholding took: 0.562752 ms
+[GPU] Edge Hysteresis took: 0.412896 ms (11 iterations)
+Total time taken: 3.05904 ms
+(32, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.89235 ms
+[GPU] Gradients took: 0.070528 ms
+[GPU] Non-Maximum Suppression took: 0.156544 ms
+[GPU] Double Thresholding took: 0.551904 ms
+[GPU] Edge Hysteresis took: 0.409632 ms (11 iterations)
+Total time taken: 3.08096 ms
+
+(32, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.9159 ms
+[GPU] Gradients took: 0.078848 ms
+[GPU] Non-Maximum Suppression took: 0.123904 ms
+[GPU] Double Thresholding took: 0.510976 ms
+[GPU] Edge Hysteresis took: 0.411776 ms (11 iterations)
+Total time taken: 3.04141 ms
+(32, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77248 ms
+[GPU] Gradients took: 0.083808 ms
+[GPU] Non-Maximum Suppression took: 0.144224 ms
+[GPU] Double Thresholding took: 0.570368 ms
+[GPU] Edge Hysteresis took: 0.515776 ms (13 iterations)
+Total time taken: 3.08666 ms
+(32, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.01011 ms
+[GPU] Gradients took: 0.071232 ms
+[GPU] Non-Maximum Suppression took: 0.118336 ms
+[GPU] Double Thresholding took: 0.550112 ms
+[GPU] Edge Hysteresis took: 0.499712 ms (14 iterations)
+Total time taken: 3.2495 ms
+(32, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.88608 ms
+[GPU] Gradients took: 0.084992 ms
+[GPU] Non-Maximum Suppression took: 0.129024 ms
+[GPU] Double Thresholding took: 0.5376 ms
+[GPU] Edge Hysteresis took: 0.465568 ms (11 iterations)
+Total time taken: 3.10326 ms
+(32, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.82886 ms
+[GPU] Gradients took: 0.081792 ms
+[GPU] Non-Maximum Suppression took: 0.12192 ms
+[GPU] Double Thresholding took: 0.648192 ms
+[GPU] Edge Hysteresis took: 0.541696 ms (14 iterations)
+Total time taken: 3.22246 ms
+(32, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.84714 ms
+[GPU] Gradients took: 0.079712 ms
+[GPU] Non-Maximum Suppression took: 0.128864 ms
+[GPU] Double Thresholding took: 0.666624 ms
+[GPU] Edge Hysteresis took: 0.4936 ms (11 iterations)
+Total time taken: 3.21594 ms
+(32, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.75718 ms
+[GPU] Gradients took: 0.072608 ms
+[GPU] Non-Maximum Suppression took: 0.129952 ms
+[GPU] Double Thresholding took: 0.519168 ms
+[GPU] Edge Hysteresis took: 0.40752 ms (10 iterations)
+Total time taken: 2.88643 ms
+(32, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83165 ms
+[GPU] Gradients took: 0.084192 ms
+[GPU] Non-Maximum Suppression took: 0.14336 ms
+[GPU] Double Thresholding took: 0.573344 ms
+[GPU] Edge Hysteresis took: 0.423936 ms (10 iterations)
+Total time taken: 3.05648 ms
+(32, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77866 ms
+[GPU] Gradients took: 0.086624 ms
+[GPU] Non-Maximum Suppression took: 0.129632 ms
+[GPU] Double Thresholding took: 0.539648 ms
+[GPU] Edge Hysteresis took: 0.509952 ms (13 iterations)
+Total time taken: 3.04451 ms
+(32, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.86675 ms
+[GPU] Gradients took: 0.120832 ms
+[GPU] Non-Maximum Suppression took: 0.178176 ms
+[GPU] Double Thresholding took: 0.564224 ms
+[GPU] Edge Hysteresis took: 0.419648 ms (10 iterations)
+Total time taken: 3.14963 ms
+
+(32, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.79302 ms
+[GPU] Gradients took: 0.06656 ms
+[GPU] Non-Maximum Suppression took: 0.108544 ms
+[GPU] Double Thresholding took: 0.492544 ms
+[GPU] Edge Hysteresis took: 0.42192 ms (11 iterations)
+Total time taken: 2.88259 ms
+(32, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81213 ms
+[GPU] Gradients took: 0.078848 ms
+[GPU] Non-Maximum Suppression took: 0.135168 ms
+[GPU] Double Thresholding took: 0.541696 ms
+[GPU] Edge Hysteresis took: 0.498688 ms (13 iterations)
+Total time taken: 3.06653 ms
+(32, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.89645 ms
+[GPU] Gradients took: 0.072512 ms
+[GPU] Non-Maximum Suppression took: 0.11552 ms
+[GPU] Double Thresholding took: 0.538624 ms
+[GPU] Edge Hysteresis took: 0.491776 ms (13 iterations)
+Total time taken: 3.11488 ms
+(32, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.82886 ms
+[GPU] Gradients took: 0.073728 ms
+[GPU] Non-Maximum Suppression took: 0.121856 ms
+[GPU] Double Thresholding took: 0.543456 ms
+[GPU] Edge Hysteresis took: 0.526336 ms (14 iterations)
+Total time taken: 3.09424 ms
+(32, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.86573 ms
+[GPU] Gradients took: 0.068608 ms
+[GPU] Non-Maximum Suppression took: 0.116736 ms
+[GPU] Double Thresholding took: 0.54448 ms
+[GPU] Edge Hysteresis took: 0.406784 ms (11 iterations)
+Total time taken: 3.00234 ms
+(32, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81146 ms
+[GPU] Gradients took: 0.071328 ms
+[GPU] Non-Maximum Suppression took: 0.116384 ms
+[GPU] Double Thresholding took: 0.53248 ms
+[GPU] Edge Hysteresis took: 0.453856 ms (11 iterations)
+Total time taken: 2.9855 ms
+(32, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.79894 ms
+[GPU] Gradients took: 0.0768 ms
+[GPU] Non-Maximum Suppression took: 0.119808 ms
+[GPU] Double Thresholding took: 0.523264 ms
+[GPU] Edge Hysteresis took: 0.4752 ms (11 iterations)
+Total time taken: 2.99402 ms
+(32, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83581 ms
+[GPU] Gradients took: 0.083872 ms
+[GPU] Non-Maximum Suppression took: 0.13296 ms
+[GPU] Double Thresholding took: 0.515744 ms
+[GPU] Edge Hysteresis took: 0.565088 ms (14 iterations)
+Total time taken: 3.13347 ms
+(32, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77766 ms
+[GPU] Gradients took: 0.093184 ms
+[GPU] Non-Maximum Suppression took: 0.147456 ms
+[GPU] Double Thresholding took: 0.577248 ms
+[GPU] Edge Hysteresis took: 0.54784 ms (13 iterations)
+Total time taken: 3.14339 ms
+(32, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.93325 ms
+[GPU] Gradients took: 0.070656 ms
+[GPU] Non-Maximum Suppression took: 0.144384 ms
+[GPU] Double Thresholding took: 0.539648 ms
+[GPU] Edge Hysteresis took: 0.595904 ms (14 iterations)
+Total time taken: 3.28384 ms
+
+(32, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.86771 ms
+[GPU] Gradients took: 0.08496 ms
+[GPU] Non-Maximum Suppression took: 0.139136 ms
+[GPU] Double Thresholding took: 0.570368 ms
+[GPU] Edge Hysteresis took: 0.443072 ms (11 iterations)
+Total time taken: 3.10525 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.74298 ms
+[GPU] Gradients took: 0.081632 ms
+[GPU] Non-Maximum Suppression took: 0.12464 ms
+[GPU] Double Thresholding took: 0.556032 ms
+[GPU] Edge Hysteresis took: 0.494592 ms (13 iterations)
+Total time taken: 2.99987 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.90259 ms
+[GPU] Gradients took: 0.076704 ms
+[GPU] Non-Maximum Suppression took: 0.12688 ms
+[GPU] Double Thresholding took: 0.613376 ms
+[GPU] Edge Hysteresis took: 0.493632 ms (13 iterations)
+Total time taken: 3.21318 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.97427 ms
+[GPU] Gradients took: 0.079008 ms
+[GPU] Non-Maximum Suppression took: 0.152576 ms
+[GPU] Double Thresholding took: 0.54784 ms
+[GPU] Edge Hysteresis took: 0.511712 ms (13 iterations)
+Total time taken: 3.26541 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.85306 ms
+[GPU] Gradients took: 0.088064 ms
+[GPU] Non-Maximum Suppression took: 0.135168 ms
+[GPU] Double Thresholding took: 0.521088 ms
+[GPU] Edge Hysteresis took: 0.5264 ms (13 iterations)
+Total time taken: 3.12378 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.99571 ms
+[GPU] Gradients took: 0.083968 ms
+[GPU] Non-Maximum Suppression took: 0.128 ms
+[GPU] Double Thresholding took: 0.580608 ms
+[GPU] Edge Hysteresis took: 0.497664 ms (13 iterations)
+Total time taken: 3.28595 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.85725 ms
+[GPU] Gradients took: 0.060416 ms
+[GPU] Non-Maximum Suppression took: 0.106496 ms
+[GPU] Double Thresholding took: 0.711648 ms
+[GPU] Edge Hysteresis took: 0.57888 ms (14 iterations)
+Total time taken: 3.31469 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.63235 ms
+[GPU] Gradients took: 0.100096 ms
+[GPU] Non-Maximum Suppression took: 0.153344 ms
+[GPU] Double Thresholding took: 0.697344 ms
+[GPU] Edge Hysteresis took: 0.51936 ms (13 iterations)
+Total time taken: 4.1025 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.33472 ms
+[GPU] Gradients took: 0.067584 ms
+[GPU] Non-Maximum Suppression took: 0.13312 ms
+[GPU] Double Thresholding took: 0.611232 ms
+[GPU] Edge Hysteresis took: 0.39936 ms (10 iterations)
+Total time taken: 3.54602 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.94253 ms
+[GPU] Gradients took: 0.10752 ms
+[GPU] Non-Maximum Suppression took: 0.15872 ms
+[GPU] Double Thresholding took: 0.550912 ms
+[GPU] Edge Hysteresis took: 0.483392 ms (13 iterations)
+Total time taken: 3.24307 ms
+
+(32, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.86061 ms
+[GPU] Gradients took: 0.076384 ms
+[GPU] Non-Maximum Suppression took: 0.120416 ms
+[GPU] Double Thresholding took: 0.579264 ms
+[GPU] Edge Hysteresis took: 0.329088 ms (7 iterations)
+Total time taken: 2.96576 ms
+(32, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.84013 ms
+[GPU] Gradients took: 0.062464 ms
+[GPU] Non-Maximum Suppression took: 0.101376 ms
+[GPU] Double Thresholding took: 0.556032 ms
+[GPU] Edge Hysteresis took: 0.35328 ms (7 iterations)
+Total time taken: 2.91328 ms
+(32, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.07155 ms
+[GPU] Gradients took: 0.069248 ms
+[GPU] Non-Maximum Suppression took: 0.1184 ms
+[GPU] Double Thresholding took: 0.588672 ms
+[GPU] Edge Hysteresis took: 0.34432 ms (7 iterations)
+Total time taken: 3.19219 ms
+(32, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81248 ms
+[GPU] Gradients took: 0.05632 ms
+[GPU] Non-Maximum Suppression took: 0.101376 ms
+[GPU] Double Thresholding took: 0.5632 ms
+[GPU] Edge Hysteresis took: 0.284352 ms (7 iterations)
+Total time taken: 2.81773 ms
+(32, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.87802 ms
+[GPU] Gradients took: 0.067584 ms
+[GPU] Non-Maximum Suppression took: 0.108736 ms
+[GPU] Double Thresholding took: 0.533216 ms
+[GPU] Edge Hysteresis took: 0.328096 ms (7 iterations)
+Total time taken: 2.91565 ms
+(32, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81322 ms
+[GPU] Gradients took: 0.076704 ms
+[GPU] Non-Maximum Suppression took: 0.12688 ms
+[GPU] Double Thresholding took: 0.601952 ms
+[GPU] Edge Hysteresis took: 0.311296 ms (7 iterations)
+Total time taken: 2.93005 ms
+(32, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.0183 ms
+[GPU] Gradients took: 0.06144 ms
+[GPU] Non-Maximum Suppression took: 0.125952 ms
+[GPU] Double Thresholding took: 0.634816 ms
+[GPU] Edge Hysteresis took: 0.34 ms (7 iterations)
+Total time taken: 3.18051 ms
+(32, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.94528 ms
+[GPU] Gradients took: 0.082496 ms
+[GPU] Non-Maximum Suppression took: 0.127552 ms
+[GPU] Double Thresholding took: 0.600064 ms
+[GPU] Edge Hysteresis took: 0.279392 ms (7 iterations)
+Total time taken: 3.03478 ms
+(32, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77562 ms
+[GPU] Gradients took: 0.079872 ms
+[GPU] Non-Maximum Suppression took: 0.134144 ms
+[GPU] Double Thresholding took: 0.565216 ms
+[GPU] Edge Hysteresis took: 0.313344 ms (7 iterations)
+Total time taken: 2.86819 ms
+(32, 8) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.92819 ms
+[GPU] Gradients took: 0.055168 ms
+[GPU] Non-Maximum Suppression took: 0.100224 ms
+[GPU] Double Thresholding took: 0.608256 ms
+[GPU] Edge Hysteresis took: 0.316416 ms (7 iterations)
+Total time taken: 3.00826 ms
+
+(32, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.7848 ms
+[GPU] Gradients took: 0.06336 ms
+[GPU] Non-Maximum Suppression took: 0.10832 ms
+[GPU] Double Thresholding took: 0.5376 ms
+[GPU] Edge Hysteresis took: 0.287744 ms (7 iterations)
+Total time taken: 2.78182 ms
+(32, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.9351 ms
+[GPU] Gradients took: 0.089088 ms
+[GPU] Non-Maximum Suppression took: 0.146432 ms
+[GPU] Double Thresholding took: 0.611328 ms
+[GPU] Edge Hysteresis took: 0.322432 ms (7 iterations)
+Total time taken: 3.10438 ms
+(32, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.73866 ms
+[GPU] Gradients took: 0.060288 ms
+[GPU] Non-Maximum Suppression took: 0.101344 ms
+[GPU] Double Thresholding took: 0.535552 ms
+[GPU] Edge Hysteresis took: 0.29168 ms (7 iterations)
+Total time taken: 2.72752 ms
+(32, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.71197 ms
+[GPU] Gradients took: 0.076768 ms
+[GPU] Non-Maximum Suppression took: 0.122848 ms
+[GPU] Double Thresholding took: 0.551552 ms
+[GPU] Edge Hysteresis took: 0.277504 ms (7 iterations)
+Total time taken: 2.74064 ms
+(32, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.07235 ms
+[GPU] Gradients took: 0.065536 ms
+[GPU] Non-Maximum Suppression took: 0.123904 ms
+[GPU] Double Thresholding took: 0.585728 ms
+[GPU] Edge Hysteresis took: 0.289632 ms (7 iterations)
+Total time taken: 3.13715 ms
+(32, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.8217 ms
+[GPU] Gradients took: 0.0488 ms
+[GPU] Non-Maximum Suppression took: 0.106144 ms
+[GPU] Double Thresholding took: 0.661504 ms
+[GPU] Edge Hysteresis took: 0.43424 ms (7 iterations)
+Total time taken: 3.07238 ms
+(32, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.80429 ms
+[GPU] Gradients took: 0.077632 ms
+[GPU] Non-Maximum Suppression took: 0.12064 ms
+[GPU] Double Thresholding took: 0.536576 ms
+[GPU] Edge Hysteresis took: 0.291424 ms (7 iterations)
+Total time taken: 2.83056 ms
+(32, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.80941 ms
+[GPU] Gradients took: 0.081472 ms
+[GPU] Non-Maximum Suppression took: 0.128576 ms
+[GPU] Double Thresholding took: 0.553984 ms
+[GPU] Edge Hysteresis took: 0.344416 ms (7 iterations)
+Total time taken: 2.91786 ms
+(32, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77226 ms
+[GPU] Gradients took: 0.052224 ms
+[GPU] Non-Maximum Suppression took: 0.096256 ms
+[GPU] Double Thresholding took: 0.557952 ms
+[GPU] Edge Hysteresis took: 0.283648 ms (7 iterations)
+Total time taken: 2.76234 ms
+(32, 8) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81037 ms
+[GPU] Gradients took: 0.077824 ms
+[GPU] Non-Maximum Suppression took: 0.138368 ms
+[GPU] Double Thresholding took: 0.574464 ms
+[GPU] Edge Hysteresis took: 0.295936 ms (7 iterations)
+Total time taken: 2.89696 ms
+
+(32, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78464 ms
+[GPU] Gradients took: 0.076736 ms
+[GPU] Non-Maximum Suppression took: 0.12384 ms
+[GPU] Double Thresholding took: 0.59152 ms
+[GPU] Edge Hysteresis took: 0.318464 ms (7 iterations)
+Total time taken: 2.8952 ms
+(32, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.76813 ms
+[GPU] Gradients took: 0.065536 ms
+[GPU] Non-Maximum Suppression took: 0.120832 ms
+[GPU] Double Thresholding took: 0.583232 ms
+[GPU] Edge Hysteresis took: 0.317184 ms (7 iterations)
+Total time taken: 2.85491 ms
+(32, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.77632 ms
+[GPU] Gradients took: 0.069408 ms
+[GPU] Non-Maximum Suppression took: 0.114688 ms
+[GPU] Double Thresholding took: 0.524288 ms
+[GPU] Edge Hysteresis took: 0.277376 ms (7 iterations)
+Total time taken: 2.76208 ms
+(32, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78554 ms
+[GPU] Gradients took: 0.078848 ms
+[GPU] Non-Maximum Suppression took: 0.141504 ms
+[GPU] Double Thresholding took: 0.613088 ms
+[GPU] Edge Hysteresis took: 0.299008 ms (7 iterations)
+Total time taken: 2.91798 ms
+(32, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.36134 ms
+[GPU] Gradients took: 0.053248 ms
+[GPU] Non-Maximum Suppression took: 0.096256 ms
+[GPU] Double Thresholding took: 0.67584 ms
+[GPU] Edge Hysteresis took: 0.319488 ms (7 iterations)
+Total time taken: 3.50618 ms
+(32, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.74038 ms
+[GPU] Gradients took: 0.08496 ms
+[GPU] Non-Maximum Suppression took: 0.127968 ms
+[GPU] Double Thresholding took: 0.569344 ms
+[GPU] Edge Hysteresis took: 0.28992 ms (7 iterations)
+Total time taken: 2.81258 ms
+(32, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.85242 ms
+[GPU] Gradients took: 0.063488 ms
+[GPU] Non-Maximum Suppression took: 0.118784 ms
+[GPU] Double Thresholding took: 0.579552 ms
+[GPU] Edge Hysteresis took: 0.30304 ms (7 iterations)
+Total time taken: 2.91728 ms
+(32, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78586 ms
+[GPU] Gradients took: 0.065472 ms
+[GPU] Non-Maximum Suppression took: 0.127936 ms
+[GPU] Double Thresholding took: 0.505856 ms
+[GPU] Edge Hysteresis took: 0.298848 ms (7 iterations)
+Total time taken: 2.78397 ms
+(32, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.3808 ms
+[GPU] Gradients took: 0.06144 ms
+[GPU] Non-Maximum Suppression took: 0.118784 ms
+[GPU] Double Thresholding took: 0.5376 ms
+[GPU] Edge Hysteresis took: 0.302304 ms (7 iterations)
+Total time taken: 3.40093 ms
+(32, 8) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.41459 ms
+[GPU] Gradients took: 0.234496 ms
+[GPU] Non-Maximum Suppression took: 0.519168 ms
+[GPU] Double Thresholding took: 0.836256 ms
+[GPU] Edge Hysteresis took: 0.330752 ms (7 iterations)
+Total time taken: 4.33526 ms
+
+(32, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.87475 ms
+[GPU] Gradients took: 0.078688 ms
+[GPU] Non-Maximum Suppression took: 0.133984 ms
+[GPU] Double Thresholding took: 0.636928 ms
+[GPU] Edge Hysteresis took: 0.351232 ms (7 iterations)
+Total time taken: 3.07558 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.10432 ms
+[GPU] Gradients took: 0.075776 ms
+[GPU] Non-Maximum Suppression took: 0.126976 ms
+[GPU] Double Thresholding took: 0.538304 ms
+[GPU] Edge Hysteresis took: 0.3072 ms (7 iterations)
+Total time taken: 3.15258 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.80326 ms
+[GPU] Gradients took: 0.0816 ms
+[GPU] Non-Maximum Suppression took: 0.125632 ms
+[GPU] Double Thresholding took: 0.507008 ms
+[GPU] Edge Hysteresis took: 0.304832 ms (7 iterations)
+Total time taken: 2.82234 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.7863 ms
+[GPU] Gradients took: 0.081696 ms
+[GPU] Non-Maximum Suppression took: 0.13392 ms
+[GPU] Double Thresholding took: 0.560128 ms
+[GPU] Edge Hysteresis took: 0.411648 ms (7 iterations)
+Total time taken: 3.9737 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81037 ms
+[GPU] Gradients took: 0.077824 ms
+[GPU] Non-Maximum Suppression took: 0.131072 ms
+[GPU] Double Thresholding took: 0.599968 ms
+[GPU] Edge Hysteresis took: 0.316416 ms (7 iterations)
+Total time taken: 2.93565 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.24365 ms
+[GPU] Gradients took: 0.089088 ms
+[GPU] Non-Maximum Suppression took: 0.139264 ms
+[GPU] Double Thresholding took: 0.575488 ms
+[GPU] Edge Hysteresis took: 0.311584 ms (7 iterations)
+Total time taken: 3.35907 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.91283 ms
+[GPU] Gradients took: 0.077664 ms
+[GPU] Non-Maximum Suppression took: 0.140128 ms
+[GPU] Double Thresholding took: 0.553984 ms
+[GPU] Edge Hysteresis took: 0.32768 ms (7 iterations)
+Total time taken: 3.01229 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81354 ms
+[GPU] Gradients took: 0.080768 ms
+[GPU] Non-Maximum Suppression took: 0.127872 ms
+[GPU] Double Thresholding took: 0.574176 ms
+[GPU] Edge Hysteresis took: 0.297984 ms (7 iterations)
+Total time taken: 2.89434 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.00406 ms
+[GPU] Gradients took: 0.0768 ms
+[GPU] Non-Maximum Suppression took: 0.11776 ms
+[GPU] Double Thresholding took: 0.509824 ms
+[GPU] Edge Hysteresis took: 0.310496 ms (7 iterations)
+Total time taken: 3.01894 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.07034 ms
+[GPU] Gradients took: 0.089088 ms
+[GPU] Non-Maximum Suppression took: 0.157696 ms
+[GPU] Double Thresholding took: 0.620544 ms
+[GPU] Edge Hysteresis took: 0.370688 ms (7 iterations)
+Total time taken: 3.30835 ms
+
+(8, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.98246 ms
+[GPU] Gradients took: 0.115712 ms
+[GPU] Non-Maximum Suppression took: 0.171008 ms
+[GPU] Double Thresholding took: 0.5384 ms
+[GPU] Edge Hysteresis took: 0.237184 ms (5 iterations)
+Total time taken: 3.04477 ms
+(8, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.82784 ms
+[GPU] Gradients took: 0.071264 ms
+[GPU] Non-Maximum Suppression took: 0.117344 ms
+[GPU] Double Thresholding took: 0.58368 ms
+[GPU] Edge Hysteresis took: 0.255104 ms (5 iterations)
+Total time taken: 2.85523 ms
+(8, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.78586 ms
+[GPU] Gradients took: 0.0736 ms
+[GPU] Non-Maximum Suppression took: 0.115584 ms
+[GPU] Double Thresholding took: 0.572416 ms
+[GPU] Edge Hysteresis took: 0.256832 ms (5 iterations)
+Total time taken: 2.80429 ms
+(8, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.02854 ms
+[GPU] Gradients took: 0.072288 ms
+[GPU] Non-Maximum Suppression took: 0.114272 ms
+[GPU] Double Thresholding took: 0.509952 ms
+[GPU] Edge Hysteresis took: 0.239712 ms (5 iterations)
+Total time taken: 2.96477 ms
+(8, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.93638 ms
+[GPU] Gradients took: 0.075552 ms
+[GPU] Non-Maximum Suppression took: 0.126752 ms
+[GPU] Double Thresholding took: 0.534528 ms
+[GPU] Edge Hysteresis took: 0.235296 ms (5 iterations)
+Total time taken: 2.90851 ms
+(8, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.95686 ms
+[GPU] Gradients took: 0.057408 ms
+[GPU] Non-Maximum Suppression took: 0.1024 ms
+[GPU] Double Thresholding took: 0.57856 ms
+[GPU] Edge Hysteresis took: 0.236704 ms (5 iterations)
+Total time taken: 2.93194 ms
+(8, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.82781 ms
+[GPU] Gradients took: 0.058976 ms
+[GPU] Non-Maximum Suppression took: 0.11632 ms
+[GPU] Double Thresholding took: 0.59072 ms
+[GPU] Edge Hysteresis took: 0.263008 ms (5 iterations)
+Total time taken: 2.85683 ms
+(8, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.17571 ms
+[GPU] Gradients took: 0.067424 ms
+[GPU] Non-Maximum Suppression took: 0.112608 ms
+[GPU] Double Thresholding took: 0.580608 ms
+[GPU] Edge Hysteresis took: 0.24864 ms (5 iterations)
+Total time taken: 3.18499 ms
+(8, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83194 ms
+[GPU] Gradients took: 0.059392 ms
+[GPU] Non-Maximum Suppression took: 0.104448 ms
+[GPU] Double Thresholding took: 0.524288 ms
+[GPU] Edge Hysteresis took: 0.237984 ms (5 iterations)
+Total time taken: 2.75805 ms
+(8, 32) 32 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.75514 ms
+[GPU] Gradients took: 0.072704 ms
+[GPU] Non-Maximum Suppression took: 0.118784 ms
+[GPU] Double Thresholding took: 0.557056 ms
+[GPU] Edge Hysteresis took: 0.246912 ms (5 iterations)
+Total time taken: 2.75059 ms
+
+(8, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.75411 ms
+[GPU] Gradients took: 0.072704 ms
+[GPU] Non-Maximum Suppression took: 0.115712 ms
+[GPU] Double Thresholding took: 0.503488 ms
+[GPU] Edge Hysteresis took: 0.224352 ms (5 iterations)
+Total time taken: 2.67037 ms
+(8, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.02138 ms
+[GPU] Gradients took: 0.075776 ms
+[GPU] Non-Maximum Suppression took: 0.123904 ms
+[GPU] Double Thresholding took: 0.586752 ms
+[GPU] Edge Hysteresis took: 0.28176 ms (5 iterations)
+Total time taken: 3.08957 ms
+(8, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.74694 ms
+[GPU] Gradients took: 0.071744 ms
+[GPU] Non-Maximum Suppression took: 0.11264 ms
+[GPU] Double Thresholding took: 0.551552 ms
+[GPU] Edge Hysteresis took: 0.258848 ms (5 iterations)
+Total time taken: 2.74173 ms
+(8, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.88586 ms
+[GPU] Gradients took: 0.083968 ms
+[GPU] Non-Maximum Suppression took: 0.136192 ms
+[GPU] Double Thresholding took: 0.620544 ms
+[GPU] Edge Hysteresis took: 0.260224 ms (5 iterations)
+Total time taken: 2.98678 ms
+(8, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.04186 ms
+[GPU] Gradients took: 0.058368 ms
+[GPU] Non-Maximum Suppression took: 0.106496 ms
+[GPU] Double Thresholding took: 0.730112 ms
+[GPU] Edge Hysteresis took: 0.292256 ms (5 iterations)
+Total time taken: 3.22909 ms
+(8, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.82374 ms
+[GPU] Gradients took: 0.077824 ms
+[GPU] Non-Maximum Suppression took: 0.124992 ms
+[GPU] Double Thresholding took: 0.672768 ms
+[GPU] Edge Hysteresis took: 0.248992 ms (5 iterations)
+Total time taken: 2.94832 ms
+(8, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.98858 ms
+[GPU] Gradients took: 0.0768 ms
+[GPU] Non-Maximum Suppression took: 0.135168 ms
+[GPU] Double Thresholding took: 0.557888 ms
+[GPU] Edge Hysteresis took: 0.252288 ms (5 iterations)
+Total time taken: 3.01072 ms
+(8, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.04877 ms
+[GPU] Gradients took: 0.062464 ms
+[GPU] Non-Maximum Suppression took: 0.128 ms
+[GPU] Double Thresholding took: 0.58528 ms
+[GPU] Edge Hysteresis took: 0.268704 ms (5 iterations)
+Total time taken: 3.09322 ms
+(8, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.7441 ms
+[GPU] Gradients took: 0.059328 ms
+[GPU] Non-Maximum Suppression took: 0.124864 ms
+[GPU] Double Thresholding took: 0.545792 ms
+[GPU] Edge Hysteresis took: 0.236544 ms (5 iterations)
+Total time taken: 3.71062 ms
+(8, 32) 128 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.06131 ms
+[GPU] Gradients took: 0.061056 ms
+[GPU] Non-Maximum Suppression took: 0.107136 ms
+[GPU] Double Thresholding took: 0.53648 ms
+[GPU] Edge Hysteresis took: 0.24064 ms (5 iterations)
+Total time taken: 3.00662 ms
+
+(8, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.81334 ms
+[GPU] Gradients took: 0.070336 ms
+[GPU] Non-Maximum Suppression took: 0.113344 ms
+[GPU] Double Thresholding took: 0.621568 ms
+[GPU] Edge Hysteresis took: 0.296672 ms (5 iterations)
+Total time taken: 2.91526 ms
+(8, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.96301 ms
+[GPU] Gradients took: 0.05632 ms
+[GPU] Non-Maximum Suppression took: 0.1024 ms
+[GPU] Double Thresholding took: 0.533504 ms
+[GPU] Edge Hysteresis took: 0.232576 ms (5 iterations)
+Total time taken: 2.88781 ms
+(8, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.07155 ms
+[GPU] Gradients took: 0.145408 ms
+[GPU] Non-Maximum Suppression took: 0.211968 ms
+[GPU] Double Thresholding took: 0.656384 ms
+[GPU] Edge Hysteresis took: 0.247872 ms (5 iterations)
+Total time taken: 3.33318 ms
+(8, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.08282 ms
+[GPU] Gradients took: 0.06144 ms
+[GPU] Non-Maximum Suppression took: 0.101376 ms
+[GPU] Double Thresholding took: 0.523264 ms
+[GPU] Edge Hysteresis took: 0.23872 ms (5 iterations)
+Total time taken: 3.00762 ms
+(8, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83562 ms
+[GPU] Gradients took: 0.062432 ms
+[GPU] Non-Maximum Suppression took: 0.106464 ms
+[GPU] Double Thresholding took: 0.549888 ms
+[GPU] Edge Hysteresis took: 0.255168 ms (5 iterations)
+Total time taken: 2.80957 ms
+(8, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.86531 ms
+[GPU] Gradients took: 0.080896 ms
+[GPU] Non-Maximum Suppression took: 0.132096 ms
+[GPU] Double Thresholding took: 0.562176 ms
+[GPU] Edge Hysteresis took: 0.239616 ms (5 iterations)
+Total time taken: 2.8801 ms
+(8, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.88707 ms
+[GPU] Gradients took: 0.072544 ms
+[GPU] Non-Maximum Suppression took: 0.130784 ms
+[GPU] Double Thresholding took: 0.569312 ms
+[GPU] Edge Hysteresis took: 0.258336 ms (5 iterations)
+Total time taken: 2.91805 ms
+(8, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.83482 ms
+[GPU] Gradients took: 0.076672 ms
+[GPU] Non-Maximum Suppression took: 0.122752 ms
+[GPU] Double Thresholding took: 0.547776 ms
+[GPU] Edge Hysteresis took: 0.256 ms (5 iterations)
+Total time taken: 2.83802 ms
+(8, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.80618 ms
+[GPU] Gradients took: 0.06848 ms
+[GPU] Non-Maximum Suppression took: 0.12992 ms
+[GPU] Double Thresholding took: 0.618272 ms
+[GPU] Edge Hysteresis took: 0.26192 ms (5 iterations)
+Total time taken: 2.88477 ms
+(8, 32) 256 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.61427 ms
+[GPU] Gradients took: 0.060416 ms
+[GPU] Non-Maximum Suppression took: 0.151552 ms
+[GPU] Double Thresholding took: 0.620544 ms
+[GPU] Edge Hysteresis took: 0.229088 ms (5 iterations)
+Total time taken: 3.67587 ms
+
+(8, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.70976 ms
+[GPU] Gradients took: 0.08064 ms
+[GPU] Non-Maximum Suppression took: 0.13696 ms
+[GPU] Double Thresholding took: 0.603136 ms
+[GPU] Edge Hysteresis took: 0.25152 ms (5 iterations)
+Total time taken: 2.78202 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.8903 ms
+[GPU] Gradients took: 0.076448 ms
+[GPU] Non-Maximum Suppression took: 0.122528 ms
+[GPU] Double Thresholding took: 0.60416 ms
+[GPU] Edge Hysteresis took: 0.236544 ms (5 iterations)
+Total time taken: 2.92998 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.8217 ms
+[GPU] Gradients took: 0.080896 ms
+[GPU] Non-Maximum Suppression took: 0.126976 ms
+[GPU] Double Thresholding took: 0.54896 ms
+[GPU] Edge Hysteresis took: 0.240864 ms (5 iterations)
+Total time taken: 2.81939 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.7312 ms
+[GPU] Gradients took: 0.082944 ms
+[GPU] Non-Maximum Suppression took: 0.137216 ms
+[GPU] Double Thresholding took: 0.591904 ms
+[GPU] Edge Hysteresis took: 0.355712 ms (5 iterations)
+Total time taken: 2.89898 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.87802 ms
+[GPU] Gradients took: 0.069504 ms
+[GPU] Non-Maximum Suppression took: 0.114752 ms
+[GPU] Double Thresholding took: 0.59904 ms
+[GPU] Edge Hysteresis took: 0.273696 ms (5 iterations)
+Total time taken: 2.93501 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.96483 ms
+[GPU] Gradients took: 0.061088 ms
+[GPU] Non-Maximum Suppression took: 0.102048 ms
+[GPU] Double Thresholding took: 0.498464 ms
+[GPU] Edge Hysteresis took: 0.247488 ms (5 iterations)
+Total time taken: 2.87392 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.84832 ms
+[GPU] Gradients took: 0.071264 ms
+[GPU] Non-Maximum Suppression took: 0.151136 ms
+[GPU] Double Thresholding took: 0.533376 ms
+[GPU] Edge Hysteresis took: 0.25808 ms (5 iterations)
+Total time taken: 2.86218 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.2569 ms
+[GPU] Gradients took: 0.085792 ms
+[GPU] Non-Maximum Suppression took: 0.15872 ms
+[GPU] Double Thresholding took: 0.73936 ms
+[GPU] Edge Hysteresis took: 0.28592 ms (5 iterations)
+Total time taken: 3.52669 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 2.02547 ms
+[GPU] Gradients took: 0.053248 ms
+[GPU] Non-Maximum Suppression took: 0.100352 ms
+[GPU] Double Thresholding took: 0.556832 ms
+[GPU] Edge Hysteresis took: 0.243936 ms (5 iterations)
+Total time taken: 2.97984 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 4070
+[GPU] Gaussian Blur took: 1.82784 ms
+[GPU] Gradients took: 0.077728 ms
+[GPU] Non-Maximum Suppression took: 0.135072 ms
+[GPU] Double Thresholding took: 0.585728 ms
+[GPU] Edge Hysteresis took: 0.309696 ms (5 iterations)
+Total time taken: 2.93606 ms
+

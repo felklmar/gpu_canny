@@ -1,0 +1,77 @@
+[CPU] Gaussian Blur took: 633.792 ms
+[CPU] Compute Gradients took: 1047.98 ms
+[CPU] Non-Max Suppression took: 282.374 ms
+[CPU] Double Thresholding took: 109.284 ms
+[CPU] Edge Hysteresis took: 95.9456 ms
+Total time taken: 2169.37 ms
+
+[CPU] Gaussian Blur took: 621.492 ms
+[CPU] Compute Gradients took: 991.344 ms
+[CPU] Non-Max Suppression took: 281.225 ms
+[CPU] Double Thresholding took: 105.364 ms
+[CPU] Edge Hysteresis took: 92.9382 ms
+Total time taken: 2092.36 ms
+
+[CPU] Gaussian Blur took: 635.997 ms
+[CPU] Compute Gradients took: 1019.84 ms
+[CPU] Non-Max Suppression took: 287.165 ms
+[CPU] Double Thresholding took: 105.616 ms
+[CPU] Edge Hysteresis took: 93.1666 ms
+Total time taken: 2141.79 ms
+
+[CPU] Gaussian Blur took: 666.71 ms
+[CPU] Compute Gradients took: 1035.74 ms
+[CPU] Non-Max Suppression took: 283.858 ms
+[CPU] Double Thresholding took: 104.716 ms
+[CPU] Edge Hysteresis took: 92.6342 ms
+Total time taken: 2183.66 ms
+
+[CPU] Gaussian Blur took: 633.605 ms
+[CPU] Compute Gradients took: 1018.04 ms
+[CPU] Non-Max Suppression took: 282.364 ms
+[CPU] Double Thresholding took: 104.86 ms
+[CPU] Edge Hysteresis took: 91.4832 ms
+Total time taken: 2130.36 ms
+
+[CPU] Gaussian Blur took: 637.024 ms
+[CPU] Compute Gradients took: 996.308 ms
+[CPU] Non-Max Suppression took: 282.93 ms
+[CPU] Double Thresholding took: 105.599 ms
+[CPU] Edge Hysteresis took: 92.2271 ms
+Total time taken: 2114.09 ms
+
+[CPU] Gaussian Blur took: 632.951 ms
+[CPU] Compute Gradients took: 1012.02 ms
+[CPU] Non-Max Suppression took: 281.657 ms
+[CPU] Double Thresholding took: 104.871 ms
+[CPU] Edge Hysteresis took: 91.8478 ms
+Total time taken: 2123.35 ms
+
+[CPU] Gaussian Blur took: 627.143 ms
+[CPU] Compute Gradients took: 980.572 ms
+[CPU] Non-Max Suppression took: 277.609 ms
+[CPU] Double Thresholding took: 103.558 ms
+[CPU] Edge Hysteresis took: 90.4202 ms
+Total time taken: 2079.3 ms
+
+[CPU] Gaussian Blur took: 620.45 ms
+[CPU] Compute Gradients took: 1005.06 ms
+[CPU] Non-Max Suppression took: 290.181 ms
+[CPU] Double Thresholding took: 106.353 ms
+[CPU] Edge Hysteresis took: 92.6518 ms
+Total time taken: 2114.69 ms
+
+[CPU] Gaussian Blur took: 632.19 ms
+[CPU] Compute Gradients took: 998.194 ms
+[CPU] Non-Max Suppression took: 285.837 ms
+[CPU] Double Thresholding took: 104.301 ms
+[CPU] Edge Hysteresis took: 93.8776 ms
+Total time taken: 2114.4 ms
+
+MEAN:
+Gaussian Blur       : 634.135 ms
+Compute Gradients   : 1010.510 ms
+Non-Max Suppression : 283.520 ms
+Double Thresholding : 105.452 ms
+Edge Hysteresis     : 92.719 ms
+Total time taken    : 2126.337 ms
