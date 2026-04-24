@@ -1,0 +1,1704 @@
+(8, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.82918 ms
+[GPU] Gradients took: 1.12742 ms
+[GPU] Non-Maximum Suppression took: 1.74387 ms
+[GPU] Double Thresholding took: 1.536 ms
+[GPU] Edge Hysteresis took: 23.9995 ms (32 iterations)
+Total time taken: 33.236 ms
+(8, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.33606 ms
+[GPU] Gradients took: 1.16838 ms
+[GPU] Non-Maximum Suppression took: 1.80838 ms
+[GPU] Double Thresholding took: 1.62918 ms
+[GPU] Edge Hysteresis took: 25.5089 ms (32 iterations)
+Total time taken: 35.4509 ms
+(8, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.0217 ms
+[GPU] Gradients took: 1.35987 ms
+[GPU] Non-Maximum Suppression took: 2.08282 ms
+[GPU] Double Thresholding took: 1.7705 ms
+[GPU] Edge Hysteresis took: 25.1525 ms (31 iterations)
+Total time taken: 35.3874 ms
+(8, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.46611 ms
+[GPU] Gradients took: 1.08749 ms
+[GPU] Non-Maximum Suppression took: 1.67936 ms
+[GPU] Double Thresholding took: 1.54522 ms
+[GPU] Edge Hysteresis took: 21.5357 ms (29 iterations)
+Total time taken: 31.3139 ms
+(8, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.56134 ms
+[GPU] Gradients took: 1.37011 ms
+[GPU] Non-Maximum Suppression took: 2.10125 ms
+[GPU] Double Thresholding took: 1.84013 ms
+[GPU] Edge Hysteresis took: 27.2681 ms (32 iterations)
+Total time taken: 38.1409 ms
+(8, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.78253 ms
+[GPU] Gradients took: 1.39059 ms
+[GPU] Non-Maximum Suppression took: 2.14426 ms
+[GPU] Double Thresholding took: 1.85651 ms
+[GPU] Edge Hysteresis took: 25.5959 ms (31 iterations)
+Total time taken: 36.7698 ms
+(8, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.4569 ms
+[GPU] Gradients took: 1.37523 ms
+[GPU] Non-Maximum Suppression took: 2.11763 ms
+[GPU] Double Thresholding took: 1.8391 ms
+[GPU] Edge Hysteresis took: 26.7244 ms (32 iterations)
+Total time taken: 37.5132 ms
+(8, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.21523 ms
+[GPU] Gradients took: 1.36806 ms
+[GPU] Non-Maximum Suppression took: 2.09408 ms
+[GPU] Double Thresholding took: 1.80736 ms
+[GPU] Edge Hysteresis took: 25.812 ms (31 iterations)
+Total time taken: 36.2967 ms
+(8, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.11693 ms
+[GPU] Gradients took: 1.08544 ms
+[GPU] Non-Maximum Suppression took: 1.67526 ms
+[GPU] Double Thresholding took: 1.49299 ms
+[GPU] Edge Hysteresis took: 22.4358 ms (31 iterations)
+Total time taken: 31.8065 ms
+(8, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.60742 ms
+[GPU] Gradients took: 1.3271 ms
+[GPU] Non-Maximum Suppression took: 2.05517 ms
+[GPU] Double Thresholding took: 1.79917 ms
+[GPU] Edge Hysteresis took: 25.5201 ms (31 iterations)
+Total time taken: 36.309 ms
+
+(8, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 6.6601 ms
+[GPU] Gradients took: 1.16736 ms
+[GPU] Non-Maximum Suppression took: 1.80736 ms
+[GPU] Double Thresholding took: 0.763904 ms
+[GPU] Edge Hysteresis took: 24.6282 ms (31 iterations)
+Total time taken: 35.0269 ms
+(8, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.86605 ms
+[GPU] Gradients took: 1.12742 ms
+[GPU] Non-Maximum Suppression took: 1.74592 ms
+[GPU] Double Thresholding took: 0.669696 ms
+[GPU] Edge Hysteresis took: 22.4788 ms (31 iterations)
+Total time taken: 30.8879 ms
+(8, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.60435 ms
+[GPU] Gradients took: 1.37523 ms
+[GPU] Non-Maximum Suppression took: 2.10432 ms
+[GPU] Double Thresholding took: 0.790528 ms
+[GPU] Edge Hysteresis took: 25.6215 ms (32 iterations)
+Total time taken: 35.4959 ms
+(8, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.1712 ms
+[GPU] Gradients took: 1.17146 ms
+[GPU] Non-Maximum Suppression took: 1.81146 ms
+[GPU] Double Thresholding took: 0.6912 ms
+[GPU] Edge Hysteresis took: 25.1535 ms (32 iterations)
+Total time taken: 33.9988 ms
+(8, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.19168 ms
+[GPU] Gradients took: 1.36294 ms
+[GPU] Non-Maximum Suppression took: 2.08691 ms
+[GPU] Double Thresholding took: 0.763904 ms
+[GPU] Edge Hysteresis took: 24.5012 ms (31 iterations)
+Total time taken: 33.9067 ms
+(8, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.34938 ms
+[GPU] Gradients took: 1.36192 ms
+[GPU] Non-Maximum Suppression took: 2.08589 ms
+[GPU] Double Thresholding took: 0.74752 ms
+[GPU] Edge Hysteresis took: 25.173 ms (32 iterations)
+Total time taken: 34.7177 ms
+(8, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.99917 ms
+[GPU] Gradients took: 1.11411 ms
+[GPU] Non-Maximum Suppression took: 1.72134 ms
+[GPU] Double Thresholding took: 0.67072 ms
+[GPU] Edge Hysteresis took: 22.1501 ms (31 iterations)
+Total time taken: 30.6555 ms
+(8, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.28282 ms
+[GPU] Gradients took: 1.36294 ms
+[GPU] Non-Maximum Suppression took: 2.08589 ms
+[GPU] Double Thresholding took: 0.738304 ms
+[GPU] Edge Hysteresis took: 25.0941 ms (31 iterations)
+Total time taken: 34.5641 ms
+(8, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.29715 ms
+[GPU] Gradients took: 1.36294 ms
+[GPU] Non-Maximum Suppression took: 2.08589 ms
+[GPU] Double Thresholding took: 0.756736 ms
+[GPU] Edge Hysteresis took: 25.3184 ms (32 iterations)
+Total time taken: 34.8211 ms
+(8, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.72928 ms
+[GPU] Gradients took: 1.38342 ms
+[GPU] Non-Maximum Suppression took: 2.11149 ms
+[GPU] Double Thresholding took: 0.755712 ms
+[GPU] Edge Hysteresis took: 24.7101 ms (31 iterations)
+Total time taken: 34.69 ms
+
+(8, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.93306 ms
+[GPU] Gradients took: 1.3609 ms
+[GPU] Non-Maximum Suppression took: 2.08486 ms
+[GPU] Double Thresholding took: 0.595968 ms
+[GPU] Edge Hysteresis took: 24.447 ms (32 iterations)
+Total time taken: 34.4218 ms
+(8, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.65555 ms
+[GPU] Gradients took: 1.31379 ms
+[GPU] Non-Maximum Suppression took: 2.03674 ms
+[GPU] Double Thresholding took: 0.618496 ms
+[GPU] Edge Hysteresis took: 24.7316 ms (32 iterations)
+Total time taken: 34.3562 ms
+(8, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.34323 ms
+[GPU] Gradients took: 1.3609 ms
+[GPU] Non-Maximum Suppression took: 2.08486 ms
+[GPU] Double Thresholding took: 0.616448 ms
+[GPU] Edge Hysteresis took: 24.6272 ms (32 iterations)
+Total time taken: 34.0326 ms
+(8, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.46918 ms
+[GPU] Gradients took: 1.04653 ms
+[GPU] Non-Maximum Suppression took: 1.62099 ms
+[GPU] Double Thresholding took: 0.539648 ms
+[GPU] Edge Hysteresis took: 21.3934 ms (32 iterations)
+Total time taken: 30.0698 ms
+(8, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.36781 ms
+[GPU] Gradients took: 1.36294 ms
+[GPU] Non-Maximum Suppression took: 2.09101 ms
+[GPU] Double Thresholding took: 0.621568 ms
+[GPU] Edge Hysteresis took: 24.9436 ms (32 iterations)
+Total time taken: 34.3869 ms
+(8, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.55782 ms
+[GPU] Gradients took: 1.09056 ms
+[GPU] Non-Maximum Suppression took: 1.68755 ms
+[GPU] Double Thresholding took: 0.546816 ms
+[GPU] Edge Hysteresis took: 21.9412 ms (32 iterations)
+Total time taken: 29.824 ms
+(8, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.60435 ms
+[GPU] Gradients took: 1.36192 ms
+[GPU] Non-Maximum Suppression took: 2.08486 ms
+[GPU] Double Thresholding took: 0.616448 ms
+[GPU] Edge Hysteresis took: 23.9565 ms (31 iterations)
+Total time taken: 33.6241 ms
+(8, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.33504 ms
+[GPU] Gradients took: 1.37421 ms
+[GPU] Non-Maximum Suppression took: 2.09818 ms
+[GPU] Double Thresholding took: 0.60416 ms
+[GPU] Edge Hysteresis took: 24.0497 ms (31 iterations)
+Total time taken: 33.4613 ms
+(8, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.24595 ms
+[GPU] Gradients took: 1.09056 ms
+[GPU] Non-Maximum Suppression took: 1.6937 ms
+[GPU] Double Thresholding took: 0.538624 ms
+[GPU] Edge Hysteresis took: 21.377 ms (31 iterations)
+Total time taken: 29.9459 ms
+(8, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.3801 ms
+[GPU] Gradients took: 1.36499 ms
+[GPU] Non-Maximum Suppression took: 2.08896 ms
+[GPU] Double Thresholding took: 0.60928 ms
+[GPU] Edge Hysteresis took: 25.1996 ms (31 iterations)
+Total time taken: 34.6429 ms
+
+(8, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.40774 ms
+[GPU] Gradients took: 1.35987 ms
+[GPU] Non-Maximum Suppression took: 2.08282 ms
+[GPU] Double Thresholding took: 0.617472 ms
+[GPU] Edge Hysteresis took: 23.9555 ms (31 iterations)
+Total time taken: 33.4234 ms
+(8, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.992 ms
+[GPU] Gradients took: 1.10182 ms
+[GPU] Non-Maximum Suppression took: 1.6896 ms
+[GPU] Double Thresholding took: 0.55296 ms
+[GPU] Edge Hysteresis took: 21.9208 ms (32 iterations)
+Total time taken: 30.2572 ms
+(8, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.89779 ms
+[GPU] Gradients took: 1.35987 ms
+[GPU] Non-Maximum Suppression took: 2.08384 ms
+[GPU] Double Thresholding took: 0.612352 ms
+[GPU] Edge Hysteresis took: 24.6077 ms (32 iterations)
+Total time taken: 33.5616 ms
+(8, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.64589 ms
+[GPU] Gradients took: 1.09158 ms
+[GPU] Non-Maximum Suppression took: 1.68858 ms
+[GPU] Double Thresholding took: 0.560128 ms
+[GPU] Edge Hysteresis took: 21.4764 ms (31 iterations)
+Total time taken: 29.4625 ms
+(8, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.84659 ms
+[GPU] Gradients took: 1.36602 ms
+[GPU] Non-Maximum Suppression took: 2.09101 ms
+[GPU] Double Thresholding took: 0.623616 ms
+[GPU] Edge Hysteresis took: 24.7071 ms (32 iterations)
+Total time taken: 33.6343 ms
+(8, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.19373 ms
+[GPU] Gradients took: 1.35885 ms
+[GPU] Non-Maximum Suppression took: 2.08282 ms
+[GPU] Double Thresholding took: 0.608256 ms
+[GPU] Edge Hysteresis took: 23.1076 ms (30 iterations)
+Total time taken: 32.3512 ms
+(8, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.30022 ms
+[GPU] Gradients took: 1.11104 ms
+[GPU] Non-Maximum Suppression took: 1.72544 ms
+[GPU] Double Thresholding took: 0.5632 ms
+[GPU] Edge Hysteresis took: 21.8296 ms (31 iterations)
+Total time taken: 30.5295 ms
+(8, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.21626 ms
+[GPU] Gradients took: 1.3609 ms
+[GPU] Non-Maximum Suppression took: 2.08589 ms
+[GPU] Double Thresholding took: 0.617472 ms
+[GPU] Edge Hysteresis took: 25.4996 ms (32 iterations)
+Total time taken: 34.7802 ms
+(8, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.68582 ms
+[GPU] Gradients took: 1.05574 ms
+[GPU] Non-Maximum Suppression took: 1.62509 ms
+[GPU] Double Thresholding took: 0.545792 ms
+[GPU] Edge Hysteresis took: 21.4835 ms (32 iterations)
+Total time taken: 29.396 ms
+(8, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.64531 ms
+[GPU] Gradients took: 1.3609 ms
+[GPU] Non-Maximum Suppression took: 2.08384 ms
+[GPU] Double Thresholding took: 0.62464 ms
+[GPU] Edge Hysteresis took: 24.6395 ms (32 iterations)
+Total time taken: 34.3542 ms
+
+(15, 15) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 6.16038 ms
+[GPU] Gradients took: 1.27181 ms
+[GPU] Non-Maximum Suppression took: 1.81555 ms
+[GPU] Double Thresholding took: 1.56262 ms
+[GPU] Edge Hysteresis took: 11.607 ms (17 iterations)
+Total time taken: 22.4174 ms
+(15, 15) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.18144 ms
+[GPU] Gradients took: 1.5319 ms
+[GPU] Non-Maximum Suppression took: 2.15654 ms
+[GPU] Double Thresholding took: 1.77357 ms
+[GPU] Edge Hysteresis took: 12.5655 ms (18 iterations)
+Total time taken: 23.209 ms
+(15, 15) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.6592 ms
+[GPU] Gradients took: 1.26669 ms
+[GPU] Non-Maximum Suppression took: 1.83091 ms
+[GPU] Double Thresholding took: 1.55648 ms
+[GPU] Edge Hysteresis took: 11.4606 ms (17 iterations)
+Total time taken: 20.7739 ms
+(15, 15) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.00838 ms
+[GPU] Gradients took: 1.53293 ms
+[GPU] Non-Maximum Suppression took: 2.1545 ms
+[GPU] Double Thresholding took: 1.78176 ms
+[GPU] Edge Hysteresis took: 12.3955 ms (17 iterations)
+Total time taken: 22.8731 ms
+(15, 15) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.85888 ms
+[GPU] Gradients took: 1.22982 ms
+[GPU] Non-Maximum Suppression took: 1.75821 ms
+[GPU] Double Thresholding took: 1.49299 ms
+[GPU] Edge Hysteresis took: 11.564 ms (17 iterations)
+Total time taken: 20.9039 ms
+(15, 15) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.87936 ms
+[GPU] Gradients took: 1.53498 ms
+[GPU] Non-Maximum Suppression took: 2.15757 ms
+[GPU] Double Thresholding took: 1.77152 ms
+[GPU] Edge Hysteresis took: 12.2788 ms (17 iterations)
+Total time taken: 22.6222 ms
+(15, 15) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.8087 ms
+[GPU] Gradients took: 1.24826 ms
+[GPU] Non-Maximum Suppression took: 1.78483 ms
+[GPU] Double Thresholding took: 1.53907 ms
+[GPU] Edge Hysteresis took: 11.604 ms (17 iterations)
+Total time taken: 20.9848 ms
+(15, 15) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 6.33754 ms
+[GPU] Gradients took: 1.53702 ms
+[GPU] Non-Maximum Suppression took: 2.16064 ms
+[GPU] Double Thresholding took: 1.78381 ms
+[GPU] Edge Hysteresis took: 12.3884 ms (17 iterations)
+Total time taken: 24.2074 ms
+(15, 15) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.93568 ms
+[GPU] Gradients took: 1.23597 ms
+[GPU] Non-Maximum Suppression took: 1.7705 ms
+[GPU] Double Thresholding took: 1.49811 ms
+[GPU] Edge Hysteresis took: 11.5886 ms (18 iterations)
+Total time taken: 21.0289 ms
+(15, 15) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.09338 ms
+[GPU] Gradients took: 1.55034 ms
+[GPU] Non-Maximum Suppression took: 2.17088 ms
+[GPU] Double Thresholding took: 1.77562 ms
+[GPU] Edge Hysteresis took: 12.8973 ms (18 iterations)
+Total time taken: 23.4875 ms
+
+(15, 15) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.46464 ms
+[GPU] Gradients took: 1.24723 ms
+[GPU] Non-Maximum Suppression took: 1.78586 ms
+[GPU] Double Thresholding took: 0.664576 ms
+[GPU] Edge Hysteresis took: 10.5175 ms (17 iterations)
+Total time taken: 18.6798 ms
+(15, 15) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.1456 ms
+[GPU] Gradients took: 1.536 ms
+[GPU] Non-Maximum Suppression took: 2.16064 ms
+[GPU] Double Thresholding took: 0.751616 ms
+[GPU] Edge Hysteresis took: 11.7524 ms (18 iterations)
+Total time taken: 21.3463 ms
+(15, 15) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.22752 ms
+[GPU] Gradients took: 1.54214 ms
+[GPU] Non-Maximum Suppression took: 2.16371 ms
+[GPU] Double Thresholding took: 0.733184 ms
+[GPU] Edge Hysteresis took: 11.2732 ms (17 iterations)
+Total time taken: 20.9398 ms
+(15, 15) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.12922 ms
+[GPU] Gradients took: 1.53498 ms
+[GPU] Non-Maximum Suppression took: 2.15757 ms
+[GPU] Double Thresholding took: 0.7424 ms
+[GPU] Edge Hysteresis took: 11.5876 ms (18 iterations)
+Total time taken: 21.1517 ms
+(15, 15) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.21011 ms
+[GPU] Gradients took: 1.53395 ms
+[GPU] Non-Maximum Suppression took: 2.15552 ms
+[GPU] Double Thresholding took: 0.753664 ms
+[GPU] Edge Hysteresis took: 10.8196 ms (17 iterations)
+Total time taken: 20.4728 ms
+(15, 15) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.00326 ms
+[GPU] Gradients took: 1.5319 ms
+[GPU] Non-Maximum Suppression took: 2.15654 ms
+[GPU] Double Thresholding took: 0.738304 ms
+[GPU] Edge Hysteresis took: 11.1636 ms (17 iterations)
+Total time taken: 20.5937 ms
+(15, 15) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.51174 ms
+[GPU] Gradients took: 1.21242 ms
+[GPU] Non-Maximum Suppression took: 1.73568 ms
+[GPU] Double Thresholding took: 0.635904 ms
+[GPU] Edge Hysteresis took: 10.6424 ms (17 iterations)
+Total time taken: 18.7382 ms
+(15, 15) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.21011 ms
+[GPU] Gradients took: 1.53498 ms
+[GPU] Non-Maximum Suppression took: 2.16474 ms
+[GPU] Double Thresholding took: 0.76288 ms
+[GPU] Edge Hysteresis took: 11.6326 ms (18 iterations)
+Total time taken: 21.3053 ms
+(15, 15) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.94797 ms
+[GPU] Gradients took: 1.5319 ms
+[GPU] Non-Maximum Suppression took: 2.15552 ms
+[GPU] Double Thresholding took: 0.746496 ms
+[GPU] Edge Hysteresis took: 11.177 ms (17 iterations)
+Total time taken: 20.5588 ms
+(15, 15) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.11898 ms
+[GPU] Gradients took: 1.53805 ms
+[GPU] Non-Maximum Suppression took: 2.16576 ms
+[GPU] Double Thresholding took: 0.748544 ms
+[GPU] Edge Hysteresis took: 11.1094 ms (17 iterations)
+Total time taken: 20.6807 ms
+
+(15, 15) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.08928 ms
+[GPU] Gradients took: 1.40186 ms
+[GPU] Non-Maximum Suppression took: 1.99168 ms
+[GPU] Double Thresholding took: 0.602112 ms
+[GPU] Edge Hysteresis took: 11.0479 ms (17 iterations)
+Total time taken: 20.1329 ms
+(15, 15) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.3248 ms
+[GPU] Gradients took: 1.53293 ms
+[GPU] Non-Maximum Suppression took: 2.15859 ms
+[GPU] Double Thresholding took: 0.602112 ms
+[GPU] Edge Hysteresis took: 11.0572 ms (17 iterations)
+Total time taken: 20.6756 ms
+(15, 15) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.05446 ms
+[GPU] Gradients took: 1.31072 ms
+[GPU] Non-Maximum Suppression took: 1.86573 ms
+[GPU] Double Thresholding took: 0.56832 ms
+[GPU] Edge Hysteresis took: 10.5789 ms (17 iterations)
+Total time taken: 19.3782 ms
+(15, 15) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.12205 ms
+[GPU] Gradients took: 1.53293 ms
+[GPU] Non-Maximum Suppression took: 2.1545 ms
+[GPU] Double Thresholding took: 0.611328 ms
+[GPU] Edge Hysteresis took: 11.6777 ms (18 iterations)
+Total time taken: 21.0985 ms
+(15, 15) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.00941 ms
+[GPU] Gradients took: 1.30765 ms
+[GPU] Non-Maximum Suppression took: 1.8647 ms
+[GPU] Double Thresholding took: 0.582656 ms
+[GPU] Edge Hysteresis took: 11.0551 ms (17 iterations)
+Total time taken: 19.8195 ms
+(15, 15) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.1497 ms
+[GPU] Gradients took: 1.53498 ms
+[GPU] Non-Maximum Suppression took: 2.15859 ms
+[GPU] Double Thresholding took: 0.625664 ms
+[GPU] Edge Hysteresis took: 11.1299 ms (17 iterations)
+Total time taken: 20.5988 ms
+(15, 15) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.43846 ms
+[GPU] Gradients took: 1.53395 ms
+[GPU] Non-Maximum Suppression took: 2.16166 ms
+[GPU] Double Thresholding took: 0.622592 ms
+[GPU] Edge Hysteresis took: 11.351 ms (17 iterations)
+Total time taken: 21.1077 ms
+(15, 15) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.34835 ms
+[GPU] Gradients took: 1.54214 ms
+[GPU] Non-Maximum Suppression took: 2.16269 ms
+[GPU] Double Thresholding took: 0.610304 ms
+[GPU] Edge Hysteresis took: 11.5046 ms (17 iterations)
+Total time taken: 21.1681 ms
+(15, 15) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.93363 ms
+[GPU] Gradients took: 1.21037 ms
+[GPU] Non-Maximum Suppression took: 1.73363 ms
+[GPU] Double Thresholding took: 0.539648 ms
+[GPU] Edge Hysteresis took: 10.7602 ms (17 iterations)
+Total time taken: 19.1775 ms
+(15, 15) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.34733 ms
+[GPU] Gradients took: 1.53702 ms
+[GPU] Non-Maximum Suppression took: 2.16064 ms
+[GPU] Double Thresholding took: 0.605184 ms
+[GPU] Edge Hysteresis took: 11.0295 ms (17 iterations)
+Total time taken: 20.6797 ms
+
+(15, 15) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.40365 ms
+[GPU] Gradients took: 1.53293 ms
+[GPU] Non-Maximum Suppression took: 2.1545 ms
+[GPU] Double Thresholding took: 0.628736 ms
+[GPU] Edge Hysteresis took: 12.9761 ms (17 iterations)
+Total time taken: 22.6959 ms
+(15, 15) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.23162 ms
+[GPU] Gradients took: 1.53293 ms
+[GPU] Non-Maximum Suppression took: 2.15859 ms
+[GPU] Double Thresholding took: 0.61952 ms
+[GPU] Edge Hysteresis took: 11.606 ms (18 iterations)
+Total time taken: 21.1487 ms
+(15, 15) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.94797 ms
+[GPU] Gradients took: 1.24826 ms
+[GPU] Non-Maximum Suppression took: 1.78586 ms
+[GPU] Double Thresholding took: 0.549888 ms
+[GPU] Edge Hysteresis took: 10.839 ms (17 iterations)
+Total time taken: 19.371 ms
+(15, 15) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.78003 ms
+[GPU] Gradients took: 1.23187 ms
+[GPU] Non-Maximum Suppression took: 1.76538 ms
+[GPU] Double Thresholding took: 0.55808 ms
+[GPU] Edge Hysteresis took: 10.6127 ms (17 iterations)
+Total time taken: 18.9481 ms
+(15, 15) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.13024 ms
+[GPU] Gradients took: 1.53395 ms
+[GPU] Non-Maximum Suppression took: 2.1545 ms
+[GPU] Double Thresholding took: 0.618496 ms
+[GPU] Edge Hysteresis took: 11.3777 ms (17 iterations)
+Total time taken: 20.8148 ms
+(15, 15) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.23878 ms
+[GPU] Gradients took: 1.53293 ms
+[GPU] Non-Maximum Suppression took: 2.15859 ms
+[GPU] Double Thresholding took: 0.618496 ms
+[GPU] Edge Hysteresis took: 11.7524 ms (18 iterations)
+Total time taken: 21.3012 ms
+(15, 15) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.40672 ms
+[GPU] Gradients took: 1.54214 ms
+[GPU] Non-Maximum Suppression took: 2.16371 ms
+[GPU] Double Thresholding took: 0.62464 ms
+[GPU] Edge Hysteresis took: 11.5067 ms (18 iterations)
+Total time taken: 21.2439 ms
+(15, 15) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.72883 ms
+[GPU] Gradients took: 1.2329 ms
+[GPU] Non-Maximum Suppression took: 1.7623 ms
+[GPU] Double Thresholding took: 0.564224 ms
+[GPU] Edge Hysteresis took: 10.4479 ms (17 iterations)
+Total time taken: 18.7361 ms
+(15, 15) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.23674 ms
+[GPU] Gradients took: 1.53293 ms
+[GPU] Non-Maximum Suppression took: 2.15552 ms
+[GPU] Double Thresholding took: 0.6912 ms
+[GPU] Edge Hysteresis took: 11.1483 ms (17 iterations)
+Total time taken: 20.7647 ms
+(15, 15) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.21421 ms
+[GPU] Gradients took: 1.536 ms
+[GPU] Non-Maximum Suppression took: 2.15757 ms
+[GPU] Double Thresholding took: 0.618496 ms
+[GPU] Edge Hysteresis took: 10.8585 ms (17 iterations)
+Total time taken: 20.3848 ms
+
+(16, 16) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.57875 ms
+[GPU] Gradients took: 1.13664 ms
+[GPU] Non-Maximum Suppression took: 1.62816 ms
+[GPU] Double Thresholding took: 1.55238 ms
+[GPU] Edge Hysteresis took: 11.5784 ms (18 iterations)
+Total time taken: 21.4743 ms
+(16, 16) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.02989 ms
+[GPU] Gradients took: 1.37011 ms
+[GPU] Non-Maximum Suppression took: 1.93229 ms
+[GPU] Double Thresholding took: 1.78176 ms
+[GPU] Edge Hysteresis took: 12.415 ms (18 iterations)
+Total time taken: 22.529 ms
+(16, 16) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.24493 ms
+[GPU] Gradients took: 1.37318 ms
+[GPU] Non-Maximum Suppression took: 1.93331 ms
+[GPU] Double Thresholding took: 1.77357 ms
+[GPU] Edge Hysteresis took: 11.8712 ms (16 iterations)
+Total time taken: 22.1962 ms
+(16, 16) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.59162 ms
+[GPU] Gradients took: 1.08646 ms
+[GPU] Non-Maximum Suppression took: 1.55853 ms
+[GPU] Double Thresholding took: 1.47558 ms
+[GPU] Edge Hysteresis took: 11.4678 ms (18 iterations)
+Total time taken: 20.18 ms
+(16, 16) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.04218 ms
+[GPU] Gradients took: 1.37216 ms
+[GPU] Non-Maximum Suppression took: 1.93741 ms
+[GPU] Double Thresholding took: 1.77869 ms
+[GPU] Edge Hysteresis took: 12.3064 ms (18 iterations)
+Total time taken: 22.4369 ms
+(16, 16) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.77389 ms
+[GPU] Gradients took: 1.13664 ms
+[GPU] Non-Maximum Suppression took: 1.62816 ms
+[GPU] Double Thresholding took: 1.54522 ms
+[GPU] Edge Hysteresis took: 11.8159 ms (18 iterations)
+Total time taken: 20.8998 ms
+(16, 16) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.23469 ms
+[GPU] Gradients took: 1.37216 ms
+[GPU] Non-Maximum Suppression took: 1.93843 ms
+[GPU] Double Thresholding took: 1.77254 ms
+[GPU] Edge Hysteresis took: 12.6167 ms (18 iterations)
+Total time taken: 22.9345 ms
+(16, 16) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.3545 ms
+[GPU] Gradients took: 1.17555 ms
+[GPU] Non-Maximum Suppression took: 1.68141 ms
+[GPU] Double Thresholding took: 1.6128 ms
+[GPU] Edge Hysteresis took: 11.9398 ms (18 iterations)
+Total time taken: 21.7641 ms
+(16, 16) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.72781 ms
+[GPU] Gradients took: 1.1735 ms
+[GPU] Non-Maximum Suppression took: 1.67731 ms
+[GPU] Double Thresholding took: 1.5831 ms
+[GPU] Edge Hysteresis took: 11.7842 ms (18 iterations)
+Total time taken: 20.9459 ms
+(16, 16) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.02784 ms
+[GPU] Gradients took: 1.37114 ms
+[GPU] Non-Maximum Suppression took: 1.93126 ms
+[GPU] Double Thresholding took: 1.76742 ms
+[GPU] Edge Hysteresis took: 12.3136 ms (18 iterations)
+Total time taken: 22.4113 ms
+
+(16, 16) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.11488 ms
+[GPU] Gradients took: 1.37011 ms
+[GPU] Non-Maximum Suppression took: 1.92922 ms
+[GPU] Double Thresholding took: 0.733184 ms
+[GPU] Edge Hysteresis took: 11.22 ms (18 iterations)
+Total time taken: 20.3674 ms
+(16, 16) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.67661 ms
+[GPU] Gradients took: 1.37216 ms
+[GPU] Non-Maximum Suppression took: 1.93229 ms
+[GPU] Double Thresholding took: 0.748544 ms
+[GPU] Edge Hysteresis took: 11.1073 ms (18 iterations)
+Total time taken: 19.8369 ms
+(16, 16) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.20499 ms
+[GPU] Gradients took: 1.37216 ms
+[GPU] Non-Maximum Suppression took: 1.93229 ms
+[GPU] Double Thresholding took: 0.728064 ms
+[GPU] Edge Hysteresis took: 11.4565 ms (18 iterations)
+Total time taken: 20.694 ms
+(16, 16) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.02272 ms
+[GPU] Gradients took: 1.3783 ms
+[GPU] Non-Maximum Suppression took: 1.93843 ms
+[GPU] Double Thresholding took: 0.735232 ms
+[GPU] Edge Hysteresis took: 11.4893 ms (18 iterations)
+Total time taken: 20.564 ms
+(16, 16) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.85376 ms
+[GPU] Gradients took: 1.37216 ms
+[GPU] Non-Maximum Suppression took: 1.93434 ms
+[GPU] Double Thresholding took: 0.728064 ms
+[GPU] Edge Hysteresis took: 11.1196 ms (18 iterations)
+Total time taken: 20.0079 ms
+(16, 16) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.48454 ms
+[GPU] Gradients took: 1.37933 ms
+[GPU] Non-Maximum Suppression took: 1.94662 ms
+[GPU] Double Thresholding took: 0.76288 ms
+[GPU] Edge Hysteresis took: 11.4442 ms (18 iterations)
+Total time taken: 21.0176 ms
+(16, 16) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.86093 ms
+[GPU] Gradients took: 1.38138 ms
+[GPU] Non-Maximum Suppression took: 1.95277 ms
+[GPU] Double Thresholding took: 0.734208 ms
+[GPU] Edge Hysteresis took: 11.1882 ms (18 iterations)
+Total time taken: 20.1175 ms
+(16, 16) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.83328 ms
+[GPU] Gradients took: 1.37114 ms
+[GPU] Non-Maximum Suppression took: 1.93126 ms
+[GPU] Double Thresholding took: 0.73728 ms
+[GPU] Edge Hysteresis took: 11.3172 ms (18 iterations)
+Total time taken: 20.1902 ms
+(16, 16) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.00224 ms
+[GPU] Gradients took: 1.32198 ms
+[GPU] Non-Maximum Suppression took: 1.87802 ms
+[GPU] Double Thresholding took: 0.731136 ms
+[GPU] Edge Hysteresis took: 11.4678 ms (18 iterations)
+Total time taken: 20.4012 ms
+(16, 16) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.1159 ms
+[GPU] Gradients took: 1.37318 ms
+[GPU] Non-Maximum Suppression took: 1.93536 ms
+[GPU] Double Thresholding took: 0.735232 ms
+[GPU] Edge Hysteresis took: 11.2292 ms (18 iterations)
+Total time taken: 20.3889 ms
+
+(16, 16) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.08826 ms
+[GPU] Gradients took: 1.1735 ms
+[GPU] Non-Maximum Suppression took: 1.67834 ms
+[GPU] Double Thresholding took: 0.570368 ms
+[GPU] Edge Hysteresis took: 10.7459 ms (18 iterations)
+Total time taken: 19.2563 ms
+(16, 16) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.06573 ms
+[GPU] Gradients took: 1.37421 ms
+[GPU] Non-Maximum Suppression took: 1.93331 ms
+[GPU] Double Thresholding took: 0.6144 ms
+[GPU] Edge Hysteresis took: 11.5139 ms (18 iterations)
+Total time taken: 20.5015 ms
+(16, 16) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.04013 ms
+[GPU] Gradients took: 1.37421 ms
+[GPU] Non-Maximum Suppression took: 1.93434 ms
+[GPU] Double Thresholding took: 0.602112 ms
+[GPU] Edge Hysteresis took: 10.8298 ms (17 iterations)
+Total time taken: 19.7806 ms
+(16, 16) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.73702 ms
+[GPU] Gradients took: 1.09363 ms
+[GPU] Non-Maximum Suppression took: 1.56774 ms
+[GPU] Double Thresholding took: 0.551936 ms
+[GPU] Edge Hysteresis took: 10.7008 ms (18 iterations)
+Total time taken: 18.6511 ms
+(16, 16) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.95923 ms
+[GPU] Gradients took: 1.31891 ms
+[GPU] Non-Maximum Suppression took: 1.87494 ms
+[GPU] Double Thresholding took: 0.59392 ms
+[GPU] Edge Hysteresis took: 10.5124 ms (17 iterations)
+Total time taken: 19.2594 ms
+(16, 16) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.75853 ms
+[GPU] Gradients took: 1.16941 ms
+[GPU] Non-Maximum Suppression took: 1.67424 ms
+[GPU] Double Thresholding took: 0.556032 ms
+[GPU] Edge Hysteresis took: 10.8093 ms (18 iterations)
+Total time taken: 18.9676 ms
+(16, 16) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.08211 ms
+[GPU] Gradients took: 1.17146 ms
+[GPU] Non-Maximum Suppression took: 1.67731 ms
+[GPU] Double Thresholding took: 0.5632 ms
+[GPU] Edge Hysteresis took: 10.8442 ms (18 iterations)
+Total time taken: 19.3382 ms
+(16, 16) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.15072 ms
+[GPU] Gradients took: 1.37216 ms
+[GPU] Non-Maximum Suppression took: 1.93229 ms
+[GPU] Double Thresholding took: 0.5888 ms
+[GPU] Edge Hysteresis took: 10.5052 ms (17 iterations)
+Total time taken: 19.5492 ms
+(16, 16) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.00019 ms
+[GPU] Gradients took: 1.03936 ms
+[GPU] Non-Maximum Suppression took: 1.49811 ms
+[GPU] Double Thresholding took: 0.5376 ms
+[GPU] Edge Hysteresis took: 10.2656 ms (18 iterations)
+Total time taken: 18.3409 ms
+(16, 16) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.87936 ms
+[GPU] Gradients took: 1.37114 ms
+[GPU] Non-Maximum Suppression took: 1.93126 ms
+[GPU] Double Thresholding took: 0.607232 ms
+[GPU] Edge Hysteresis took: 11.2742 ms (18 iterations)
+Total time taken: 20.0632 ms
+
+(16, 16) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.10157 ms
+[GPU] Gradients took: 1.37011 ms
+[GPU] Non-Maximum Suppression took: 1.93024 ms
+[GPU] Double Thresholding took: 0.616448 ms
+[GPU] Edge Hysteresis took: 10.9199 ms (17 iterations)
+Total time taken: 19.9383 ms
+(16, 16) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.01453 ms
+[GPU] Gradients took: 1.32198 ms
+[GPU] Non-Maximum Suppression took: 1.87597 ms
+[GPU] Double Thresholding took: 0.6144 ms
+[GPU] Edge Hysteresis took: 11.0592 ms (18 iterations)
+Total time taken: 19.8861 ms
+(16, 16) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.30637 ms
+[GPU] Gradients took: 1.37114 ms
+[GPU] Non-Maximum Suppression took: 1.9415 ms
+[GPU] Double Thresholding took: 0.621568 ms
+[GPU] Edge Hysteresis took: 11.1954 ms (18 iterations)
+Total time taken: 20.436 ms
+(16, 16) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.07904 ms
+[GPU] Gradients took: 1.37421 ms
+[GPU] Non-Maximum Suppression took: 1.93536 ms
+[GPU] Double Thresholding took: 0.623616 ms
+[GPU] Edge Hysteresis took: 10.7407 ms (16 iterations)
+Total time taken: 19.753 ms
+(16, 16) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.91315 ms
+[GPU] Gradients took: 1.37011 ms
+[GPU] Non-Maximum Suppression took: 1.93229 ms
+[GPU] Double Thresholding took: 0.610304 ms
+[GPU] Edge Hysteresis took: 11.1114 ms (18 iterations)
+Total time taken: 19.9373 ms
+(16, 16) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.30534 ms
+[GPU] Gradients took: 1.37114 ms
+[GPU] Non-Maximum Suppression took: 1.93331 ms
+[GPU] Double Thresholding took: 0.65536 ms
+[GPU] Edge Hysteresis took: 11.092 ms (18 iterations)
+Total time taken: 20.3571 ms
+(16, 16) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.15686 ms
+[GPU] Gradients took: 1.37011 ms
+[GPU] Non-Maximum Suppression took: 1.93024 ms
+[GPU] Double Thresholding took: 0.612352 ms
+[GPU] Edge Hysteresis took: 11.3162 ms (18 iterations)
+Total time taken: 20.3858 ms
+(16, 16) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.40218 ms
+[GPU] Gradients took: 1.10285 ms
+[GPU] Non-Maximum Suppression took: 1.57901 ms
+[GPU] Double Thresholding took: 0.551936 ms
+[GPU] Edge Hysteresis took: 10.3946 ms (18 iterations)
+Total time taken: 18.0306 ms
+(16, 16) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.5593 ms
+[GPU] Gradients took: 1.18272 ms
+[GPU] Non-Maximum Suppression took: 1.69882 ms
+[GPU] Double Thresholding took: 0.627712 ms
+[GPU] Edge Hysteresis took: 10.7387 ms (18 iterations)
+Total time taken: 19.8072 ms
+(16, 16) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.35962 ms
+[GPU] Gradients took: 1.37421 ms
+[GPU] Non-Maximum Suppression took: 1.93741 ms
+[GPU] Double Thresholding took: 0.613376 ms
+[GPU] Edge Hysteresis took: 11.4125 ms (18 iterations)
+Total time taken: 20.6971 ms
+
+(32, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 6.26893 ms
+[GPU] Gradients took: 1.51552 ms
+[GPU] Non-Maximum Suppression took: 2.11456 ms
+[GPU] Double Thresholding took: 1.77766 ms
+[GPU] Edge Hysteresis took: 12.7181 ms (14 iterations)
+Total time taken: 24.3948 ms
+(32, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.39341 ms
+[GPU] Gradients took: 1.49709 ms
+[GPU] Non-Maximum Suppression took: 2.09101 ms
+[GPU] Double Thresholding took: 1.79098 ms
+[GPU] Edge Hysteresis took: 11.7821 ms (12 iterations)
+Total time taken: 22.5546 ms
+(32, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.17018 ms
+[GPU] Gradients took: 1.49606 ms
+[GPU] Non-Maximum Suppression took: 2.09101 ms
+[GPU] Double Thresholding took: 1.77459 ms
+[GPU] Edge Hysteresis took: 11.4033 ms (11 iterations)
+Total time taken: 21.9351 ms
+(32, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.56192 ms
+[GPU] Gradients took: 1.15712 ms
+[GPU] Non-Maximum Suppression took: 1.65171 ms
+[GPU] Double Thresholding took: 1.4336 ms
+[GPU] Edge Hysteresis took: 10.8298 ms (13 iterations)
+Total time taken: 19.6342 ms
+(32, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.20704 ms
+[GPU] Gradients took: 1.19296 ms
+[GPU] Non-Maximum Suppression took: 1.69882 ms
+[GPU] Double Thresholding took: 1.47866 ms
+[GPU] Edge Hysteresis took: 10.6342 ms (12 iterations)
+Total time taken: 20.2117 ms
+(32, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.16915 ms
+[GPU] Gradients took: 1.49811 ms
+[GPU] Non-Maximum Suppression took: 2.09408 ms
+[GPU] Double Thresholding took: 1.78483 ms
+[GPU] Edge Hysteresis took: 12.3351 ms (13 iterations)
+Total time taken: 22.8813 ms
+(32, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.66227 ms
+[GPU] Gradients took: 1.15712 ms
+[GPU] Non-Maximum Suppression took: 1.65171 ms
+[GPU] Double Thresholding took: 1.43974 ms
+[GPU] Edge Hysteresis took: 10.6127 ms (12 iterations)
+Total time taken: 19.5236 ms
+(32, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.76979 ms
+[GPU] Gradients took: 1.19194 ms
+[GPU] Non-Maximum Suppression took: 1.69677 ms
+[GPU] Double Thresholding took: 1.47661 ms
+[GPU] Edge Hysteresis took: 11.6603 ms (15 iterations)
+Total time taken: 20.7954 ms
+(32, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.47283 ms
+[GPU] Gradients took: 1.2073 ms
+[GPU] Non-Maximum Suppression took: 1.71827 ms
+[GPU] Double Thresholding took: 1.53805 ms
+[GPU] Edge Hysteresis took: 10.6332 ms (12 iterations)
+Total time taken: 19.5697 ms
+(32, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.34426 ms
+[GPU] Gradients took: 1.50221 ms
+[GPU] Non-Maximum Suppression took: 2.10637 ms
+[GPU] Double Thresholding took: 1.79507 ms
+[GPU] Edge Hysteresis took: 11.4299 ms (11 iterations)
+Total time taken: 22.1778 ms
+
+(32, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.90906 ms
+[GPU] Gradients took: 1.49811 ms
+[GPU] Non-Maximum Suppression took: 2.0951 ms
+[GPU] Double Thresholding took: 0.760832 ms
+[GPU] Edge Hysteresis took: 9.8816 ms (10 iterations)
+Total time taken: 19.1447 ms
+(32, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.45075 ms
+[GPU] Gradients took: 1.50118 ms
+[GPU] Non-Maximum Suppression took: 2.0992 ms
+[GPU] Double Thresholding took: 0.77824 ms
+[GPU] Edge Hysteresis took: 11.1063 ms (12 iterations)
+Total time taken: 20.9357 ms
+(32, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.42618 ms
+[GPU] Gradients took: 1.29024 ms
+[GPU] Non-Maximum Suppression took: 1.84013 ms
+[GPU] Double Thresholding took: 0.720896 ms
+[GPU] Edge Hysteresis took: 11.0408 ms (15 iterations)
+Total time taken: 20.3182 ms
+(32, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.09747 ms
+[GPU] Gradients took: 1.49606 ms
+[GPU] Non-Maximum Suppression took: 2.09101 ms
+[GPU] Double Thresholding took: 0.739328 ms
+[GPU] Edge Hysteresis took: 10.581 ms (11 iterations)
+Total time taken: 20.0049 ms
+(32, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.78003 ms
+[GPU] Gradients took: 1.14586 ms
+[GPU] Non-Maximum Suppression took: 1.63328 ms
+[GPU] Double Thresholding took: 0.617472 ms
+[GPU] Edge Hysteresis took: 10.0649 ms (13 iterations)
+Total time taken: 18.2415 ms
+(32, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.63974 ms
+[GPU] Gradients took: 1.24723 ms
+[GPU] Non-Maximum Suppression took: 1.77766 ms
+[GPU] Double Thresholding took: 0.662528 ms
+[GPU] Edge Hysteresis took: 10.8524 ms (15 iterations)
+Total time taken: 19.1795 ms
+(32, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.59264 ms
+[GPU] Gradients took: 1.37114 ms
+[GPU] Non-Maximum Suppression took: 1.94765 ms
+[GPU] Double Thresholding took: 0.766976 ms
+[GPU] Edge Hysteresis took: 11.0694 ms (12 iterations)
+Total time taken: 19.7478 ms
+(32, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.88141 ms
+[GPU] Gradients took: 1.22675 ms
+[GPU] Non-Maximum Suppression took: 1.7408 ms
+[GPU] Double Thresholding took: 0.659456 ms
+[GPU] Edge Hysteresis took: 9.73824 ms (12 iterations)
+Total time taken: 18.2467 ms
+(32, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.65408 ms
+[GPU] Gradients took: 1.19091 ms
+[GPU] Non-Maximum Suppression took: 1.75206 ms
+[GPU] Double Thresholding took: 0.642048 ms
+[GPU] Edge Hysteresis took: 9.36858 ms (11 iterations)
+Total time taken: 17.6077 ms
+(32, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.83123 ms
+[GPU] Gradients took: 1.49504 ms
+[GPU] Non-Maximum Suppression took: 2.08896 ms
+[GPU] Double Thresholding took: 0.780288 ms
+[GPU] Edge Hysteresis took: 11.8467 ms (15 iterations)
+Total time taken: 21.0422 ms
+
+(32, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.84864 ms
+[GPU] Gradients took: 1.49606 ms
+[GPU] Non-Maximum Suppression took: 2.08998 ms
+[GPU] Double Thresholding took: 0.59904 ms
+[GPU] Edge Hysteresis took: 12.0084 ms (15 iterations)
+Total time taken: 21.0422 ms
+(32, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.27565 ms
+[GPU] Gradients took: 1.49811 ms
+[GPU] Non-Maximum Suppression took: 2.0951 ms
+[GPU] Double Thresholding took: 0.602112 ms
+[GPU] Edge Hysteresis took: 11.4319 ms (14 iterations)
+Total time taken: 20.9029 ms
+(32, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.56397 ms
+[GPU] Gradients took: 1.15507 ms
+[GPU] Non-Maximum Suppression took: 1.64864 ms
+[GPU] Double Thresholding took: 0.54272 ms
+[GPU] Edge Hysteresis took: 10.583 ms (15 iterations)
+Total time taken: 18.4934 ms
+(32, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.01555 ms
+[GPU] Gradients took: 1.49504 ms
+[GPU] Non-Maximum Suppression took: 2.09101 ms
+[GPU] Double Thresholding took: 0.600064 ms
+[GPU] Edge Hysteresis took: 11.7545 ms (15 iterations)
+Total time taken: 20.9562 ms
+(32, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.71187 ms
+[GPU] Gradients took: 1.51552 ms
+[GPU] Non-Maximum Suppression took: 2.11763 ms
+[GPU] Double Thresholding took: 0.694272 ms
+[GPU] Edge Hysteresis took: 11.8671 ms (14 iterations)
+Total time taken: 21.9064 ms
+(32, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.00326 ms
+[GPU] Gradients took: 1.24518 ms
+[GPU] Non-Maximum Suppression took: 1.78278 ms
+[GPU] Double Thresholding took: 0.57344 ms
+[GPU] Edge Hysteresis took: 10.2861 ms (11 iterations)
+Total time taken: 18.8908 ms
+(32, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 7.0615 ms
+[GPU] Gradients took: 1.54726 ms
+[GPU] Non-Maximum Suppression took: 2.19238 ms
+[GPU] Double Thresholding took: 0.821248 ms
+[GPU] Edge Hysteresis took: 10.3045 ms (11 iterations)
+Total time taken: 21.9269 ms
+(32, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.02067 ms
+[GPU] Gradients took: 1.49606 ms
+[GPU] Non-Maximum Suppression took: 2.09101 ms
+[GPU] Double Thresholding took: 0.60416 ms
+[GPU] Edge Hysteresis took: 10.455 ms (11 iterations)
+Total time taken: 19.6669 ms
+(32, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.87526 ms
+[GPU] Gradients took: 1.25952 ms
+[GPU] Non-Maximum Suppression took: 1.78381 ms
+[GPU] Double Thresholding took: 0.577536 ms
+[GPU] Edge Hysteresis took: 10.3291 ms (13 iterations)
+Total time taken: 18.8252 ms
+(32, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.15789 ms
+[GPU] Gradients took: 1.51859 ms
+[GPU] Non-Maximum Suppression took: 2.11354 ms
+[GPU] Double Thresholding took: 0.606208 ms
+[GPU] Edge Hysteresis took: 11.9695 ms (15 iterations)
+Total time taken: 21.3658 ms
+
+(32, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.41594 ms
+[GPU] Gradients took: 1.49914 ms
+[GPU] Non-Maximum Suppression took: 2.09408 ms
+[GPU] Double Thresholding took: 0.618496 ms
+[GPU] Edge Hysteresis took: 11.4145 ms (14 iterations)
+Total time taken: 21.0422 ms
+(32, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.23059 ms
+[GPU] Gradients took: 1.24621 ms
+[GPU] Non-Maximum Suppression took: 1.7664 ms
+[GPU] Double Thresholding took: 0.575488 ms
+[GPU] Edge Hysteresis took: 10.3086 ms (12 iterations)
+Total time taken: 19.1273 ms
+(32, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.11795 ms
+[GPU] Gradients took: 1.50118 ms
+[GPU] Non-Maximum Suppression took: 2.10227 ms
+[GPU] Double Thresholding took: 0.642048 ms
+[GPU] Edge Hysteresis took: 11.2036 ms (14 iterations)
+Total time taken: 20.567 ms
+(32, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.02682 ms
+[GPU] Gradients took: 1.49402 ms
+[GPU] Non-Maximum Suppression took: 2.08998 ms
+[GPU] Double Thresholding took: 0.608256 ms
+[GPU] Edge Hysteresis took: 9.86214 ms (11 iterations)
+Total time taken: 19.0812 ms
+(32, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.04627 ms
+[GPU] Gradients took: 1.49811 ms
+[GPU] Non-Maximum Suppression took: 2.0951 ms
+[GPU] Double Thresholding took: 0.626688 ms
+[GPU] Edge Hysteresis took: 12.0535 ms (15 iterations)
+Total time taken: 21.3197 ms
+(32, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.73805 ms
+[GPU] Gradients took: 1.2841 ms
+[GPU] Non-Maximum Suppression took: 1.82067 ms
+[GPU] Double Thresholding took: 0.574464 ms
+[GPU] Edge Hysteresis took: 9.87955 ms (13 iterations)
+Total time taken: 18.2968 ms
+(32, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.72371 ms
+[GPU] Gradients took: 1.22573 ms
+[GPU] Non-Maximum Suppression took: 1.74387 ms
+[GPU] Double Thresholding took: 0.56832 ms
+[GPU] Edge Hysteresis took: 9.92358 ms (12 iterations)
+Total time taken: 18.1852 ms
+(32, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.74624 ms
+[GPU] Gradients took: 1.24109 ms
+[GPU] Non-Maximum Suppression took: 1.76435 ms
+[GPU] Double Thresholding took: 0.555008 ms
+[GPU] Edge Hysteresis took: 9.91437 ms (11 iterations)
+Total time taken: 18.2211 ms
+(32, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.11693 ms
+[GPU] Gradients took: 1.49299 ms
+[GPU] Non-Maximum Suppression took: 2.08794 ms
+[GPU] Double Thresholding took: 0.611328 ms
+[GPU] Edge Hysteresis took: 11.3091 ms (14 iterations)
+Total time taken: 20.6182 ms
+(32, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.2439 ms
+[GPU] Gradients took: 1.49709 ms
+[GPU] Non-Maximum Suppression took: 2.09408 ms
+[GPU] Double Thresholding took: 0.627712 ms
+[GPU] Edge Hysteresis took: 11.988 ms (16 iterations)
+Total time taken: 21.4508 ms
+
+(32, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.06163 ms
+[GPU] Gradients took: 1.2032 ms
+[GPU] Non-Maximum Suppression took: 1.6937 ms
+[GPU] Double Thresholding took: 1.59846 ms
+[GPU] Edge Hysteresis took: 14.3985 ms (26 iterations)
+Total time taken: 23.9555 ms
+(32, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.67763 ms
+[GPU] Gradients took: 1.39571 ms
+[GPU] Non-Maximum Suppression took: 1.93946 ms
+[GPU] Double Thresholding took: 1.77357 ms
+[GPU] Edge Hysteresis took: 14.3974 ms (25 iterations)
+Total time taken: 24.1838 ms
+(32, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.86298 ms
+[GPU] Gradients took: 1.39878 ms
+[GPU] Non-Maximum Suppression took: 1.9415 ms
+[GPU] Double Thresholding took: 1.792 ms
+[GPU] Edge Hysteresis took: 14.462 ms (25 iterations)
+Total time taken: 24.4572 ms
+(32, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.13536 ms
+[GPU] Gradients took: 1.34758 ms
+[GPU] Non-Maximum Suppression took: 1.88518 ms
+[GPU] Double Thresholding took: 1.77971 ms
+[GPU] Edge Hysteresis took: 14.4927 ms (25 iterations)
+Total time taken: 24.6405 ms
+(32, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.7616 ms
+[GPU] Gradients took: 1.39571 ms
+[GPU] Non-Maximum Suppression took: 1.93638 ms
+[GPU] Double Thresholding took: 1.76947 ms
+[GPU] Edge Hysteresis took: 14.4497 ms (25 iterations)
+Total time taken: 24.3128 ms
+(32, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.80154 ms
+[GPU] Gradients took: 1.0752 ms
+[GPU] Non-Maximum Suppression took: 1.52474 ms
+[GPU] Double Thresholding took: 1.43974 ms
+[GPU] Edge Hysteresis took: 12.7017 ms (24 iterations)
+Total time taken: 21.5429 ms
+(32, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.13434 ms
+[GPU] Gradients took: 1.39674 ms
+[GPU] Non-Maximum Suppression took: 1.93946 ms
+[GPU] Double Thresholding took: 1.7664 ms
+[GPU] Edge Hysteresis took: 14.1281 ms (24 iterations)
+Total time taken: 24.3651 ms
+(32, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.9623 ms
+[GPU] Gradients took: 1.39776 ms
+[GPU] Non-Maximum Suppression took: 1.9415 ms
+[GPU] Double Thresholding took: 1.77562 ms
+[GPU] Edge Hysteresis took: 14.5592 ms (25 iterations)
+Total time taken: 24.6364 ms
+(32, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.6551 ms
+[GPU] Gradients took: 1.10694 ms
+[GPU] Non-Maximum Suppression took: 1.56467 ms
+[GPU] Double Thresholding took: 1.46739 ms
+[GPU] Edge Hysteresis took: 13.1697 ms (25 iterations)
+Total time taken: 21.9638 ms
+(32, 8) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.0473 ms
+[GPU] Gradients took: 1.39571 ms
+[GPU] Non-Maximum Suppression took: 1.93946 ms
+[GPU] Double Thresholding took: 1.7705 ms
+[GPU] Edge Hysteresis took: 14.4138 ms (25 iterations)
+Total time taken: 24.5668 ms
+
+(32, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.15891 ms
+[GPU] Gradients took: 1.31584 ms
+[GPU] Non-Maximum Suppression took: 1.80941 ms
+[GPU] Double Thresholding took: 0.668672 ms
+[GPU] Edge Hysteresis took: 12.5665 ms (25 iterations)
+Total time taken: 21.5194 ms
+(32, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.80973 ms
+[GPU] Gradients took: 1.12435 ms
+[GPU] Non-Maximum Suppression took: 1.59027 ms
+[GPU] Double Thresholding took: 0.667648 ms
+[GPU] Edge Hysteresis took: 11.8682 ms (23 iterations)
+Total time taken: 20.0602 ms
+(32, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.77286 ms
+[GPU] Gradients took: 1.39571 ms
+[GPU] Non-Maximum Suppression took: 1.93741 ms
+[GPU] Double Thresholding took: 0.741376 ms
+[GPU] Edge Hysteresis took: 13.0038 ms (24 iterations)
+Total time taken: 21.8511 ms
+(32, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.10669 ms
+[GPU] Gradients took: 1.4039 ms
+[GPU] Non-Maximum Suppression took: 1.94867 ms
+[GPU] Double Thresholding took: 0.771072 ms
+[GPU] Edge Hysteresis took: 13.6049 ms (25 iterations)
+Total time taken: 22.8352 ms
+(32, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.72883 ms
+[GPU] Gradients took: 1.14074 ms
+[GPU] Non-Maximum Suppression took: 1.6128 ms
+[GPU] Double Thresholding took: 0.657408 ms
+[GPU] Edge Hysteresis took: 12.418 ms (25 iterations)
+Total time taken: 20.5578 ms
+(32, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.68378 ms
+[GPU] Gradients took: 1.12538 ms
+[GPU] Non-Maximum Suppression took: 1.59846 ms
+[GPU] Double Thresholding took: 0.647168 ms
+[GPU] Edge Hysteresis took: 12.1702 ms (24 iterations)
+Total time taken: 20.225 ms
+(32, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.61619 ms
+[GPU] Gradients took: 1.12333 ms
+[GPU] Non-Maximum Suppression took: 1.58822 ms
+[GPU] Double Thresholding took: 0.64 ms
+[GPU] Edge Hysteresis took: 12.1846 ms (25 iterations)
+Total time taken: 20.1523 ms
+(32, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.6023 ms
+[GPU] Gradients took: 1.40083 ms
+[GPU] Non-Maximum Suppression took: 1.94765 ms
+[GPU] Double Thresholding took: 0.749568 ms
+[GPU] Edge Hysteresis took: 13.9981 ms (25 iterations)
+Total time taken: 23.6984 ms
+(32, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.64634 ms
+[GPU] Gradients took: 1.40186 ms
+[GPU] Non-Maximum Suppression took: 1.94458 ms
+[GPU] Double Thresholding took: 0.745472 ms
+[GPU] Edge Hysteresis took: 13.0478 ms (24 iterations)
+Total time taken: 22.786 ms
+(32, 8) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.53472 ms
+[GPU] Gradients took: 1.39469 ms
+[GPU] Non-Maximum Suppression took: 1.93741 ms
+[GPU] Double Thresholding took: 0.734208 ms
+[GPU] Edge Hysteresis took: 12.7816 ms (25 iterations)
+Total time taken: 22.3826 ms
+
+(32, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.75238 ms
+[GPU] Gradients took: 1.19603 ms
+[GPU] Non-Maximum Suppression took: 1.6855 ms
+[GPU] Double Thresholding took: 0.571392 ms
+[GPU] Edge Hysteresis took: 12.6843 ms (25 iterations)
+Total time taken: 20.8896 ms
+(32, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.24288 ms
+[GPU] Gradients took: 1.40288 ms
+[GPU] Non-Maximum Suppression took: 1.94867 ms
+[GPU] Double Thresholding took: 0.656384 ms
+[GPU] Edge Hysteresis took: 12.9966 ms (25 iterations)
+Total time taken: 22.2474 ms
+(32, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.18554 ms
+[GPU] Gradients took: 1.39674 ms
+[GPU] Non-Maximum Suppression took: 1.93946 ms
+[GPU] Double Thresholding took: 0.603136 ms
+[GPU] Edge Hysteresis took: 13.1471 ms (25 iterations)
+Total time taken: 22.272 ms
+(32, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.90803 ms
+[GPU] Gradients took: 1.39571 ms
+[GPU] Non-Maximum Suppression took: 1.93843 ms
+[GPU] Double Thresholding took: 0.608256 ms
+[GPU] Edge Hysteresis took: 13.1348 ms (25 iterations)
+Total time taken: 21.9853 ms
+(32, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.87526 ms
+[GPU] Gradients took: 1.39878 ms
+[GPU] Non-Maximum Suppression took: 1.9415 ms
+[GPU] Double Thresholding took: 0.612352 ms
+[GPU] Edge Hysteresis took: 13.1062 ms (25 iterations)
+Total time taken: 21.9341 ms
+(32, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.04218 ms
+[GPU] Gradients took: 1.40288 ms
+[GPU] Non-Maximum Suppression took: 1.94458 ms
+[GPU] Double Thresholding took: 0.611328 ms
+[GPU] Edge Hysteresis took: 13.1318 ms (24 iterations)
+Total time taken: 22.1327 ms
+(32, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.9367 ms
+[GPU] Gradients took: 1.1561 ms
+[GPU] Non-Maximum Suppression took: 1.63328 ms
+[GPU] Double Thresholding took: 0.548864 ms
+[GPU] Edge Hysteresis took: 12.5082 ms (25 iterations)
+Total time taken: 20.7831 ms
+(32, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.96333 ms
+[GPU] Gradients took: 1.39776 ms
+[GPU] Non-Maximum Suppression took: 1.93946 ms
+[GPU] Double Thresholding took: 0.598016 ms
+[GPU] Edge Hysteresis took: 13.0376 ms (25 iterations)
+Total time taken: 21.9361 ms
+(32, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.85478 ms
+[GPU] Gradients took: 1.07418 ms
+[GPU] Non-Maximum Suppression took: 1.52474 ms
+[GPU] Double Thresholding took: 0.521216 ms
+[GPU] Edge Hysteresis took: 12.1539 ms (25 iterations)
+Total time taken: 20.1288 ms
+(32, 8) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.82816 ms
+[GPU] Gradients took: 1.39674 ms
+[GPU] Non-Maximum Suppression took: 1.94048 ms
+[GPU] Double Thresholding took: 0.602112 ms
+[GPU] Edge Hysteresis took: 13.3079 ms (25 iterations)
+Total time taken: 22.0754 ms
+
+(32, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.61619 ms
+[GPU] Gradients took: 1.15712 ms
+[GPU] Non-Maximum Suppression took: 1.63226 ms
+[GPU] Double Thresholding took: 0.56832 ms
+[GPU] Edge Hysteresis took: 12.246 ms (24 iterations)
+Total time taken: 20.2199 ms
+(32, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.97869 ms
+[GPU] Gradients took: 1.39469 ms
+[GPU] Non-Maximum Suppression took: 1.93843 ms
+[GPU] Double Thresholding took: 0.617472 ms
+[GPU] Edge Hysteresis took: 13.2198 ms (25 iterations)
+Total time taken: 22.1491 ms
+(32, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.91725 ms
+[GPU] Gradients took: 1.34656 ms
+[GPU] Non-Maximum Suppression took: 1.88518 ms
+[GPU] Double Thresholding took: 0.60416 ms
+[GPU] Edge Hysteresis took: 12.8369 ms (24 iterations)
+Total time taken: 21.59 ms
+(32, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.85683 ms
+[GPU] Gradients took: 1.40083 ms
+[GPU] Non-Maximum Suppression took: 1.94355 ms
+[GPU] Double Thresholding took: 0.620544 ms
+[GPU] Edge Hysteresis took: 13.0263 ms (25 iterations)
+Total time taken: 21.8481 ms
+(32, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.72064 ms
+[GPU] Gradients took: 1.1223 ms
+[GPU] Non-Maximum Suppression took: 1.58822 ms
+[GPU] Double Thresholding took: 0.549888 ms
+[GPU] Edge Hysteresis took: 11.9921 ms (24 iterations)
+Total time taken: 19.9731 ms
+(32, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.36269 ms
+[GPU] Gradients took: 1.32403 ms
+[GPU] Non-Maximum Suppression took: 1.88518 ms
+[GPU] Double Thresholding took: 0.822272 ms
+[GPU] Edge Hysteresis took: 13.1461 ms (25 iterations)
+Total time taken: 22.5403 ms
+(32, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.79846 ms
+[GPU] Gradients took: 1.39674 ms
+[GPU] Non-Maximum Suppression took: 1.94048 ms
+[GPU] Double Thresholding took: 0.674816 ms
+[GPU] Edge Hysteresis took: 13.3499 ms (25 iterations)
+Total time taken: 22.1604 ms
+(32, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.93363 ms
+[GPU] Gradients took: 1.39674 ms
+[GPU] Non-Maximum Suppression took: 1.93741 ms
+[GPU] Double Thresholding took: 0.642048 ms
+[GPU] Edge Hysteresis took: 12.544 ms (23 iterations)
+Total time taken: 21.4538 ms
+(32, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.19066 ms
+[GPU] Gradients took: 1.39674 ms
+[GPU] Non-Maximum Suppression took: 1.9415 ms
+[GPU] Double Thresholding took: 0.60928 ms
+[GPU] Edge Hysteresis took: 13.0458 ms (25 iterations)
+Total time taken: 22.1839 ms
+(32, 8) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.96538 ms
+[GPU] Gradients took: 1.39674 ms
+[GPU] Non-Maximum Suppression took: 1.93946 ms
+[GPU] Double Thresholding took: 0.60928 ms
+[GPU] Edge Hysteresis took: 12.4355 ms (25 iterations)
+Total time taken: 21.3463 ms
+
+(8, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.3801 ms
+[GPU] Gradients took: 1.35987 ms
+[GPU] Non-Maximum Suppression took: 1.94867 ms
+[GPU] Double Thresholding took: 1.7705 ms
+[GPU] Edge Hysteresis took: 14.5828 ms (25 iterations)
+Total time taken: 25.0419 ms
+(8, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.05958 ms
+[GPU] Gradients took: 1.24314 ms
+[GPU] Non-Maximum Suppression took: 1.80122 ms
+[GPU] Double Thresholding took: 1.68858 ms
+[GPU] Edge Hysteresis took: 14.0042 ms (25 iterations)
+Total time taken: 23.7967 ms
+(8, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.31251 ms
+[GPU] Gradients took: 1.35885 ms
+[GPU] Non-Maximum Suppression took: 1.94765 ms
+[GPU] Double Thresholding took: 1.80736 ms
+[GPU] Edge Hysteresis took: 14.0943 ms (25 iterations)
+Total time taken: 24.5207 ms
+(8, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.82918 ms
+[GPU] Gradients took: 1.11309 ms
+[GPU] Non-Maximum Suppression took: 1.62099 ms
+[GPU] Double Thresholding took: 1.51654 ms
+[GPU] Edge Hysteresis took: 13.4205 ms (25 iterations)
+Total time taken: 22.5004 ms
+(8, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.09133 ms
+[GPU] Gradients took: 1.07622 ms
+[GPU] Non-Maximum Suppression took: 1.57389 ms
+[GPU] Double Thresholding took: 1.46739 ms
+[GPU] Edge Hysteresis took: 13.2936 ms (25 iterations)
+Total time taken: 22.5024 ms
+(8, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.10669 ms
+[GPU] Gradients took: 1.10182 ms
+[GPU] Non-Maximum Suppression took: 1.60563 ms
+[GPU] Double Thresholding took: 1.49504 ms
+[GPU] Edge Hysteresis took: 13.3038 ms (25 iterations)
+Total time taken: 22.613 ms
+(8, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.25517 ms
+[GPU] Gradients took: 1.35987 ms
+[GPU] Non-Maximum Suppression took: 1.94765 ms
+[GPU] Double Thresholding took: 1.77357 ms
+[GPU] Edge Hysteresis took: 14.5029 ms (25 iterations)
+Total time taken: 24.8392 ms
+(8, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.37702 ms
+[GPU] Gradients took: 1.35987 ms
+[GPU] Non-Maximum Suppression took: 1.94765 ms
+[GPU] Double Thresholding took: 1.76538 ms
+[GPU] Edge Hysteresis took: 14.7333 ms (25 iterations)
+Total time taken: 25.1832 ms
+(8, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.91008 ms
+[GPU] Gradients took: 1.0967 ms
+[GPU] Non-Maximum Suppression took: 1.60051 ms
+[GPU] Double Thresholding took: 1.52166 ms
+[GPU] Edge Hysteresis took: 13.2383 ms (25 iterations)
+Total time taken: 22.3672 ms
+(8, 32) 32 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.01146 ms
+[GPU] Gradients took: 1.31072 ms
+[GPU] Non-Maximum Suppression took: 1.8944 ms
+[GPU] Double Thresholding took: 1.77357 ms
+[GPU] Edge Hysteresis took: 14.0954 ms (25 iterations)
+Total time taken: 24.0855 ms
+
+(8, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.48557 ms
+[GPU] Gradients took: 1.36294 ms
+[GPU] Non-Maximum Suppression took: 1.95482 ms
+[GPU] Double Thresholding took: 0.7424 ms
+[GPU] Edge Hysteresis took: 13.2772 ms (25 iterations)
+Total time taken: 22.8229 ms
+(8, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.98893 ms
+[GPU] Gradients took: 1.10899 ms
+[GPU] Non-Maximum Suppression took: 1.61792 ms
+[GPU] Double Thresholding took: 0.65536 ms
+[GPU] Edge Hysteresis took: 12.3597 ms (25 iterations)
+Total time taken: 20.7309 ms
+(8, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.17325 ms
+[GPU] Gradients took: 1.39264 ms
+[GPU] Non-Maximum Suppression took: 1.98144 ms
+[GPU] Double Thresholding took: 0.740352 ms
+[GPU] Edge Hysteresis took: 13.4687 ms (25 iterations)
+Total time taken: 22.7564 ms
+(8, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.28486 ms
+[GPU] Gradients took: 1.3609 ms
+[GPU] Non-Maximum Suppression took: 1.9497 ms
+[GPU] Double Thresholding took: 0.738304 ms
+[GPU] Edge Hysteresis took: 13.2444 ms (25 iterations)
+Total time taken: 22.5782 ms
+(8, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.17325 ms
+[GPU] Gradients took: 1.16224 ms
+[GPU] Non-Maximum Suppression took: 1.69062 ms
+[GPU] Double Thresholding took: 0.67584 ms
+[GPU] Edge Hysteresis took: 12.7621 ms (25 iterations)
+Total time taken: 21.4641 ms
+(8, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.12512 ms
+[GPU] Gradients took: 1.35885 ms
+[GPU] Non-Maximum Suppression took: 1.94765 ms
+[GPU] Double Thresholding took: 0.739328 ms
+[GPU] Edge Hysteresis took: 13.1604 ms (25 iterations)
+Total time taken: 22.3314 ms
+(8, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.82918 ms
+[GPU] Gradients took: 1.07827 ms
+[GPU] Non-Maximum Suppression took: 1.57594 ms
+[GPU] Double Thresholding took: 0.653312 ms
+[GPU] Edge Hysteresis took: 12.3392 ms (25 iterations)
+Total time taken: 20.4759 ms
+(8, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 7.7609 ms
+[GPU] Gradients took: 1.21139 ms
+[GPU] Non-Maximum Suppression took: 1.76128 ms
+[GPU] Double Thresholding took: 0.949248 ms
+[GPU] Edge Hysteresis took: 13.3489 ms (25 iterations)
+Total time taken: 25.0317 ms
+(8, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.62688 ms
+[GPU] Gradients took: 1.35885 ms
+[GPU] Non-Maximum Suppression took: 1.94867 ms
+[GPU] Double Thresholding took: 0.73728 ms
+[GPU] Edge Hysteresis took: 13.2649 ms (25 iterations)
+Total time taken: 22.9366 ms
+(8, 32) 128 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.68787 ms
+[GPU] Gradients took: 1.09261 ms
+[GPU] Non-Maximum Suppression took: 1.59744 ms
+[GPU] Double Thresholding took: 0.65024 ms
+[GPU] Edge Hysteresis took: 12.3679 ms (25 iterations)
+Total time taken: 20.396 ms
+
+(8, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.93875 ms
+[GPU] Gradients took: 1.07418 ms
+[GPU] Non-Maximum Suppression took: 1.57286 ms
+[GPU] Double Thresholding took: 0.543744 ms
+[GPU] Edge Hysteresis took: 12.289 ms (25 iterations)
+Total time taken: 20.4186 ms
+(8, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.10669 ms
+[GPU] Gradients took: 1.36397 ms
+[GPU] Non-Maximum Suppression took: 1.95379 ms
+[GPU] Double Thresholding took: 0.607232 ms
+[GPU] Edge Hysteresis took: 12.9659 ms (25 iterations)
+Total time taken: 21.9976 ms
+(8, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.23264 ms
+[GPU] Gradients took: 1.3609 ms
+[GPU] Non-Maximum Suppression took: 1.9497 ms
+[GPU] Double Thresholding took: 0.60928 ms
+[GPU] Edge Hysteresis took: 13.1543 ms (25 iterations)
+Total time taken: 22.3068 ms
+(8, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.32378 ms
+[GPU] Gradients took: 1.35987 ms
+[GPU] Non-Maximum Suppression took: 1.94867 ms
+[GPU] Double Thresholding took: 0.60928 ms
+[GPU] Edge Hysteresis took: 13.058 ms (25 iterations)
+Total time taken: 22.2996 ms
+(8, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.15686 ms
+[GPU] Gradients took: 1.3609 ms
+[GPU] Non-Maximum Suppression took: 1.9497 ms
+[GPU] Double Thresholding took: 0.608256 ms
+[GPU] Edge Hysteresis took: 12.758 ms (25 iterations)
+Total time taken: 21.8337 ms
+(8, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.2736 ms
+[GPU] Gradients took: 1.16634 ms
+[GPU] Non-Maximum Suppression took: 1.69882 ms
+[GPU] Double Thresholding took: 0.591872 ms
+[GPU] Edge Hysteresis took: 12.5204 ms (25 iterations)
+Total time taken: 21.2511 ms
+(8, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.1456 ms
+[GPU] Gradients took: 1.31174 ms
+[GPU] Non-Maximum Suppression took: 1.89542 ms
+[GPU] Double Thresholding took: 0.60416 ms
+[GPU] Edge Hysteresis took: 12.9464 ms (25 iterations)
+Total time taken: 21.9034 ms
+(8, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.12102 ms
+[GPU] Gradients took: 1.13152 ms
+[GPU] Non-Maximum Suppression took: 1.65069 ms
+[GPU] Double Thresholding took: 0.585728 ms
+[GPU] Edge Hysteresis took: 12.3075 ms (25 iterations)
+Total time taken: 20.7964 ms
+(8, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.27053 ms
+[GPU] Gradients took: 1.37011 ms
+[GPU] Non-Maximum Suppression took: 1.96096 ms
+[GPU] Double Thresholding took: 0.606208 ms
+[GPU] Edge Hysteresis took: 13.0099 ms (25 iterations)
+Total time taken: 22.2177 ms
+(8, 32) 256 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 4.80256 ms
+[GPU] Gradients took: 1.10899 ms
+[GPU] Non-Maximum Suppression took: 1.61997 ms
+[GPU] Double Thresholding took: 0.545792 ms
+[GPU] Edge Hysteresis took: 12.0863 ms (25 iterations)
+Total time taken: 20.1636 ms
+
+(8, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 6.2976 ms
+[GPU] Gradients took: 1.37011 ms
+[GPU] Non-Maximum Suppression took: 1.96096 ms
+[GPU] Double Thresholding took: 0.622592 ms
+[GPU] Edge Hysteresis took: 13.738 ms (25 iterations)
+Total time taken: 23.9892 ms
+(8, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.1712 ms
+[GPU] Gradients took: 1.36397 ms
+[GPU] Non-Maximum Suppression took: 1.95379 ms
+[GPU] Double Thresholding took: 0.618496 ms
+[GPU] Edge Hysteresis took: 13.3294 ms (25 iterations)
+Total time taken: 22.4369 ms
+(8, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.13024 ms
+[GPU] Gradients took: 1.12435 ms
+[GPU] Non-Maximum Suppression took: 1.64045 ms
+[GPU] Double Thresholding took: 0.564224 ms
+[GPU] Edge Hysteresis took: 14.3258 ms (25 iterations)
+Total time taken: 22.785 ms
+(8, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.02272 ms
+[GPU] Gradients took: 1.31174 ms
+[GPU] Non-Maximum Suppression took: 1.8944 ms
+[GPU] Double Thresholding took: 0.610304 ms
+[GPU] Edge Hysteresis took: 13.2547 ms (25 iterations)
+Total time taken: 22.0938 ms
+(8, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.2439 ms
+[GPU] Gradients took: 1.07622 ms
+[GPU] Non-Maximum Suppression took: 1.57389 ms
+[GPU] Double Thresholding took: 0.544768 ms
+[GPU] Edge Hysteresis took: 14.1199 ms (25 iterations)
+Total time taken: 22.5587 ms
+(8, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.10157 ms
+[GPU] Gradients took: 1.35782 ms
+[GPU] Non-Maximum Suppression took: 1.94662 ms
+[GPU] Double Thresholding took: 0.623616 ms
+[GPU] Edge Hysteresis took: 12.8901 ms (25 iterations)
+Total time taken: 21.9197 ms
+(8, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.24493 ms
+[GPU] Gradients took: 1.3609 ms
+[GPU] Non-Maximum Suppression took: 1.95072 ms
+[GPU] Double Thresholding took: 0.627712 ms
+[GPU] Edge Hysteresis took: 13.0068 ms (25 iterations)
+Total time taken: 22.1911 ms
+(8, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.07802 ms
+[GPU] Gradients took: 1.31174 ms
+[GPU] Non-Maximum Suppression took: 1.89542 ms
+[GPU] Double Thresholding took: 0.621568 ms
+[GPU] Edge Hysteresis took: 12.93 ms (25 iterations)
+Total time taken: 21.8368 ms
+(8, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.6279 ms
+[GPU] Gradients took: 1.12538 ms
+[GPU] Non-Maximum Suppression took: 1.64147 ms
+[GPU] Double Thresholding took: 0.567296 ms
+[GPU] Edge Hysteresis took: 12.3515 ms (25 iterations)
+Total time taken: 21.3135 ms
+(8, 32) 1024 | NVIDIA A100-PCIE-40GB
+[GPU] Gaussian Blur took: 5.0473 ms
+[GPU] Gradients took: 1.37011 ms
+[GPU] Non-Maximum Suppression took: 1.96506 ms
+[GPU] Double Thresholding took: 0.62976 ms
+[GPU] Edge Hysteresis took: 13.1072 ms (25 iterations)
+Total time taken: 22.1194 ms
+
