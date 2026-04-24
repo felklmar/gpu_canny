@@ -1,0 +1,1704 @@
+(8, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.57376 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.7312 ms
+[GPU] Double Thresholding took: 2.76582 ms
+[GPU] Edge Hysteresis took: 28.9311 ms (28 iterations)
+Total time taken: 49.0834 ms
+(8, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.72506 ms
+[GPU] Double Thresholding took: 2.50566 ms
+[GPU] Edge Hysteresis took: 28.7816 ms (28 iterations)
+Total time taken: 48.6604 ms
+(8, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71789 ms
+[GPU] Double Thresholding took: 2.51802 ms
+[GPU] Edge Hysteresis took: 28.9853 ms (28 iterations)
+Total time taken: 48.8714 ms
+(8, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.57069 ms
+[GPU] Gradients took: 6.09178 ms
+[GPU] Non-Maximum Suppression took: 7.72915 ms
+[GPU] Double Thresholding took: 2.51392 ms
+[GPU] Edge Hysteresis took: 28.8123 ms (28 iterations)
+Total time taken: 48.7178 ms
+(8, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.72813 ms
+[GPU] Double Thresholding took: 2.51802 ms
+[GPU] Edge Hysteresis took: 28.8195 ms (28 iterations)
+Total time taken: 48.7137 ms
+(8, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.57478 ms
+[GPU] Gradients took: 6.0928 ms
+[GPU] Non-Maximum Suppression took: 7.74349 ms
+[GPU] Double Thresholding took: 2.50061 ms
+[GPU] Edge Hysteresis took: 28.7734 ms (28 iterations)
+Total time taken: 48.6851 ms
+(8, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.5799 ms
+[GPU] Gradients took: 6.09997 ms
+[GPU] Non-Maximum Suppression took: 7.87968 ms
+[GPU] Double Thresholding took: 2.61146 ms
+[GPU] Edge Hysteresis took: 33.0619 ms (29 iterations)
+Total time taken: 53.2329 ms
+(8, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56454 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.71789 ms
+[GPU] Double Thresholding took: 2.5088 ms
+[GPU] Edge Hysteresis took: 28.8072 ms (28 iterations)
+Total time taken: 48.6789 ms
+(8, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56557 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71686 ms
+[GPU] Double Thresholding took: 2.51802 ms
+[GPU] Edge Hysteresis took: 28.6628 ms (28 iterations)
+Total time taken: 48.5447 ms
+(8, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 2.50963 ms
+[GPU] Edge Hysteresis took: 28.6341 ms (28 iterations)
+Total time taken: 48.5128 ms
+
+(8, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56454 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.71789 ms
+[GPU] Double Thresholding took: 1.06496 ms
+[GPU] Edge Hysteresis took: 27.5743 ms (28 iterations)
+Total time taken: 46.0022 ms
+(8, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.57376 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 1.08134 ms
+[GPU] Edge Hysteresis took: 27.2957 ms (28 iterations)
+Total time taken: 45.7503 ms
+(8, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71789 ms
+[GPU] Double Thresholding took: 1.0793 ms
+[GPU] Edge Hysteresis took: 28.2122 ms (29 iterations)
+Total time taken: 46.6586 ms
+(8, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 1.06906 ms
+[GPU] Edge Hysteresis took: 27.6931 ms (28 iterations)
+Total time taken: 46.1312 ms
+(8, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.57171 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.71686 ms
+[GPU] Double Thresholding took: 1.08118 ms
+[GPU] Edge Hysteresis took: 27.3295 ms (28 iterations)
+Total time taken: 45.7798 ms
+(8, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 1.0752 ms
+[GPU] Edge Hysteresis took: 27.5599 ms (28 iterations)
+Total time taken: 46.0042 ms
+(8, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.71789 ms
+[GPU] Double Thresholding took: 1.07008 ms
+[GPU] Edge Hysteresis took: 27.3859 ms (28 iterations)
+Total time taken: 45.823 ms
+(8, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 1.06598 ms
+[GPU] Edge Hysteresis took: 27.9275 ms (28 iterations)
+Total time taken: 46.3626 ms
+(8, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56966 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71994 ms
+[GPU] Double Thresholding took: 1.06896 ms
+[GPU] Edge Hysteresis took: 27.4678 ms (28 iterations)
+Total time taken: 45.9079 ms
+(8, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 1.07622 ms
+[GPU] Edge Hysteresis took: 27.6029 ms (28 iterations)
+Total time taken: 46.0472 ms
+
+(8, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 1.08339 ms
+[GPU] Edge Hysteresis took: 27.3408 ms (28 iterations)
+Total time taken: 45.7933 ms
+(8, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08256 ms
+[GPU] Non-Maximum Suppression took: 7.72096 ms
+[GPU] Double Thresholding took: 1.07923 ms
+[GPU] Edge Hysteresis took: 27.3777 ms (28 iterations)
+Total time taken: 45.8291 ms
+(8, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71994 ms
+[GPU] Double Thresholding took: 1.08442 ms
+[GPU] Edge Hysteresis took: 27.4289 ms (28 iterations)
+Total time taken: 45.8824 ms
+(8, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08256 ms
+[GPU] Non-Maximum Suppression took: 7.72198 ms
+[GPU] Double Thresholding took: 1.08442 ms
+[GPU] Edge Hysteresis took: 27.2906 ms (28 iterations)
+Total time taken: 45.7482 ms
+(8, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71789 ms
+[GPU] Double Thresholding took: 1.0752 ms
+[GPU] Edge Hysteresis took: 27.1892 ms (28 iterations)
+Total time taken: 45.6325 ms
+(8, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71789 ms
+[GPU] Double Thresholding took: 1.07827 ms
+[GPU] Edge Hysteresis took: 27.3757 ms (28 iterations)
+Total time taken: 45.822 ms
+(8, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 1.08749 ms
+[GPU] Edge Hysteresis took: 27.3644 ms (28 iterations)
+Total time taken: 45.8209 ms
+(8, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56659 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 1.08954 ms
+[GPU] Edge Hysteresis took: 27.3316 ms (28 iterations)
+Total time taken: 45.7882 ms
+(8, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71994 ms
+[GPU] Double Thresholding took: 1.0752 ms
+[GPU] Edge Hysteresis took: 27.2835 ms (28 iterations)
+Total time taken: 45.7277 ms
+(8, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.71789 ms
+[GPU] Double Thresholding took: 1.07315 ms
+[GPU] Edge Hysteresis took: 27.3367 ms (28 iterations)
+Total time taken: 45.7769 ms
+
+(8, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71686 ms
+[GPU] Double Thresholding took: 1.33325 ms
+[GPU] Edge Hysteresis took: 27.6982 ms (28 iterations)
+Total time taken: 46.3974 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56966 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 1.34656 ms
+[GPU] Edge Hysteresis took: 27.4217 ms (28 iterations)
+Total time taken: 46.1373 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08256 ms
+[GPU] Non-Maximum Suppression took: 7.72096 ms
+[GPU] Double Thresholding took: 1.34451 ms
+[GPU] Edge Hysteresis took: 27.6572 ms (28 iterations)
+Total time taken: 46.3739 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.57069 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71686 ms
+[GPU] Double Thresholding took: 1.32813 ms
+[GPU] Edge Hysteresis took: 27.8067 ms (28 iterations)
+Total time taken: 46.5039 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.72198 ms
+[GPU] Double Thresholding took: 1.32915 ms
+[GPU] Edge Hysteresis took: 27.5528 ms (28 iterations)
+Total time taken: 46.2521 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71891 ms
+[GPU] Double Thresholding took: 1.3312 ms
+[GPU] Edge Hysteresis took: 27.6593 ms (28 iterations)
+Total time taken: 46.3585 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56864 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.72301 ms
+[GPU] Double Thresholding took: 1.34656 ms
+[GPU] Edge Hysteresis took: 27.6511 ms (28 iterations)
+Total time taken: 46.3708 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71994 ms
+[GPU] Double Thresholding took: 1.33325 ms
+[GPU] Edge Hysteresis took: 27.8047 ms (28 iterations)
+Total time taken: 46.507 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56762 ms
+[GPU] Gradients took: 6.08051 ms
+[GPU] Non-Maximum Suppression took: 7.71686 ms
+[GPU] Double Thresholding took: 1.33018 ms
+[GPU] Edge Hysteresis took: 27.6091 ms (28 iterations)
+Total time taken: 46.3043 ms
+(8, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.56557 ms
+[GPU] Gradients took: 6.08154 ms
+[GPU] Non-Maximum Suppression took: 7.71789 ms
+[GPU] Double Thresholding took: 1.33018 ms
+[GPU] Edge Hysteresis took: 27.5999 ms (28 iterations)
+Total time taken: 46.295 ms
+
+(15, 15) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 2.5088 ms
+[GPU] Edge Hysteresis took: 18.2016 ms (18 iterations)
+Total time taken: 39.2253 ms
+(15, 15) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.5031 ms
+[GPU] Gradients took: 6.83827 ms
+[GPU] Non-Maximum Suppression took: 8.17562 ms
+[GPU] Double Thresholding took: 2.5129 ms
+[GPU] Edge Hysteresis took: 17.8964 ms (18 iterations)
+Total time taken: 38.9263 ms
+(15, 15) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 2.51187 ms
+[GPU] Edge Hysteresis took: 18.1862 ms (18 iterations)
+Total time taken: 39.2141 ms
+(15, 15) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.49901 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17562 ms
+[GPU] Double Thresholding took: 2.50675 ms
+[GPU] Edge Hysteresis took: 17.4418 ms (17 iterations)
+Total time taken: 38.4604 ms
+(15, 15) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50003 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 2.51085 ms
+[GPU] Edge Hysteresis took: 18.0767 ms (18 iterations)
+Total time taken: 39.1014 ms
+(15, 15) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 2.50778 ms
+[GPU] Edge Hysteresis took: 18.6654 ms (18 iterations)
+Total time taken: 39.6892 ms
+(15, 15) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 2.52109 ms
+[GPU] Edge Hysteresis took: 18.433 ms (18 iterations)
+Total time taken: 39.4691 ms
+(15, 15) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 2.51802 ms
+[GPU] Edge Hysteresis took: 18.1083 ms (18 iterations)
+Total time taken: 39.1412 ms
+(15, 15) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 2.50573 ms
+[GPU] Edge Hysteresis took: 18.1801 ms (18 iterations)
+Total time taken: 39.2018 ms
+(15, 15) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 2.51382 ms
+[GPU] Edge Hysteresis took: 17.9302 ms (18 iterations)
+Total time taken: 38.959 ms
+
+(15, 15) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.8352 ms
+[GPU] Non-Maximum Suppression took: 8.17357 ms
+[GPU] Double Thresholding took: 1.07514 ms
+[GPU] Edge Hysteresis took: 16.518 ms (18 iterations)
+Total time taken: 36.104 ms
+(15, 15) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 1.0791 ms
+[GPU] Edge Hysteresis took: 16.638 ms (18 iterations)
+Total time taken: 36.232 ms
+(15, 15) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.19712 ms
+[GPU] Double Thresholding took: 1.1223 ms
+[GPU] Edge Hysteresis took: 16.6513 ms (18 iterations)
+Total time taken: 36.309 ms
+(15, 15) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.51846 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17766 ms
+[GPU] Double Thresholding took: 1.1273 ms
+[GPU] Edge Hysteresis took: 17.3957 ms (19 iterations)
+Total time taken: 37.0564 ms
+(15, 15) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.17562 ms
+[GPU] Double Thresholding took: 1.0793 ms
+[GPU] Edge Hysteresis took: 15.6365 ms (17 iterations)
+Total time taken: 35.2287 ms
+(15, 15) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 1.07325 ms
+[GPU] Edge Hysteresis took: 17.41 ms (19 iterations)
+Total time taken: 36.9972 ms
+(15, 15) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.51539 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 1.07418 ms
+[GPU] Edge Hysteresis took: 16.4393 ms (18 iterations)
+Total time taken: 36.0428 ms
+(15, 15) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50413 ms
+[GPU] Gradients took: 6.85261 ms
+[GPU] Non-Maximum Suppression took: 8.19302 ms
+[GPU] Double Thresholding took: 1.06803 ms
+[GPU] Edge Hysteresis took: 16.7156 ms (18 iterations)
+Total time taken: 36.3334 ms
+(15, 15) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83821 ms
+[GPU] Non-Maximum Suppression took: 8.17862 ms
+[GPU] Double Thresholding took: 1.07315 ms
+[GPU] Edge Hysteresis took: 16.4311 ms (18 iterations)
+Total time taken: 36.0221 ms
+(15, 15) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17766 ms
+[GPU] Double Thresholding took: 1.08029 ms
+[GPU] Edge Hysteresis took: 15.7421 ms (17 iterations)
+Total time taken: 35.3394 ms
+
+(15, 15) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.49798 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.17562 ms
+[GPU] Double Thresholding took: 1.06598 ms
+[GPU] Edge Hysteresis took: 16.5663 ms (18 iterations)
+Total time taken: 36.1421 ms
+(15, 15) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50413 ms
+[GPU] Gradients took: 6.85158 ms
+[GPU] Non-Maximum Suppression took: 8.192 ms
+[GPU] Double Thresholding took: 1.07315 ms
+[GPU] Edge Hysteresis took: 16.8796 ms (18 iterations)
+Total time taken: 36.5005 ms
+(15, 15) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17766 ms
+[GPU] Double Thresholding took: 1.0752 ms
+[GPU] Edge Hysteresis took: 16.5652 ms (18 iterations)
+Total time taken: 36.1574 ms
+(15, 15) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.84032 ms
+[GPU] Non-Maximum Suppression took: 8.18176 ms
+[GPU] Double Thresholding took: 1.08134 ms
+[GPU] Edge Hysteresis took: 16.6543 ms (18 iterations)
+Total time taken: 36.2588 ms
+(15, 15) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.49798 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17766 ms
+[GPU] Double Thresholding took: 1.0711 ms
+[GPU] Edge Hysteresis took: 16.7054 ms (18 iterations)
+Total time taken: 36.2894 ms
+(15, 15) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.5031 ms
+[GPU] Gradients took: 6.8567 ms
+[GPU] Non-Maximum Suppression took: 8.19712 ms
+[GPU] Double Thresholding took: 1.08134 ms
+[GPU] Edge Hysteresis took: 16.7076 ms (18 iterations)
+Total time taken: 36.3459 ms
+(15, 15) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17766 ms
+[GPU] Double Thresholding took: 1.0752 ms
+[GPU] Edge Hysteresis took: 15.8209 ms (17 iterations)
+Total time taken: 35.4131 ms
+(15, 15) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 1.07725 ms
+[GPU] Edge Hysteresis took: 16.7096 ms (18 iterations)
+Total time taken: 36.3018 ms
+(15, 15) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50003 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17766 ms
+[GPU] Double Thresholding took: 1.07427 ms
+[GPU] Edge Hysteresis took: 16.6522 ms (18 iterations)
+Total time taken: 36.2414 ms
+(15, 15) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.5031 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 1.07418 ms
+[GPU] Edge Hysteresis took: 16.5417 ms (18 iterations)
+Total time taken: 36.1329 ms
+
+(15, 15) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.17459 ms
+[GPU] Double Thresholding took: 1.34246 ms
+[GPU] Edge Hysteresis took: 17.0383 ms (18 iterations)
+Total time taken: 36.8937 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50413 ms
+[GPU] Gradients took: 6.85158 ms
+[GPU] Non-Maximum Suppression took: 8.1961 ms
+[GPU] Double Thresholding took: 1.34963 ms
+[GPU] Edge Hysteresis took: 16.8919 ms (18 iterations)
+Total time taken: 36.7933 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.17562 ms
+[GPU] Double Thresholding took: 1.33632 ms
+[GPU] Edge Hysteresis took: 16.8079 ms (18 iterations)
+Total time taken: 36.6572 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.5031 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17562 ms
+[GPU] Double Thresholding took: 1.33325 ms
+[GPU] Edge Hysteresis took: 17.6845 ms (19 iterations)
+Total time taken: 37.5337 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.17562 ms
+[GPU] Double Thresholding took: 1.33222 ms
+[GPU] Edge Hysteresis took: 16.8581 ms (18 iterations)
+Total time taken: 36.7043 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.17562 ms
+[GPU] Double Thresholding took: 1.33734 ms
+[GPU] Edge Hysteresis took: 16.8817 ms (18 iterations)
+Total time taken: 36.7329 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50106 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 1.34739 ms
+[GPU] Edge Hysteresis took: 16.9032 ms (18 iterations)
+Total time taken: 36.7645 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50925 ms
+[GPU] Gradients took: 6.83725 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 1.34656 ms
+[GPU] Edge Hysteresis took: 16.8622 ms (18 iterations)
+Total time taken: 36.7319 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.50208 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.17766 ms
+[GPU] Double Thresholding took: 1.3464 ms
+[GPU] Edge Hysteresis took: 16.8151 ms (18 iterations)
+Total time taken: 36.6775 ms
+(15, 15) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.51642 ms
+[GPU] Gradients took: 6.83622 ms
+[GPU] Non-Maximum Suppression took: 8.17459 ms
+[GPU] Double Thresholding took: 1.33837 ms
+[GPU] Edge Hysteresis took: 16.9615 ms (18 iterations)
+Total time taken: 36.8271 ms
+
+(16, 16) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.072 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38202 ms
+[GPU] Double Thresholding took: 2.51494 ms
+[GPU] Edge Hysteresis took: 14.4138 ms (15 iterations)
+Total time taken: 33.5657 ms
+(16, 16) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.18394 ms
+[GPU] Non-Maximum Suppression took: 7.38509 ms
+[GPU] Double Thresholding took: 2.51494 ms
+[GPU] Edge Hysteresis took: 14.6893 ms (15 iterations)
+Total time taken: 33.8473 ms
+(16, 16) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18189 ms
+[GPU] Non-Maximum Suppression took: 7.38202 ms
+[GPU] Double Thresholding took: 2.51904 ms
+[GPU] Edge Hysteresis took: 15.276 ms (16 iterations)
+Total time taken: 34.432 ms
+(16, 16) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38406 ms
+[GPU] Double Thresholding took: 2.51597 ms
+[GPU] Edge Hysteresis took: 14.4824 ms (15 iterations)
+Total time taken: 33.6384 ms
+(16, 16) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18189 ms
+[GPU] Non-Maximum Suppression took: 7.38406 ms
+[GPU] Double Thresholding took: 2.51494 ms
+[GPU] Edge Hysteresis took: 14.5828 ms (15 iterations)
+Total time taken: 33.7367 ms
+(16, 16) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07098 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38304 ms
+[GPU] Double Thresholding took: 2.5129 ms
+[GPU] Edge Hysteresis took: 14.4937 ms (15 iterations)
+Total time taken: 33.6435 ms
+(16, 16) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07098 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38406 ms
+[GPU] Double Thresholding took: 2.51597 ms
+[GPU] Edge Hysteresis took: 14.4353 ms (15 iterations)
+Total time taken: 33.5892 ms
+(16, 16) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.39533 ms
+[GPU] Double Thresholding took: 2.52928 ms
+[GPU] Edge Hysteresis took: 14.379 ms (15 iterations)
+Total time taken: 33.5596 ms
+(16, 16) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.06995 ms
+[GPU] Gradients took: 6.18394 ms
+[GPU] Non-Maximum Suppression took: 7.38406 ms
+[GPU] Double Thresholding took: 2.52598 ms
+[GPU] Edge Hysteresis took: 14.4599 ms (15 iterations)
+Total time taken: 33.6238 ms
+(16, 16) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38406 ms
+[GPU] Double Thresholding took: 2.51494 ms
+[GPU] Edge Hysteresis took: 14.7097 ms (15 iterations)
+Total time taken: 33.8647 ms
+
+(16, 16) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07098 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38304 ms
+[GPU] Double Thresholding took: 1.0793 ms
+[GPU] Edge Hysteresis took: 12.9505 ms (15 iterations)
+Total time taken: 30.6668 ms
+(16, 16) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.18394 ms
+[GPU] Non-Maximum Suppression took: 7.39533 ms
+[GPU] Double Thresholding took: 1.08544 ms
+[GPU] Edge Hysteresis took: 13.1543 ms (15 iterations)
+Total time taken: 30.8931 ms
+(16, 16) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.072 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38509 ms
+[GPU] Double Thresholding took: 1.08032 ms
+[GPU] Edge Hysteresis took: 13.0785 ms (15 iterations)
+Total time taken: 30.7988 ms
+(16, 16) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38202 ms
+[GPU] Double Thresholding took: 1.08237 ms
+[GPU] Edge Hysteresis took: 12.9526 ms (15 iterations)
+Total time taken: 30.6739 ms
+(16, 16) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.0761 ms
+[GPU] Gradients took: 6.19725 ms
+[GPU] Non-Maximum Suppression took: 7.39942 ms
+[GPU] Double Thresholding took: 1.0752 ms
+[GPU] Edge Hysteresis took: 13.0662 ms (15 iterations)
+Total time taken: 30.8142 ms
+(16, 16) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18189 ms
+[GPU] Non-Maximum Suppression took: 7.38202 ms
+[GPU] Double Thresholding took: 1.07408 ms
+[GPU] Edge Hysteresis took: 12.9608 ms (15 iterations)
+Total time taken: 30.6718 ms
+(16, 16) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.09965 ms
+[GPU] Gradients took: 6.19622 ms
+[GPU] Non-Maximum Suppression took: 7.40966 ms
+[GPU] Double Thresholding took: 1.08134 ms
+[GPU] Edge Hysteresis took: 12.8707 ms (15 iterations)
+Total time taken: 30.6575 ms
+(16, 16) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38406 ms
+[GPU] Double Thresholding took: 1.0752 ms
+[GPU] Edge Hysteresis took: 13.0898 ms (15 iterations)
+Total time taken: 30.805 ms
+(16, 16) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.3943 ms
+[GPU] Double Thresholding took: 1.0793 ms
+[GPU] Edge Hysteresis took: 14.2049 ms (15 iterations)
+Total time taken: 31.9355 ms
+(16, 16) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.06995 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38304 ms
+[GPU] Double Thresholding took: 1.06291 ms
+[GPU] Edge Hysteresis took: 12.9034 ms (15 iterations)
+Total time taken: 30.6022 ms
+
+(16, 16) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.08224 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38202 ms
+[GPU] Double Thresholding took: 1.08237 ms
+[GPU] Edge Hysteresis took: 13.0674 ms (15 iterations)
+Total time taken: 30.7969 ms
+(16, 16) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38304 ms
+[GPU] Double Thresholding took: 1.07213 ms
+[GPU] Edge Hysteresis took: 12.97 ms (15 iterations)
+Total time taken: 30.6811 ms
+(16, 16) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38304 ms
+[GPU] Double Thresholding took: 1.08032 ms
+[GPU] Edge Hysteresis took: 13.0314 ms (15 iterations)
+Total time taken: 30.7507 ms
+(16, 16) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.39533 ms
+[GPU] Double Thresholding took: 1.08851 ms
+[GPU] Edge Hysteresis took: 13.0243 ms (15 iterations)
+Total time taken: 30.7651 ms
+(16, 16) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.0679 ms
+[GPU] Gradients took: 6.18189 ms
+[GPU] Non-Maximum Suppression took: 7.38406 ms
+[GPU] Double Thresholding took: 1.1008 ms
+[GPU] Edge Hysteresis took: 12.972 ms (15 iterations)
+Total time taken: 30.7067 ms
+(16, 16) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38509 ms
+[GPU] Double Thresholding took: 1.08339 ms
+[GPU] Edge Hysteresis took: 12.8174 ms (15 iterations)
+Total time taken: 30.5418 ms
+(16, 16) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.072 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38202 ms
+[GPU] Double Thresholding took: 1.07811 ms
+[GPU] Edge Hysteresis took: 13.0099 ms (15 iterations)
+Total time taken: 30.725 ms
+(16, 16) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.06995 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.39533 ms
+[GPU] Double Thresholding took: 1.07418 ms
+[GPU] Edge Hysteresis took: 12.8891 ms (15 iterations)
+Total time taken: 30.6115 ms
+(16, 16) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.072 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38509 ms
+[GPU] Double Thresholding took: 1.08237 ms
+[GPU] Edge Hysteresis took: 12.9781 ms (15 iterations)
+Total time taken: 30.7004 ms
+(16, 16) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38406 ms
+[GPU] Double Thresholding took: 1.0793 ms
+[GPU] Edge Hysteresis took: 12.8901 ms (15 iterations)
+Total time taken: 30.6094 ms
+
+(16, 16) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.18189 ms
+[GPU] Non-Maximum Suppression took: 7.38611 ms
+[GPU] Double Thresholding took: 1.33018 ms
+[GPU] Edge Hysteresis took: 13.3007 ms (15 iterations)
+Total time taken: 31.273 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.18394 ms
+[GPU] Non-Maximum Suppression took: 7.38406 ms
+[GPU] Double Thresholding took: 1.33325 ms
+[GPU] Edge Hysteresis took: 13.609 ms (15 iterations)
+Total time taken: 31.5843 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.06893 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38304 ms
+[GPU] Double Thresholding took: 1.33939 ms
+[GPU] Edge Hysteresis took: 13.7748 ms (15 iterations)
+Total time taken: 31.7491 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.06995 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38304 ms
+[GPU] Double Thresholding took: 1.3312 ms
+[GPU] Edge Hysteresis took: 13.3448 ms (15 iterations)
+Total time taken: 31.3119 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.072 ms
+[GPU] Gradients took: 6.18189 ms
+[GPU] Non-Maximum Suppression took: 7.38202 ms
+[GPU] Double Thresholding took: 1.3424 ms
+[GPU] Edge Hysteresis took: 13.3396 ms (15 iterations)
+Total time taken: 31.318 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07507 ms
+[GPU] Gradients took: 6.19315 ms
+[GPU] Non-Maximum Suppression took: 7.39533 ms
+[GPU] Double Thresholding took: 1.34042 ms
+[GPU] Edge Hysteresis took: 13.3262 ms (15 iterations)
+Total time taken: 31.3301 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.06893 ms
+[GPU] Gradients took: 6.18301 ms
+[GPU] Non-Maximum Suppression took: 7.38406 ms
+[GPU] Double Thresholding took: 1.3353 ms
+[GPU] Edge Hysteresis took: 13.3632 ms (15 iterations)
+Total time taken: 31.3345 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18189 ms
+[GPU] Non-Maximum Suppression took: 7.38509 ms
+[GPU] Double Thresholding took: 1.33939 ms
+[GPU] Edge Hysteresis took: 13.9325 ms (16 iterations)
+Total time taken: 31.9119 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.0679 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38509 ms
+[GPU] Double Thresholding took: 1.33837 ms
+[GPU] Edge Hysteresis took: 13.5649 ms (15 iterations)
+Total time taken: 31.5392 ms
+(16, 16) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.18291 ms
+[GPU] Non-Maximum Suppression took: 7.38714 ms
+[GPU] Double Thresholding took: 1.3568 ms
+[GPU] Edge Hysteresis took: 13.3048 ms (15 iterations)
+Total time taken: 31.3047 ms
+
+(32, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10112 ms
+[GPU] Gradients took: 8.9303 ms
+[GPU] Non-Maximum Suppression took: 10.6629 ms
+[GPU] Double Thresholding took: 2.50266 ms
+[GPU] Edge Hysteresis took: 66.1975 ms (42 iterations)
+Total time taken: 92.3945 ms
+(32, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.21434 ms
+[GPU] Gradients took: 6.64576 ms
+[GPU] Non-Maximum Suppression took: 8.16128 ms
+[GPU] Double Thresholding took: 2.09101 ms
+[GPU] Edge Hysteresis took: 49.5985 ms (40 iterations)
+Total time taken: 69.7108 ms
+(32, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.09805 ms
+[GPU] Gradients took: 8.92928 ms
+[GPU] Non-Maximum Suppression took: 10.6639 ms
+[GPU] Double Thresholding took: 2.49446 ms
+[GPU] Edge Hysteresis took: 65.0577 ms (41 iterations)
+Total time taken: 91.2434 ms
+(32, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.24198 ms
+[GPU] Gradients took: 6.72256 ms
+[GPU] Non-Maximum Suppression took: 8.22784 ms
+[GPU] Double Thresholding took: 2.09917 ms
+[GPU] Edge Hysteresis took: 51.0036 ms (41 iterations)
+Total time taken: 71.2951 ms
+(32, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10214 ms
+[GPU] Gradients took: 8.9303 ms
+[GPU] Non-Maximum Suppression took: 10.661 ms
+[GPU] Double Thresholding took: 2.51904 ms
+[GPU] Edge Hysteresis took: 58.7213 ms (37 iterations)
+Total time taken: 84.9338 ms
+(32, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.40275 ms
+[GPU] Gradients took: 7.1465 ms
+[GPU] Non-Maximum Suppression took: 8.69478 ms
+[GPU] Double Thresholding took: 2.17907 ms
+[GPU] Edge Hysteresis took: 52.2885 ms (40 iterations)
+Total time taken: 73.7116 ms
+(32, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10317 ms
+[GPU] Gradients took: 8.93133 ms
+[GPU] Non-Maximum Suppression took: 10.6691 ms
+[GPU] Double Thresholding took: 2.52717 ms
+[GPU] Edge Hysteresis took: 57.3542 ms (36 iterations)
+Total time taken: 83.585 ms
+(32, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.4345 ms
+[GPU] Gradients took: 7.23456 ms
+[GPU] Non-Maximum Suppression took: 8.78288 ms
+[GPU] Double Thresholding took: 2.20058 ms
+[GPU] Edge Hysteresis took: 51.8932 ms (39 iterations)
+Total time taken: 73.5458 ms
+(32, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10214 ms
+[GPU] Gradients took: 8.92928 ms
+[GPU] Non-Maximum Suppression took: 10.6609 ms
+[GPU] Double Thresholding took: 2.51392 ms
+[GPU] Edge Hysteresis took: 66.5661 ms (42 iterations)
+Total time taken: 92.7724 ms
+(32, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.26144 ms
+[GPU] Gradients took: 6.77888 ms
+[GPU] Non-Maximum Suppression took: 8.28416 ms
+[GPU] Double Thresholding took: 2.11149 ms
+[GPU] Edge Hysteresis took: 49.6208 ms (39 iterations)
+Total time taken: 70.0568 ms
+
+(32, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.1001 ms
+[GPU] Gradients took: 8.93133 ms
+[GPU] Non-Maximum Suppression took: 10.6629 ms
+[GPU] Double Thresholding took: 1.07315 ms
+[GPU] Edge Hysteresis took: 61.567 ms (40 iterations)
+Total time taken: 86.3345 ms
+(32, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.1001 ms
+[GPU] Gradients took: 8.93133 ms
+[GPU] Non-Maximum Suppression took: 10.666 ms
+[GPU] Double Thresholding took: 1.07606 ms
+[GPU] Edge Hysteresis took: 51.5901 ms (33 iterations)
+Total time taken: 76.3636 ms
+(32, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.65056 ms
+[GPU] Gradients took: 7.75987 ms
+[GPU] Non-Maximum Suppression took: 9.3655 ms
+[GPU] Double Thresholding took: 1.06496 ms
+[GPU] Edge Hysteresis took: 53.4282 ms (39 iterations)
+Total time taken: 75.2691 ms
+(32, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10214 ms
+[GPU] Gradients took: 8.9303 ms
+[GPU] Non-Maximum Suppression took: 10.666 ms
+[GPU] Double Thresholding took: 1.06496 ms
+[GPU] Edge Hysteresis took: 64.3154 ms (39 iterations)
+Total time taken: 89.0788 ms
+(32, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.30547 ms
+[GPU] Gradients took: 6.88742 ms
+[GPU] Non-Maximum Suppression took: 8.40909 ms
+[GPU] Double Thresholding took: 1.05779 ms
+[GPU] Edge Hysteresis took: 52.3201 ms (42 iterations)
+Total time taken: 71.9799 ms
+(32, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10214 ms
+[GPU] Gradients took: 8.92928 ms
+[GPU] Non-Maximum Suppression took: 10.6619 ms
+[GPU] Double Thresholding took: 1.06701 ms
+[GPU] Edge Hysteresis took: 65.321 ms (42 iterations)
+Total time taken: 90.0813 ms
+(32, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.26349 ms
+[GPU] Gradients took: 6.77683 ms
+[GPU] Non-Maximum Suppression took: 8.28826 ms
+[GPU] Double Thresholding took: 1.05472 ms
+[GPU] Edge Hysteresis took: 49.6824 ms (40 iterations)
+Total time taken: 69.0657 ms
+(32, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.1001 ms
+[GPU] Gradients took: 8.92928 ms
+[GPU] Non-Maximum Suppression took: 10.666 ms
+[GPU] Double Thresholding took: 1.06803 ms
+[GPU] Edge Hysteresis took: 67.8318 ms (44 iterations)
+Total time taken: 92.5952 ms
+(32, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.21331 ms
+[GPU] Gradients took: 6.64781 ms
+[GPU] Non-Maximum Suppression took: 8.1408 ms
+[GPU] Double Thresholding took: 1.05142 ms
+[GPU] Edge Hysteresis took: 46.2326 ms (38 iterations)
+Total time taken: 65.2859 ms
+(32, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10112 ms
+[GPU] Gradients took: 8.9303 ms
+[GPU] Non-Maximum Suppression took: 10.6629 ms
+[GPU] Double Thresholding took: 1.0977 ms
+[GPU] Edge Hysteresis took: 58.6916 ms (38 iterations)
+Total time taken: 83.4836 ms
+
+(32, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.4345 ms
+[GPU] Gradients took: 7.23354 ms
+[GPU] Non-Maximum Suppression took: 8.78797 ms
+[GPU] Double Thresholding took: 1.05773 ms
+[GPU] Edge Hysteresis took: 61.1451 ms (46 iterations)
+Total time taken: 81.6588 ms
+(32, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10214 ms
+[GPU] Gradients took: 8.92723 ms
+[GPU] Non-Maximum Suppression took: 10.6516 ms
+[GPU] Double Thresholding took: 1.08544 ms
+[GPU] Edge Hysteresis took: 65.8268 ms (42 iterations)
+Total time taken: 90.5933 ms
+(32, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10112 ms
+[GPU] Gradients took: 8.9303 ms
+[GPU] Non-Maximum Suppression took: 10.6609 ms
+[GPU] Double Thresholding took: 1.07827 ms
+[GPU] Edge Hysteresis took: 67.6434 ms (44 iterations)
+Total time taken: 92.414 ms
+(32, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.67514 ms
+[GPU] Gradients took: 7.87046 ms
+[GPU] Non-Maximum Suppression took: 9.48941 ms
+[GPU] Double Thresholding took: 1.05459 ms
+[GPU] Edge Hysteresis took: 56.8453 ms (41 iterations)
+Total time taken: 78.9349 ms
+(32, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.29318 ms
+[GPU] Gradients took: 6.8567 ms
+[GPU] Non-Maximum Suppression took: 8.3671 ms
+[GPU] Double Thresholding took: 1.05574 ms
+[GPU] Edge Hysteresis took: 54.9202 ms (44 iterations)
+Total time taken: 74.4929 ms
+(32, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.22458 ms
+[GPU] Gradients took: 6.67546 ms
+[GPU] Non-Maximum Suppression took: 8.17664 ms
+[GPU] Double Thresholding took: 1.0647 ms
+[GPU] Edge Hysteresis took: 50.4422 ms (41 iterations)
+Total time taken: 69.5836 ms
+(32, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10214 ms
+[GPU] Gradients took: 8.9303 ms
+[GPU] Non-Maximum Suppression took: 10.6629 ms
+[GPU] Double Thresholding took: 1.08237 ms
+[GPU] Edge Hysteresis took: 64.7639 ms (42 iterations)
+Total time taken: 89.5416 ms
+(32, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.28397 ms
+[GPU] Gradients took: 6.82906 ms
+[GPU] Non-Maximum Suppression took: 8.34048 ms
+[GPU] Double Thresholding took: 1.03805 ms
+[GPU] Edge Hysteresis took: 51.8216 ms (42 iterations)
+Total time taken: 71.3131 ms
+(32, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.1001 ms
+[GPU] Gradients took: 8.92928 ms
+[GPU] Non-Maximum Suppression took: 10.665 ms
+[GPU] Double Thresholding took: 1.06906 ms
+[GPU] Edge Hysteresis took: 67.7294 ms (43 iterations)
+Total time taken: 92.4928 ms
+(32, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.21741 ms
+[GPU] Gradients took: 6.64576 ms
+[GPU] Non-Maximum Suppression took: 8.14592 ms
+[GPU] Double Thresholding took: 1.0639 ms
+[GPU] Edge Hysteresis took: 53.5861 ms (44 iterations)
+Total time taken: 72.6591 ms
+
+(32, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10214 ms
+[GPU] Gradients took: 8.93133 ms
+[GPU] Non-Maximum Suppression took: 10.6598 ms
+[GPU] Double Thresholding took: 1.35066 ms
+[GPU] Edge Hysteresis took: 65.3916 ms (42 iterations)
+Total time taken: 90.4356 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.25018 ms
+[GPU] Gradients took: 6.74816 ms
+[GPU] Non-Maximum Suppression took: 8.25242 ms
+[GPU] Double Thresholding took: 1.20938 ms
+[GPU] Edge Hysteresis took: 49.1768 ms (40 iterations)
+Total time taken: 68.6369 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10112 ms
+[GPU] Gradients took: 8.93235 ms
+[GPU] Non-Maximum Suppression took: 10.6691 ms
+[GPU] Double Thresholding took: 1.33018 ms
+[GPU] Edge Hysteresis took: 60.4047 ms (39 iterations)
+Total time taken: 85.4374 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.95264 ms
+[GPU] Gradients took: 8.53197 ms
+[GPU] Non-Maximum Suppression took: 10.2226 ms
+[GPU] Double Thresholding took: 1.31584 ms
+[GPU] Edge Hysteresis took: 66.4904 ms (44 iterations)
+Total time taken: 90.5134 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.66387 ms
+[GPU] Gradients took: 7.83155 ms
+[GPU] Non-Maximum Suppression took: 9.44538 ms
+[GPU] Double Thresholding took: 1.2759 ms
+[GPU] Edge Hysteresis took: 54.0129 ms (39 iterations)
+Total time taken: 76.2296 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.35667 ms
+[GPU] Gradients took: 6.97139 ms
+[GPU] Non-Maximum Suppression took: 8.53402 ms
+[GPU] Double Thresholding took: 1.26701 ms
+[GPU] Edge Hysteresis took: 55.808 ms (44 iterations)
+Total time taken: 75.9371 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.10214 ms
+[GPU] Gradients took: 8.92928 ms
+[GPU] Non-Maximum Suppression took: 10.666 ms
+[GPU] Double Thresholding took: 1.34653 ms
+[GPU] Edge Hysteresis took: 63.2678 ms (40 iterations)
+Total time taken: 88.3118 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.1001 ms
+[GPU] Gradients took: 8.93338 ms
+[GPU] Non-Maximum Suppression took: 10.6711 ms
+[GPU] Double Thresholding took: 1.33018 ms
+[GPU] Edge Hysteresis took: 66.2569 ms (43 iterations)
+Total time taken: 91.2916 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.34131 ms
+[GPU] Gradients took: 6.9417 ms
+[GPU] Non-Maximum Suppression took: 8.47872 ms
+[GPU] Double Thresholding took: 1.24928 ms
+[GPU] Edge Hysteresis took: 49.2166 ms (39 iterations)
+Total time taken: 69.2276 ms
+(32, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 4.11341 ms
+[GPU] Gradients took: 8.9559 ms
+[GPU] Non-Maximum Suppression took: 10.6865 ms
+[GPU] Double Thresholding took: 1.3271 ms
+[GPU] Edge Hysteresis took: 66.0398 ms (43 iterations)
+Total time taken: 91.1227 ms
+
+(32, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 2.75354 ms
+[GPU] Gradients took: 5.80096 ms
+[GPU] Non-Maximum Suppression took: 6.92019 ms
+[GPU] Double Thresholding took: 2.33882 ms
+[GPU] Edge Hysteresis took: 19.6106 ms (23 iterations)
+Total time taken: 37.4241 ms
+(32, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.4727 ms
+[GPU] Non-Maximum Suppression took: 7.63494 ms
+[GPU] Double Thresholding took: 2.51494 ms
+[GPU] Edge Hysteresis took: 20.6787 ms (23 iterations)
+Total time taken: 40.3753 ms
+(32, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63597 ms
+[GPU] Double Thresholding took: 2.51594 ms
+[GPU] Edge Hysteresis took: 20.6868 ms (23 iterations)
+Total time taken: 40.3865 ms
+(32, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.47475 ms
+[GPU] Non-Maximum Suppression took: 7.63802 ms
+[GPU] Double Thresholding took: 2.51085 ms
+[GPU] Edge Hysteresis took: 20.5773 ms (23 iterations)
+Total time taken: 40.2739 ms
+(32, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.4727 ms
+[GPU] Non-Maximum Suppression took: 7.63802 ms
+[GPU] Double Thresholding took: 2.50883 ms
+[GPU] Edge Hysteresis took: 20.4268 ms (22 iterations)
+Total time taken: 40.1204 ms
+(32, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.0761 ms
+[GPU] Gradients took: 6.48602 ms
+[GPU] Non-Maximum Suppression took: 7.64928 ms
+[GPU] Double Thresholding took: 2.52109 ms
+[GPU] Edge Hysteresis took: 21.4917 ms (24 iterations)
+Total time taken: 41.2242 ms
+(32, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07507 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 2.51392 ms
+[GPU] Edge Hysteresis took: 20.8936 ms (23 iterations)
+Total time taken: 40.5933 ms
+(32, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07011 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 2.50982 ms
+[GPU] Edge Hysteresis took: 20.7985 ms (23 iterations)
+Total time taken: 40.4891 ms
+(32, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.47475 ms
+[GPU] Non-Maximum Suppression took: 7.63802 ms
+[GPU] Double Thresholding took: 2.52211 ms
+[GPU] Edge Hysteresis took: 19.9598 ms (22 iterations)
+Total time taken: 39.6677 ms
+(32, 8) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.06995 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 2.50982 ms
+[GPU] Edge Hysteresis took: 20.7258 ms (23 iterations)
+Total time taken: 40.4163 ms
+
+(32, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47578 ms
+[GPU] Non-Maximum Suppression took: 7.63904 ms
+[GPU] Double Thresholding took: 1.08237 ms
+[GPU] Edge Hysteresis took: 19.1703 ms (23 iterations)
+Total time taken: 37.4415 ms
+(32, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.06995 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63802 ms
+[GPU] Double Thresholding took: 1.07622 ms
+[GPU] Edge Hysteresis took: 19.8646 ms (23 iterations)
+Total time taken: 38.1225 ms
+(32, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47578 ms
+[GPU] Non-Maximum Suppression took: 7.65133 ms
+[GPU] Double Thresholding took: 1.09056 ms
+[GPU] Edge Hysteresis took: 19.0106 ms (23 iterations)
+Total time taken: 37.3023 ms
+(32, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07507 ms
+[GPU] Gradients took: 6.48602 ms
+[GPU] Non-Maximum Suppression took: 7.6503 ms
+[GPU] Double Thresholding took: 1.06906 ms
+[GPU] Edge Hysteresis took: 19.159 ms (23 iterations)
+Total time taken: 37.4395 ms
+(32, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63802 ms
+[GPU] Double Thresholding took: 1.06394 ms
+[GPU] Edge Hysteresis took: 19.1601 ms (23 iterations)
+Total time taken: 37.4088 ms
+(32, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.0761 ms
+[GPU] Gradients took: 6.48704 ms
+[GPU] Non-Maximum Suppression took: 7.65338 ms
+[GPU] Double Thresholding took: 1.07725 ms
+[GPU] Edge Hysteresis took: 19.1406 ms (23 iterations)
+Total time taken: 37.4344 ms
+(32, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.4727 ms
+[GPU] Non-Maximum Suppression took: 7.63597 ms
+[GPU] Double Thresholding took: 1.07722 ms
+[GPU] Edge Hysteresis took: 19.1837 ms (23 iterations)
+Total time taken: 37.4426 ms
+(32, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07507 ms
+[GPU] Gradients took: 6.48806 ms
+[GPU] Non-Maximum Suppression took: 7.65235 ms
+[GPU] Double Thresholding took: 1.06803 ms
+[GPU] Edge Hysteresis took: 19.1212 ms (23 iterations)
+Total time taken: 37.4047 ms
+(32, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07507 ms
+[GPU] Gradients took: 6.47885 ms
+[GPU] Non-Maximum Suppression took: 7.64416 ms
+[GPU] Double Thresholding took: 1.08442 ms
+[GPU] Edge Hysteresis took: 19.1396 ms (23 iterations)
+Total time taken: 37.4221 ms
+(32, 8) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 1.08237 ms
+[GPU] Edge Hysteresis took: 19.1254 ms (23 iterations)
+Total time taken: 37.3925 ms
+
+(32, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 1.08134 ms
+[GPU] Edge Hysteresis took: 19.0382 ms (23 iterations)
+Total time taken: 37.3043 ms
+(32, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07318 ms
+[GPU] Gradients took: 6.47475 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 1.08442 ms
+[GPU] Edge Hysteresis took: 19.371 ms (23 iterations)
+Total time taken: 37.6404 ms
+(32, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47475 ms
+[GPU] Non-Maximum Suppression took: 7.63904 ms
+[GPU] Double Thresholding took: 1.08442 ms
+[GPU] Edge Hysteresis took: 19.7499 ms (23 iterations)
+Total time taken: 38.0221 ms
+(32, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07507 ms
+[GPU] Gradients took: 6.48499 ms
+[GPU] Non-Maximum Suppression took: 7.64826 ms
+[GPU] Double Thresholding took: 1.0832 ms
+[GPU] Edge Hysteresis took: 19.1805 ms (23 iterations)
+Total time taken: 37.4721 ms
+(32, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07507 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63597 ms
+[GPU] Double Thresholding took: 1.08237 ms
+[GPU] Edge Hysteresis took: 19.1017 ms (23 iterations)
+Total time taken: 37.3688 ms
+(32, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.65133 ms
+[GPU] Double Thresholding took: 1.0752 ms
+[GPU] Edge Hysteresis took: 19.0833 ms (23 iterations)
+Total time taken: 37.3565 ms
+(32, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.06995 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 1.0793 ms
+[GPU] Edge Hysteresis took: 19.2502 ms (23 iterations)
+Total time taken: 37.5101 ms
+(32, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07507 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 1.07827 ms
+[GPU] Edge Hysteresis took: 19.0136 ms (23 iterations)
+Total time taken: 37.2777 ms
+(32, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07507 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 1.08029 ms
+[GPU] Edge Hysteresis took: 19.2113 ms (23 iterations)
+Total time taken: 37.4773 ms
+(32, 8) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47382 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 1.08032 ms
+[GPU] Edge Hysteresis took: 19.2399 ms (23 iterations)
+Total time taken: 37.5051 ms
+
+(32, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47578 ms
+[GPU] Non-Maximum Suppression took: 7.64006 ms
+[GPU] Double Thresholding took: 1.35987 ms
+[GPU] Edge Hysteresis took: 19.3956 ms (23 iterations)
+Total time taken: 37.9453 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07302 ms
+[GPU] Gradients took: 6.47578 ms
+[GPU] Non-Maximum Suppression took: 7.64006 ms
+[GPU] Double Thresholding took: 1.34346 ms
+[GPU] Edge Hysteresis took: 19.4724 ms (23 iterations)
+Total time taken: 38.0047 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.072 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63802 ms
+[GPU] Double Thresholding took: 1.34144 ms
+[GPU] Edge Hysteresis took: 19.3403 ms (23 iterations)
+Total time taken: 37.8655 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63802 ms
+[GPU] Double Thresholding took: 1.3312 ms
+[GPU] Edge Hysteresis took: 17.8596 ms (21 iterations)
+Total time taken: 36.3766 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.072 ms
+[GPU] Gradients took: 6.4727 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 1.36909 ms
+[GPU] Edge Hysteresis took: 19.3382 ms (23 iterations)
+Total time taken: 37.889 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63597 ms
+[GPU] Double Thresholding took: 1.34451 ms
+[GPU] Edge Hysteresis took: 19.4591 ms (23 iterations)
+Total time taken: 37.9874 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07098 ms
+[GPU] Gradients took: 6.4729 ms
+[GPU] Non-Maximum Suppression took: 7.63802 ms
+[GPU] Double Thresholding took: 1.34342 ms
+[GPU] Edge Hysteresis took: 19.2993 ms (23 iterations)
+Total time taken: 37.8246 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63699 ms
+[GPU] Double Thresholding took: 1.34134 ms
+[GPU] Edge Hysteresis took: 19.4304 ms (23 iterations)
+Total time taken: 37.9565 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.63802 ms
+[GPU] Double Thresholding took: 1.3353 ms
+[GPU] Edge Hysteresis took: 19.4591 ms (23 iterations)
+Total time taken: 37.9802 ms
+(32, 8) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.07405 ms
+[GPU] Gradients took: 6.47373 ms
+[GPU] Non-Maximum Suppression took: 7.64006 ms
+[GPU] Double Thresholding took: 1.34246 ms
+[GPU] Edge Hysteresis took: 19.3157 ms (23 iterations)
+Total time taken: 37.846 ms
+
+(8, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07437 ms
+[GPU] Non-Maximum Suppression took: 7.35334 ms
+[GPU] Double Thresholding took: 2.50864 ms
+[GPU] Edge Hysteresis took: 22.997 ms (26 iterations)
+Total time taken: 42.4098 ms
+(8, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.4816 ms
+[GPU] Gradients took: 6.07744 ms
+[GPU] Non-Maximum Suppression took: 7.35744 ms
+[GPU] Double Thresholding took: 2.51802 ms
+[GPU] Edge Hysteresis took: 22.8628 ms (26 iterations)
+Total time taken: 42.2973 ms
+(8, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47546 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35539 ms
+[GPU] Double Thresholding took: 2.52109 ms
+[GPU] Edge Hysteresis took: 23.1629 ms (26 iterations)
+Total time taken: 42.5902 ms
+(8, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47546 ms
+[GPU] Gradients took: 6.07437 ms
+[GPU] Non-Maximum Suppression took: 7.35437 ms
+[GPU] Double Thresholding took: 2.50266 ms
+[GPU] Edge Hysteresis took: 22.8383 ms (26 iterations)
+Total time taken: 42.2451 ms
+(8, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07642 ms
+[GPU] Non-Maximum Suppression took: 7.35437 ms
+[GPU] Double Thresholding took: 2.52 ms
+[GPU] Edge Hysteresis took: 23.8623 ms (26 iterations)
+Total time taken: 43.2895 ms
+(8, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07642 ms
+[GPU] Non-Maximum Suppression took: 7.35437 ms
+[GPU] Double Thresholding took: 2.51392 ms
+[GPU] Edge Hysteresis took: 22.8721 ms (26 iterations)
+Total time taken: 42.2933 ms
+(8, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47443 ms
+[GPU] Gradients took: 6.07437 ms
+[GPU] Non-Maximum Suppression took: 7.35334 ms
+[GPU] Double Thresholding took: 2.51894 ms
+[GPU] Edge Hysteresis took: 22.9661 ms (26 iterations)
+Total time taken: 42.3872 ms
+(8, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35539 ms
+[GPU] Double Thresholding took: 2.51085 ms
+[GPU] Edge Hysteresis took: 23.2335 ms (26 iterations)
+Total time taken: 42.6516 ms
+(8, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47546 ms
+[GPU] Gradients took: 6.07437 ms
+[GPU] Non-Maximum Suppression took: 7.36563 ms
+[GPU] Double Thresholding took: 2.53542 ms
+[GPU] Edge Hysteresis took: 22.9632 ms (26 iterations)
+Total time taken: 42.4141 ms
+(8, 32) 32 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47238 ms
+[GPU] Gradients took: 6.07546 ms
+[GPU] Non-Maximum Suppression took: 7.35437 ms
+[GPU] Double Thresholding took: 2.50573 ms
+[GPU] Edge Hysteresis took: 23.127 ms (26 iterations)
+Total time taken: 42.535 ms
+
+(8, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35334 ms
+[GPU] Double Thresholding took: 1.07008 ms
+[GPU] Edge Hysteresis took: 21.4989 ms (26 iterations)
+Total time taken: 39.4742 ms
+(8, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47955 ms
+[GPU] Gradients took: 6.09178 ms
+[GPU] Non-Maximum Suppression took: 7.37178 ms
+[GPU] Double Thresholding took: 1.08954 ms
+[GPU] Edge Hysteresis took: 21.5602 ms (26 iterations)
+Total time taken: 39.5928 ms
+(8, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07437 ms
+[GPU] Non-Maximum Suppression took: 7.35232 ms
+[GPU] Double Thresholding took: 1.0752 ms
+[GPU] Edge Hysteresis took: 21.4804 ms (26 iterations)
+Total time taken: 39.4588 ms
+(8, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47443 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35539 ms
+[GPU] Double Thresholding took: 1.08134 ms
+[GPU] Edge Hysteresis took: 21.5347 ms (26 iterations)
+Total time taken: 39.5213 ms
+(8, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47341 ms
+[GPU] Gradients took: 6.07642 ms
+[GPU] Non-Maximum Suppression took: 7.35539 ms
+[GPU] Double Thresholding took: 1.0679 ms
+[GPU] Edge Hysteresis took: 21.4764 ms (26 iterations)
+Total time taken: 39.4495 ms
+(8, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35642 ms
+[GPU] Double Thresholding took: 1.07005 ms
+[GPU] Edge Hysteresis took: 21.5222 ms (26 iterations)
+Total time taken: 39.5006 ms
+(8, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.48262 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35539 ms
+[GPU] Double Thresholding took: 1.0793 ms
+[GPU] Edge Hysteresis took: 21.2828 ms (26 iterations)
+Total time taken: 39.2755 ms
+(8, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.48467 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35334 ms
+[GPU] Double Thresholding took: 1.07539 ms
+[GPU] Edge Hysteresis took: 21.8839 ms (26 iterations)
+Total time taken: 39.8727 ms
+(8, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07949 ms
+[GPU] Non-Maximum Suppression took: 7.37178 ms
+[GPU] Double Thresholding took: 1.07197 ms
+[GPU] Edge Hysteresis took: 21.4723 ms (26 iterations)
+Total time taken: 39.472 ms
+(8, 32) 128 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47853 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35539 ms
+[GPU] Double Thresholding took: 1.06803 ms
+[GPU] Edge Hysteresis took: 21.3473 ms (26 iterations)
+Total time taken: 39.3247 ms
+
+(8, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.48058 ms
+[GPU] Gradients took: 6.07642 ms
+[GPU] Non-Maximum Suppression took: 7.35642 ms
+[GPU] Double Thresholding took: 1.08522 ms
+[GPU] Edge Hysteresis took: 21.2982 ms (26 iterations)
+Total time taken: 39.2968 ms
+(8, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07437 ms
+[GPU] Non-Maximum Suppression took: 7.35539 ms
+[GPU] Double Thresholding took: 1.0752 ms
+[GPU] Edge Hysteresis took: 21.375 ms (26 iterations)
+Total time taken: 39.3564 ms
+(8, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.4816 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.36973 ms
+[GPU] Double Thresholding took: 1.09158 ms
+[GPU] Edge Hysteresis took: 21.4272 ms (26 iterations)
+Total time taken: 39.4455 ms
+(8, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47238 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35437 ms
+[GPU] Double Thresholding took: 1.08646 ms
+[GPU] Edge Hysteresis took: 21.5612 ms (26 iterations)
+Total time taken: 39.5498 ms
+(8, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.4775 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35334 ms
+[GPU] Double Thresholding took: 1.07418 ms
+[GPU] Edge Hysteresis took: 21.4108 ms (26 iterations)
+Total time taken: 39.3912 ms
+(8, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.4775 ms
+[GPU] Gradients took: 6.07437 ms
+[GPU] Non-Maximum Suppression took: 7.35437 ms
+[GPU] Double Thresholding took: 1.08749 ms
+[GPU] Edge Hysteresis took: 21.163 ms (26 iterations)
+Total time taken: 39.1567 ms
+(8, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.48774 ms
+[GPU] Gradients took: 6.07846 ms
+[GPU] Non-Maximum Suppression took: 7.36973 ms
+[GPU] Double Thresholding took: 1.09158 ms
+[GPU] Edge Hysteresis took: 21.2101 ms (26 iterations)
+Total time taken: 39.2376 ms
+(8, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.48467 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.36666 ms
+[GPU] Double Thresholding took: 1.09056 ms
+[GPU] Edge Hysteresis took: 21.3831 ms (26 iterations)
+Total time taken: 39.4004 ms
+(8, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47341 ms
+[GPU] Gradients took: 6.07437 ms
+[GPU] Non-Maximum Suppression took: 7.35437 ms
+[GPU] Double Thresholding took: 1.08544 ms
+[GPU] Edge Hysteresis took: 21.5245 ms (26 iterations)
+Total time taken: 39.5121 ms
+(8, 32) 256 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47238 ms
+[GPU] Gradients took: 6.07642 ms
+[GPU] Non-Maximum Suppression took: 7.35642 ms
+[GPU] Double Thresholding took: 1.07914 ms
+[GPU] Edge Hysteresis took: 22.2597 ms (26 iterations)
+Total time taken: 40.2441 ms
+
+(8, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.48774 ms
+[GPU] Gradients took: 6.08256 ms
+[GPU] Non-Maximum Suppression took: 7.39635 ms
+[GPU] Double Thresholding took: 1.408 ms
+[GPU] Edge Hysteresis took: 22.6509 ms (26 iterations)
+Total time taken: 41.0255 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.4775 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35334 ms
+[GPU] Double Thresholding took: 1.33222 ms
+[GPU] Edge Hysteresis took: 21.6238 ms (26 iterations)
+Total time taken: 39.8623 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47955 ms
+[GPU] Gradients took: 6.07437 ms
+[GPU] Non-Maximum Suppression took: 7.35334 ms
+[GPU] Double Thresholding took: 1.34554 ms
+[GPU] Edge Hysteresis took: 21.6054 ms (26 iterations)
+Total time taken: 39.8582 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.4775 ms
+[GPU] Gradients took: 6.07962 ms
+[GPU] Non-Maximum Suppression took: 7.35846 ms
+[GPU] Double Thresholding took: 1.34256 ms
+[GPU] Edge Hysteresis took: 21.6965 ms (26 iterations)
+Total time taken: 39.9547 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.4775 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35232 ms
+[GPU] Double Thresholding took: 1.33325 ms
+[GPU] Edge Hysteresis took: 21.6831 ms (26 iterations)
+Total time taken: 39.9216 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.49491 ms
+[GPU] Gradients took: 6.07437 ms
+[GPU] Non-Maximum Suppression took: 7.35437 ms
+[GPU] Double Thresholding took: 1.34035 ms
+[GPU] Edge Hysteresis took: 21.5736 ms (26 iterations)
+Total time taken: 39.8376 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35437 ms
+[GPU] Double Thresholding took: 1.33325 ms
+[GPU] Edge Hysteresis took: 21.6453 ms (26 iterations)
+Total time taken: 39.8848 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47648 ms
+[GPU] Gradients took: 6.07539 ms
+[GPU] Non-Maximum Suppression took: 7.35437 ms
+[GPU] Double Thresholding took: 1.34333 ms
+[GPU] Edge Hysteresis took: 22.2688 ms (26 iterations)
+Total time taken: 40.5183 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.49491 ms
+[GPU] Gradients took: 6.07642 ms
+[GPU] Non-Maximum Suppression took: 7.36154 ms
+[GPU] Double Thresholding took: 1.39366 ms
+[GPU] Edge Hysteresis took: 21.5921 ms (26 iterations)
+Total time taken: 39.9186 ms
+(8, 32) 1024 | NVIDIA GeForce RTX 3060 Laptop GPU
+[GPU] Gaussian Blur took: 3.47238 ms
+[GPU] Gradients took: 6.07446 ms
+[GPU] Non-Maximum Suppression took: 7.35232 ms
+[GPU] Double Thresholding took: 1.34048 ms
+[GPU] Edge Hysteresis took: 21.974 ms (26 iterations)
+Total time taken: 40.2137 ms
+
