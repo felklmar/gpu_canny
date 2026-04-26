@@ -90,11 +90,11 @@ std::pair<std::vector<float>, std::vector<uint8_t>> compute_gradients(const std:
 
             uint8_t sector = 0;
             if (angle > 22.5 && angle <= 67.5) {
-                sector = 45;
+                sector = 1; // 45
             } else if (angle > 67.5 && angle <= 112.5) {
-                sector = 90;
+                sector = 2; // 90
             } else if (angle > 112.5 && angle <= 157.5) {
-                sector = 135; 
+                sector = 3; // 135
             }
 
             sectors[r * img_width + c] = sector;
@@ -113,27 +113,10 @@ std::vector<float> non_maximum_suppression(const std::vector<float> & magnitudes
             
             if (mag < 1e-5f) continue;
 
-            bool is_local_max = true;
-            switch (sectors[idx]) {
-            case 0:
-                is_local_max = !(magnitudes[idx - 1] >= mag || magnitudes[idx + 1] > mag);          
-                break;
-            case 45:
-                is_local_max = !(magnitudes[idx - (img_width + 1)] >= mag || magnitudes[idx + (img_width + 1)] > mag);
-                break;
-            case 90:
-                is_local_max = !(magnitudes[idx - img_width] >= mag || magnitudes[idx + img_width] > mag);
-                break;
-            case 135:
-                is_local_max = !(magnitudes[idx - (img_width - 1)] >= mag || magnitudes[idx + (img_width - 1)] > mag);
-                break;
-            default:
-                is_local_max = false;
-                break;
-            }
-            
-            if (is_local_max)
-                suppressed_magnitudes[idx] =  mag;
+            const int offsets[4] = {1, (img_width + 1), img_width, (img_width - 1)};
+            int step = offsets[sectors[idx]];
+            bool is_local_max = !(magnitudes[idx - step] >= mag || magnitudes[idx + step] > mag);
+            suppressed_magnitudes[idx] = (is_local_max) ? mag : 0.0f;
         }
     }
 
