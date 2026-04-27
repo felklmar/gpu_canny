@@ -299,10 +299,8 @@ int c = blockIdx.x * blockDim.x + threadIdx.x;
         }
         __syncthreads(); 
 
-        if (promoted_this_round) {
-            if (threadIdx.x == 0 || threadIdx.x == blockDim.x - 1 || threadIdx.y == 0 || threadIdx.y == blockDim.y - 1)
+        if (promoted_this_round && (threadIdx.x == 0 || threadIdx.x == blockDim.x - 1 || threadIdx.y == 0 || threadIdx.y == blockDim.y - 1))
                 *d_changed = true;
-        }
 
     } while (s_changed);
 }
@@ -310,8 +308,6 @@ int c = blockIdx.x * blockDim.x + threadIdx.x;
 __global__ void edge_hysteresis_cleanup(uint8_t* edges, size_t img_size) {
     size_t idx = blockIdx.x * blockDim.x + threadIdx.x;
 
-    if (idx < img_size) {
-        if (edges[idx] == 128)
-            edges[idx] = 0;
-    }
+    if (idx < img_size && edges[idx] == 128)
+        edges[idx] = 0;
 }
