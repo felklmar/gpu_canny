@@ -32,7 +32,7 @@ std::pair<Header, std::vector<uint8_t>> load_image_from_file(const std::string &
     
     // Read pixels and convert to grayscale using luminosity method
     for(size_t i = 0; i < img_size; ++i) {
-        uint8_t r, g, b;
+        uint8_t r = 0, g = 0, b = 0;
         if(pixel_depth == 3) {
             in_file.read(reinterpret_cast<char*>(&b), sizeof(uint8_t));
             in_file.read(reinterpret_cast<char*>(&g), sizeof(uint8_t));
