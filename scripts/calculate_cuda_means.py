@@ -1,4 +1,5 @@
 import re
+import sys
 from collections import defaultdict
 import statistics
 
@@ -56,4 +57,4 @@ def calculate_cuda_means(filename):
         print(f"{config:<16} | {blur:<7.3f} | {grad:<7.3f} | {nms:<7.3f} | {dt:<7.3f} | {hyst:<7.3f} | {iters:<6.1f} | {total:<7.3f} | {count}")
 
 if __name__ == "__main__":
-    calculate_cuda_means("output_cuda.txt")
+    calculate_cuda_means(sys.argv[1])
