@@ -1,3 +1,10 @@
+/**
+ * @file ImageLoader.cpp
+ * @brief Implementations for loading and saving TGA image files.
+ * * Handles binary file I/O operations and format conversions (e.g., converting 
+ * loaded RGB pixels to grayscale for edge detection).
+ */
+
 #include "ImageLoader.h"
 
 #include <iostream>
@@ -20,13 +27,24 @@ std::pair<Header, std::vector<uint8_t>> load_image_from_file(const std::string &
 
     size_t img_size = header.Width * header.Height;
     std::vector<uint8_t> pixels(img_size);
+
+    int pixel_depth = header.PixelDepth / 8;
+    
+    // Read pixels and convert to grayscale using luminosity method
     for(size_t i = 0; i < img_size; ++i) {
-        uint8_t b = 0, g = 0, r = 0;
-        in_file.read(reinterpret_cast<char*>(&b), sizeof(uint8_t));
-        in_file.read(reinterpret_cast<char*>(&g), sizeof(uint8_t));
-        in_file.read(reinterpret_cast<char*>(&r), sizeof(uint8_t));
-        pixels[i] = 0.299f*r + 0.587f*g + 0.114f*b;
-    }    
+        uint8_t r = 0, g = 0, b = 0;
+        if(pixel_depth == 3) {
+            in_file.read(reinterpret_cast<char*>(&b), sizeof(uint8_t));
+            in_file.read(reinterpret_cast<char*>(&g), sizeof(uint8_t));
+            in_file.read(reinterpret_cast<char*>(&r), sizeof(uint8_t));
+        } else if(pixel_depth == 1) {
+            in_file.read(reinterpret_cast<char*>(&r), sizeof(uint8_t));
+            g = r;
+            b = r;
+        }
+
+        pixels[i] = static_cast<uint8_t>(0.299f * r + 0.587f * g + 0.114f * b);
+    }
 
     return {header, pixels};
 }
@@ -46,7 +64,7 @@ void save_image_to_file(const std::string & out_file_name, Header & header, std:
     out_file.write(reinterpret_cast<char*>(&header.PixelDepth), sizeof(header.PixelDepth));
     out_file.write(reinterpret_cast<char*>(&header.ImageDescriptor), sizeof(header.ImageDescriptor));
 
-    size_t img_size = header.Width * header.Height;
+    size_t img_size = pixels.size();
     for(size_t i = 0; i < img_size; ++i) {
         out_file.write(reinterpret_cast<char*>(&pixels[i]), sizeof(uint8_t));
         out_file.write(reinterpret_cast<char*>(&pixels[i]), sizeof(uint8_t));
@@ -69,7 +87,7 @@ void save_image_to_file(const std::string & out_file_name, Header & header, std:
     out_file.write(reinterpret_cast<char*>(&header.PixelDepth), sizeof(header.PixelDepth));
     out_file.write(reinterpret_cast<char*>(&header.ImageDescriptor), sizeof(header.ImageDescriptor));
     
-    size_t img_size = header.Width * header.Height;
+    size_t img_size = pixels.size();
     for(size_t i = 0; i < img_size; ++i) {
         out_file.write(reinterpret_cast<char*>(&original_pixels[i]), sizeof(uint8_t));
         out_file.write(reinterpret_cast<char*>(&original_pixels[i]), sizeof(uint8_t));

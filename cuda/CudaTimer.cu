@@ -1,3 +1,8 @@
+/**
+ * @file CudaTimer.cu
+ * @brief Implementations for the CudaTimer class.
+ */
+
 #include "CudaTimer.h"
 
 CudaTimer::CudaTimer() {

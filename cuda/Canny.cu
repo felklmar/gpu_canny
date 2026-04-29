@@ -1,3 +1,8 @@
+/**
+ * @file Canny.cu
+ * @brief Implementations for the CUDA kernels and host functions for Edge Detection.
+ */
+
 #include "Canny.h"
 #include "CudaUtils.h"
 #include "CudaTimer.h"
