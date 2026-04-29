@@ -1,9 +1,24 @@
+/**
+ * @file main.cpp
+ * @brief Entry point for the sequential Canny Edge Detector application.
+ * * Orchestrates the loading of an image, execution of the five-step Canny 
+ * pipeline, performance timing, and saving of the results.
+ */
+
 #include <iostream>
 #include <chrono>
 
 #include "ImageLoader.h"
 #include "Canny.h"
 
+/**
+ * @brief Measures the execution time of a given callable (function/lambda).
+ * * @tparam Func The type of the callable to measure.
+ * @param step_name The string name of the step being measured (printed to console).
+ * @param func The callable function/lambda to execute.
+ * @param total_time A reference to an accumulator that tracks total pipeline execution time.
+ * @return decltype(auto) Forwards the return value of the executed function.
+ */
 template <typename Func>
 decltype(auto) measure_time(const std::string & step_name, Func && func, float & total_time) {
     auto start = std::chrono::high_resolution_clock::now();
@@ -19,6 +34,10 @@ decltype(auto) measure_time(const std::string & step_name, Func && func, float &
     return result;
 }
 
+/**
+ * @brief Main function.
+ * * Usage: ./canny <image_path> <sigma> <lower_threshold> <upper_threshold>
+ */
 int main(int argc, char const *argv[]) {
     if (argc < 5) {
         std::cout << "Usage: ./canny <image_path> <gamma> <lower_threshold> <upper_threshold>" << std::endl;

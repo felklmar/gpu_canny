@@ -1,3 +1,8 @@
+/**
+ * @file Canny.cpp
+ * @brief Implementations for the sequential Canny Edge Detection pipeline.
+ */
+
 #include "Canny.h"
 
 #include <math.h>
