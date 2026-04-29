@@ -13,11 +13,11 @@
 
 /**
  * @brief Main execution function.
- * * Usage: ./canny <image_path> <sigma> <lower_threshold> <upper_threshold> <2D_block_width> <2D_block_height> <1D_block_size>
+ * * Usage: ./canny_cuda <image_path> <sigma> <lower_threshold> <upper_threshold> <2D_block_width> <2D_block_height> <1D_block_size>
  */
 int main(int argc, char const *argv[]) {
     if (argc < 8) {
-        std::cout << "Usage: ./canny <image_path> <gamma> "; 
+        std::cout << "Usage: ./canny_cuda <image_path> <sigma> "; 
         std::cout << "<lower_threshold> <upper_threshold> ";
         std::cout << "<2D_block_width> <2D_block_height> <1D_block_size>" << std::endl;
         return EXIT_FAILURE;

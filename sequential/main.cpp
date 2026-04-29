@@ -36,11 +36,11 @@ decltype(auto) measure_time(const std::string & step_name, Func && func, float &
 
 /**
  * @brief Main function.
- * * Usage: ./canny <image_path> <sigma> <lower_threshold> <upper_threshold>
+ * * Usage: ./canny_sequential <image_path> <sigma> <lower_threshold> <upper_threshold>
  */
 int main(int argc, char const *argv[]) {
     if (argc < 5) {
-        std::cout << "Usage: ./canny <image_path> <gamma> <lower_threshold> <upper_threshold>" << std::endl;
+        std::cout << "Usage: ./canny_sequential <image_path> <sigma> <lower_threshold> <upper_threshold>" << std::endl;
         return EXIT_FAILURE;
     }
 
