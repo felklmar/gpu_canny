@@ -1,4 +1,4 @@
-# NI-GPU
+# Paralelní Cannyho hranový detektor
 
 Semestrální práce z předmětu NI-GPU zabývající se paralelizací Cannyho hranového detektoru.
 
