@@ -60,8 +60,8 @@ $$ \text{Gray} = 0.299R + 0.587G + 0.114B $$
 
 - **`image_path`**: Path to the target input image file (must be a `.tga` file).
 - **`sigma`**: The $\sigma$ coefficient steering the size and weights of the $5\times5$ Gaussian Blur convolution kernel.
-- **`lower_threshold`** & **`upper_threshold`**: The low and high limits used during double thresholding to map weak and strong edges. These values must be provided as percentages ranging from `0.0` to `1.0` (relative to the maximum gradient intensity found in the image).
-- **`2D_block_width`** & **`2D_block_height`**: The horizontal and vertical dimensions determining the execution layout shape of the two-dimensional CUDA thread blocks. Recommended default is `16 16` for optimal warp alignment.
+- **`lower_threshold`** and **`upper_threshold`**: The low and high limits used during double thresholding to map weak and strong edges. These values must be provided as percentages ranging from `0.0` to `1.0` (relative to the maximum gradient intensity found in the image).
+- **`2D_block_width`** and **`2D_block_height`**: The horizontal and vertical dimensions determining the execution layout shape of the two-dimensional CUDA thread blocks. Recommended default is `16 16` for optimal warp alignment.
 - **`1D_block_size`**: The linear size defining thread counts for one-dimensional CUDA blocks (used exclusively during the double thresholding and hysteresis cleanup phases).
 
 ### Output Results
