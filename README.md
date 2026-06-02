@@ -13,7 +13,7 @@ This repository contains a semestral project for the **NI-GPU** course focusing 
 - `images/` - Directory containing input testing images.
 - `output/` - Directory containing logs and benchmarks of measured test runs.
 - `sequential/` - Directory containing the baseline sequential C++ implementation.
-- `report.pdf` - The detailed project report document (only in czech).
+- `report.pdf` - The detailed project report document (*only in czech*).
 
 ---
 
